@@ -25,13 +25,15 @@ DIR=`cd $bin/../; pwd`
 . "${DIR}/conf/configure.sh"
 
 # path check
-$HADOOP_EXECUTABLE dfs -rmr $INPUT_HDFS
+$HADOOP_EXECUTABLE fs -rm -r -skipTrash $INPUT_HDFS
 
 # Generate the terasort data
 $HADOOP_EXECUTABLE jar $HADOOP_EXAMPLES_JAR teragen \
+    -D mapreduce.job.maps=$NUM_MAPS \
     -D mapred.map.tasks=$NUM_MAPS \
     $DATASIZE $INPUT_HDFS
 result=$?
+
 if [ $result -ne 0 ]
 then
     echo "ERROR: Hadoop job failed to run successfully." 
@@ -39,4 +41,3 @@ then
 fi
 
 
-$HADOOP_EXECUTABLE dfs -rmr $INPUT_HDFS/_*

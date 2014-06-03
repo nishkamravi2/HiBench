@@ -24,22 +24,31 @@ DIR=`cd $bin/../; pwd`
 . "${DIR}/../bin/hibench-config.sh"
 . "${DIR}/conf/configure.sh"
 
-if [ $COMPRESS -eq 1 ]; then
+if [ $MR2 = 0 ]; then
+ if [ $COMPRESS -eq 1 ]; then
     COMPRESS_OPT="-Dmapred.output.compress=true
     -Dmapred.output.compression.codec=$COMPRESS_CODEC"
-else
+ else
     COMPRESS_OPT="-Dmapred.output.compress=false"
+ fi
+else 
+ if [ $COMPRESS -eq 1 ]; then
+    COMPRESS_OPT="-Dmapreduce.output.fileoutputformat.compress=true
+    -Dmapreduce.output.fileoutputformat.compress.codec=$COMPRESS_CODEC"
+ else
+    COMPRESS_OPT="-Dmapreduce.output.fileoutputformat.compress=false"
+ fi
 fi
 
 # path check
-$HADOOP_EXECUTABLE dfs -rmr ${OUTPUT_HDFS}
+$HADOOP_EXECUTABLE fs -rm -r -skipTrash ${OUTPUT_HDFS}
 
 # pre-running
-SSIZE=$($HADOOP_EXECUTABLE job -history $INPUT_SAMPLE | grep 'HiBench.Counters.*|BYTES_DATA_GENERATED')
-SSIZE=${SSIZE##*|}
-SSIZE=${SSIZE//,/}
-CSIZE=`dir_size $INPUT_CLUSTER`
-SIZE=$(($SSIZE+$CSIZE))
+#SSIZE=$($HADOOP_EXECUTABLE job -history $INPUT_SAMPLE | grep 'HiBench.Counters.*|BYTES_DATA_GENERATED')
+#SSIZE=${SSIZE##*|}
+#SSIZE=${SSIZE//,/}
+#CSIZE=`dir_size $INPUT_CLUSTER`
+#SIZE=$(($SSIZE+$CSIZE))
 OPTION="$COMPRESS_OPT -i ${INPUT_SAMPLE} -c ${INPUT_CLUSTER} -o ${OUTPUT_HDFS} -x ${MAX_ITERATION} -ow -cl -cd 0.5 -dm org.apache.mahout.common.distance.EuclideanDistanceMeasure -xm mapreduce"
 START_TIME=`timestamp`
 
@@ -54,5 +63,5 @@ fi
 
 # post-running
 END_TIME=`timestamp`
-gen_report "KMEANS" ${START_TIME} ${END_TIME} ${SIZE}
+gen_report2 "KMEANS" ${START_TIME} ${END_TIME}
 

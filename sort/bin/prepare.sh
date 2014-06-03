@@ -22,30 +22,52 @@ echo "========== preparing sort data=========="
 # configure
 DIR=`cd $bin/../; pwd`
 . "${DIR}/../bin/hibench-config.sh"
+
 . "${DIR}/conf/configure.sh"
 
-# path check
-$HADOOP_EXECUTABLE dfs -rmr $INPUT_HDFS
 
 # compress check
-if [ $COMPRESS -eq 1 ]; then
+
+if [ $MR2 = 0 ]; then
+  if [ $COMPRESS -eq 1 ]; then
     COMPRESS_OPT="-D mapred.output.compress=true \
     -D mapred.output.compression.codec=$COMPRESS_CODEC \
     -D mapred.output.compression.type=BLOCK "
-else
+  else
     COMPRESS_OPT="-D mapred.output.compress=false"
+  fi
+else
+  if [ $COMPRESS -eq 1 ]; then
+    COMPRESS_OPT="-D mapreduce.output.fileoutputformat.compress=true \
+    -D mapreduce.output.fileoutputformat.compress.codec=$COMPRESS_CODEC \
+    -D mapreduce.output.fileoutputformat.compress.type=BLOCK "
+  else
+    COMPRESS_OPT="-D mapreduce.output.fileoutputformat.compress=false"
+  fi
 fi
 
-# generate data
-$HADOOP_EXECUTABLE jar $HADOOP_EXAMPLES_JAR randomtextwriter \
-    -D test.randomtextwrite.bytes_per_map=$((${DATASIZE} / ${NUM_MAPS})) \
-    -D test.randomtextwrite.maps_per_host=${NUM_MAPS} \
-    $COMPRESS_OPT \
-    $INPUT_HDFS
 
-result=$?
- if [ $result -ne 0 ]
- then
-     echo "ERROR: Hadoop job failed to run successfully."
-     exit $result
- fi
+# path check
+$HADOOP_EXECUTABLE fs -rm -r -skipTrash $INPUT_HDFS
+
+# generate data
+if [ $MR2 = 0 ]; then
+  $HADOOP_EXECUTABLE jar $HADOOP_EXAMPLES_JAR randomtextwriter \
+     $COMPRESS_OPT \
+     -D test.randomtextwrite.bytes_per_map=$((${DATASIZE} / ${NUM_MAPS})) \
+     -D test.randomtextwrite.maps_per_host=${NUM_MAPS} \
+     $INPUT_HDFS
+  result=$?
+else
+  $HADOOP_EXECUTABLE jar $HADOOP_EXAMPLES_JAR randomtextwriter \
+     $COMPRESS_OPT \
+     -D mapreduce.randomtextwriter.bytespermap=$((${DATASIZE} / ${NUM_MAPS})) \
+     -D mapreduce.randomtextwriter.mapsperhost=${NUM_MAPS} \
+     $INPUT_HDFS
+  result=$?
+fi
+
+if [ $result -ne 0 ]; then
+    echo "ERROR: Hadoop job failed to run successfully." 
+    exit $result
+fi

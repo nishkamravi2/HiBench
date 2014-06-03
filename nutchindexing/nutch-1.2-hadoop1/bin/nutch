@@ -263,5 +263,10 @@ else
 fi
 
 # run it
+
+
+echo "$JAVA" $JAVA_HEAP_MAX $NUTCH_OPTS -classpath "$CLASSPATH" $CLASS "$@"
+
+
 exec "$JAVA" $JAVA_HEAP_MAX $NUTCH_OPTS -classpath "$CLASSPATH" $CLASS "$@"
 

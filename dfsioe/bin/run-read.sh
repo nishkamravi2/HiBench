@@ -25,8 +25,8 @@ DIR=`cd $bin/../; pwd`
 . "${DIR}/conf/configure.sh"
 
 # path check
-$HADOOP_EXECUTABLE dfs -rmr ${INPUT_HDFS}/io_read
-$HADOOP_EXECUTABLE dfs -rmr ${INPUT_HDFS}/_*
+#$HADOOP_EXECUTABLE fs -rm -r -skipTrash ${INPUT_HDFS}/io_read
+#$HADOOP_EXECUTABLE fs -rm -r -skipTrash ${INPUT_HDFS}/_*
 
 # pre-running
 #SIZE=`$HADOOP_EXECUTABLE fs -dus ${INPUT_HDFS} | grep -o [0-9]*`
@@ -34,6 +34,8 @@ SIZE=`dir_size $INPUT_HDFS`
 #OPTION="-read -skipAnalyze -nrFiles ${RD_NUM_OF_FILES} -fileSize ${RD_FILE_SIZE} -bufferSize 131072 -plotInteval 1000 -sampleUnit m -sampleInteval 200 -sumThreshold 0.5"
 OPTION="-read -nrFiles ${RD_NUM_OF_FILES} -fileSize ${RD_FILE_SIZE} -bufferSize 131072 -plotInteval 1000 -sampleUnit m -sampleInteval 200 -sumThreshold 0.5 -tputReportTotal"
 START_TIME=`timestamp`
+
+export HADOOP_OPTS="-Dtest.build.data=${DATA_HDFS}/benchmarks/TestDFSIO-Enh"
 
 # run bench
 ${HADOOP_EXECUTABLE} jar ${DATATOOLS} org.apache.hadoop.fs.dfsioe.TestDFSIOEnh ${OPTION} -resFile ${DIR}/result_read.txt -tputFile ${DIR}/throughput_read.csv

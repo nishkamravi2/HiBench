@@ -25,30 +25,55 @@ DIR=`cd $bin/../; pwd`
 . "${DIR}/conf/configure.sh"
 
 # compress
-if [ $COMPRESS -eq 1 ]
-then
+
+if [ $MR2 = 0 ]; then
+ if [ $COMPRESS -eq 1 ]; then
     COMPRESS_OPT="-D mapred.output.compress=true \
-    -D mapred.output.compression.type=BLOCK \
-    -D mapred.output.compression.codec=$COMPRESS_CODEC"
-else
+    -D mapred.output.compression.codec=$COMPRESS_CODEC \
+    -D mapred.output.compression.type=BLOCK "
+ else
     COMPRESS_OPT="-D mapred.output.compress=false"
+ fi
+else
+ if [ $COMPRESS -eq 1 ]; then
+    COMPRESS_OPT="-D mapreduce.output.fileoutputformat.compress=true \
+    -D mapreduce.output.fileoutputformat.compress.type=BLOCK \
+    -D mapreduce.output.fileoutputformat.compress.codec=$COMPRESS_CODEC"
+ else
+    COMPRESS_OPT="-D mapreduce.output.fileoutputformat.compress=false"
+ fi
 fi
 
 # path check
-$HADOOP_EXECUTABLE dfs -rmr  $OUTPUT_HDFS
+$HADOOP_EXECUTABLE fs -rm -r  -skipTrash $OUTPUT_HDFS
 
 # pre-running
-SIZE=$($HADOOP_EXECUTABLE job -history $INPUT_HDFS | grep 'org.apache.hadoop.examples.RandomTextWriter$Counters.*|BYTES_WRITTEN')
-SIZE=${SIZE##*|}
-SIZE=${SIZE//,/}
+
+if [ $MR2 = 0 ]; then
+ SIZE=$($HADOOP_EXECUTABLE job -history $INPUT_HDFS | grep 'org.apache.hadoop.examples.RandomTextWriter$Counters.*|BYTES_WRITTEN')
+ SIZE=${SIZE##*|}
+ SIZE=${SIZE//,/}
+fi
+
 START_TIME=`timestamp`
+
+
+echo $HADOOP_EXECUTABLE jar $HADOOP_EXAMPLES_JAR wordcount \
+    $COMPRESS_OPT \
+    -D mapreduce.job.reduces=${NUM_REDS} \
+    -D mapred.reduce.tasks=${NUM_REDS} \
+    -D mapreduce.job.inputformat.class=org.apache.hadoop.mapreduce.lib.input.SequenceFileInputFormat \
+    -D mapreduce.job.outputformat.class=org.apache.hadoop.mapreduce.lib.output.SequenceFileOutputFormat \
+    $INPUT_HDFS $OUTPUT_HDFS
+
 
 # run bench
 $HADOOP_EXECUTABLE jar $HADOOP_EXAMPLES_JAR wordcount \
     $COMPRESS_OPT \
+    -D mapreduce.job.reduces=${NUM_REDS} \
     -D mapred.reduce.tasks=${NUM_REDS} \
-    -D mapreduce.inputformat.class=org.apache.hadoop.mapreduce.lib.input.SequenceFileInputFormat \
-    -D mapreduce.outputformat.class=org.apache.hadoop.mapreduce.lib.output.SequenceFileOutputFormat \
+    -D mapreduce.job.inputformat.class=org.apache.hadoop.mapreduce.lib.input.SequenceFileInputFormat \
+    -D mapreduce.job.outputformat.class=org.apache.hadoop.mapreduce.lib.output.SequenceFileOutputFormat \
     $INPUT_HDFS $OUTPUT_HDFS
 result=$?
 if [ $result -ne 0 ]
@@ -59,4 +84,9 @@ fi
 
 # post-running
 END_TIME=`timestamp`
-gen_report "WORDCOUNT" ${START_TIME} ${END_TIME} ${SIZE}
+
+if [ $MR2 = 0 ]; then
+ gen_report "WORDCOUNT" ${START_TIME} ${END_TIME} ${SIZE}
+else 
+ gen_report2 "WORDCOUNT" ${START_TIME} ${END_TIME}
+fi

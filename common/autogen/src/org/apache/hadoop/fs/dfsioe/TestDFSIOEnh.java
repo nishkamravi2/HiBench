@@ -577,9 +577,11 @@ public class TestDFSIOEnh extends Configured implements Tool {
         JobConf dummyConf = new JobConf(fsConfig, TestDFSIOEnh.class);
         JobClient jc = new JobClient(dummyConf);
         int maxreduces = jc.getDefaultReduces();
-        int reducesPerNode = fsConfig.getInt("mapred.tasktracker.reduce.tasks.maximum",2);
+ //       int reducesPerNode = fsConfig.getInt("mapred.tasktracker.reduce.tasks.maximum",2);
+        int reducesPerNode = fsConfig.getInt("mapreduce.tasktracker.reduce.tasks.maximum",2);
         int nodenum = maxreduces/reducesPerNode;
-        int mapPerNum = fsConfig.getInt("mapred.tasktracker.map.tasks.maximum",2);
+//        int mapPerNum = fsConfig.getInt("mapred.tasktracker.map.tasks.maximum",2);
+        int mapPerNum = fsConfig.getInt("mapreduce.tasktracker.map.tasks.maximum",2);
         int mapSlots = mapPerNum * nodenum; 
         LOG.info("maximum concurrent maps = "+String.valueOf(mapSlots));
 

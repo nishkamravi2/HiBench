@@ -38,8 +38,9 @@ function gen_report() {
         return 1
     fi
     local duration=$(echo "scale=3;($end-$start)/1000"|bc)
+
     local tput=`echo "$size/$duration"|bc`
-    local nodes=`$HADOOP_EXECUTABLE job -list-active-trackers | wc -l` 
+   local nodes=`$HADOOP_EXECUTABLE job -list-active-trackers | wc -l` 
     local tput_node=`echo "$tput/$nodes"|bc`
 
     if [ ! -f $HIBENCH_REPORT ] ; then
@@ -47,7 +48,34 @@ function gen_report() {
     fi
 
     printf "$FORMATS" $type $(date +%F) $(date +%T) $size $duration $tput $tput_node >> $HIBENCH_REPORT
+
 }
+
+function gen_report2() {
+    local type=$1
+    local start=$2
+    local end=$3
+#    local size=$4
+    which bc > /dev/null 2>&1
+    if [ $? -eq 1 ]; then
+        echo "\"bc\" utility missing. Please install it to generate proper report."
+        return 1
+    fi
+    local duration=$(echo "scale=3;($end-$start)/1000"|bc)
+
+#    local tput=`echo "$size/$duration"|bc`
+#    local nodes=`$HADOOP_EXECUTABLE job -list-active-trackers | wc -l` 
+#    local tput_node=`echo "$tput/$nodes"|bc`
+
+    if [ ! -f $HIBENCH_REPORT ] ; then
+        print_field_name
+    fi
+
+#    printf "$FORMATS" $type $(date +%F) $(date +%T) $size $duration $tput $tput_node >> $HIBENCH_REPORT
+    printf "$FORMATS" $type $(date +%F) $(date +%T) $duration  >> $HIBENCH_REPORT
+
+}
+
 
 
 function check_dir() {
@@ -63,7 +91,7 @@ function check_dir() {
 }
 
 function dir_size() {
-    for item in $($HADOOP_EXECUTABLE fs -dus $1); do
+    for item in $($HADOOP_EXECUTABLE fs -du -s $1); do
         if [[ $item =~ ^[0-9]+$ ]]; then
             echo $item
         fi

@@ -16,7 +16,7 @@
 set -u 
 
 # paths
-INPUT_HDFS=/benchmarks/TestDFSIO-Enh
+INPUT_HDFS=${DATA_HDFS}/benchmarks/TestDFSIO-Enh
 
 # dfsioe-read
 RD_NUM_OF_FILES=256

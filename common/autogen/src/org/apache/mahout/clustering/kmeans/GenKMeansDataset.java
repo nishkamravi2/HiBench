@@ -577,10 +577,16 @@ public class GenKMeansDataset extends Configured implements Tool {
 		}
  
 	    JobConf jobConf = new JobConf(getConf(),GenKMeansDataset.class);
+                System.out.println("Value of compress and compresscodec respectively is: " + compress + " " + compressCodec);
+		jobConf.set("mapreduce.output.fileoutputformat.compress",compress);
+		jobConf.set("mapreduce.output.fileoutputformat.compress.type",compressType);
+		jobConf.set("mapreduce.output.fileoutputformat.compress.codec",compressCodec);
 		jobConf.set("mapred.output.compress",compress);
-		jobConf.set("mapred.output.compression.type",compressType);
-		jobConf.set("mapred.output.compression.codec",compressCodec);
-		LOG.info("mapred.output.compression.codec=" + jobConf.get("mapred.output.compression.codec"));
+		jobConf.set("mapred.output.compress.type",compressType);
+		jobConf.set("mapred.output.compress.codec",compressCodec);
+		LOG.info("mapreduce.output.fileoutputformat.compress.codec=" + jobConf.get("mapreduce.output.fileoutputformat.compress.codec"));
+
+
 	    FileSystem fs = FileSystem.get(jobConf);
 
         sp.setFileSystem(fs,jobConf);

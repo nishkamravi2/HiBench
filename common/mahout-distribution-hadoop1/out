@@ -1,0 +1,453 @@
+diff -r ./bin/mahout ../mahout-distribution-0.7-cdh4/bin/mahout
+185,197d184
+< #MAHOUT_OPTS="$MAHOUT_OPTS -Dhadoop.log.dir=$MAHOUT_LOG_DIR"
+< #MAHOUT_OPTS="$MAHOUT_OPTS -Dhadoop.log.file=$MAHOUT_LOGFILE"
+< #MAHOUT_OPTS="$MAHOUT_OPTS -Dmapred.min.split.size=512MB"
+< #MAHOUT_OPTS="$MAHOUT_OPTS -Dmapred.map.child.java.opts=-Xmx4096m"
+< #MAHOUT_OPTS="$MAHOUT_OPTS -Dmapred.reduce.child.java.opts=-Xmx4096m"
+< #MAHOUT_OPTS="$MAHOUT_OPTS -Dmapred.output.compress=true"
+< #MAHOUT_OPTS="$MAHOUT_OPTS -Dmapred.compress.map.output=true"
+< #MAHOUT_OPTS="$MAHOUT_OPTS -Dmapred.map.tasks=1"
+< #MAHOUT_OPTS="$MAHOUT_OPTS -Dmapred.reduce.tasks=1"
+< #MAHOUT_OPTS="$MAHOUT_OPTS -Dio.sort.factor=30"
+< #MAHOUT_OPTS="$MAHOUT_OPTS -Dio.sort.mb=1024"
+< #MAHOUT_OPTS="$MAHOUT_OPTS -Dio.file.buffer.size=32786"
+< 
+203c190
+< MAHOUT_OPTS="$MAHOUT_OPTS -Dmapred.output.fileoutputformat.compress=true"
+---
+> MAHOUT_OPTS="$MAHOUT_OPTS -Dmapred.output.compress=true"
+205,206c192,193
+< MAHOUT_OPTS="$MAHOUT_OPTS -Dmapreduce.job.maps=1"
+< MAHOUT_OPTS="$MAHOUT_OPTS -Dmapreduce.job.reduces=1"
+---
+> MAHOUT_OPTS="$MAHOUT_OPTS -Dmapred.map.tasks=1"
+> MAHOUT_OPTS="$MAHOUT_OPTS -Dmapred.reduce.tasks=1"
+211,212d197
+< 
+< 
+Binary files ./buildtools/target/mahout-buildtools-0.7.jar and ../mahout-distribution-0.7-cdh4/buildtools/target/mahout-buildtools-0.7.jar differ
+diff -r ./buildtools/target/maven-archiver/pom.properties ../mahout-distribution-0.7-cdh4/buildtools/target/maven-archiver/pom.properties
+2c2
+< #Tue Jun 12 14:04:37 IST 2012
+---
+> #Mon Dec 17 09:16:47 CST 2012
+diff -r ./core/pom.xml ../mahout-distribution-0.7-cdh4/core/pom.xml
+202a203,206
+>         <dependency>
+>           <groupId>org.apache.hadoop</groupId>
+>           <artifactId>hadoop-client</artifactId>
+>         </dependency>
+207,222c211,212
+<     <profile>
+<       <id>hadoop-0.20</id>
+<       <activation>
+<         <property>
+<           <name>!hadoop.version</name>
+<         </property>
+<       </activation>
+<       <dependencies>
+<         <dependency>
+<           <groupId>org.apache.hadoop</groupId>
+<           <artifactId>hadoop-core</artifactId>
+<         </dependency>
+<       </dependencies>
+<     </profile>
+<     <profile>
+<       <id>hadoop-0.23</id>
+---
+>    <profile>
+>       <id>cdh4</id>
+225a216
+>           <value>2.0.0-mr1-cdh4.1.2</value>
+231,239c222
+<           <artifactId>hadoop-common</artifactId>
+<         </dependency>
+<         <dependency>
+<           <groupId>org.apache.hadoop</groupId>
+<           <artifactId>hadoop-mapreduce-client-common</artifactId>
+<         </dependency>
+<         <dependency>
+<           <groupId>org.apache.hadoop</groupId>
+<           <artifactId>hadoop-mapreduce-client-core</artifactId>
+---
+>           <artifactId>hadoop-client</artifactId>
+diff -r ./core/src/main/java/org/apache/mahout/classifier/naivebayes/training/TrainNaiveBayesJob.java ../mahout-distribution-0.7-cdh4/core/src/main/java/org/apache/mahout/classifier/naivebayes/training/TrainNaiveBayesJob.java
+99,102d98
+<     /*Path root = new Path("/"+getInputPath().getName().split("/")[1]);
+<     Path summedObservations = new Path(root.getName()+"/"+SUMMED_OBSERVATIONS);
+<     Path weights = new Path(root.getName()+"/"+WEIGHTS);
+<     Path thetas = new Path(root.getName()+"/"+THETAS);*/
+105c101
+<     Job indexInstances = prepareJob(getInputPath(), /*summedObservations*/getTempPath(SUMMED_OBSERVATIONS), SequenceFileInputFormat.class,
+---
+>     Job indexInstances = prepareJob(getInputPath(), getTempPath(SUMMED_OBSERVATIONS), SequenceFileInputFormat.class,
+114c110
+<     Job weightSummer = prepareJob(/*summedObservations*/getTempPath(SUMMED_OBSERVATIONS), /*weights*/getTempPath(WEIGHTS),
+---
+>     Job weightSummer = prepareJob(getTempPath(SUMMED_OBSERVATIONS), getTempPath(WEIGHTS),
+125c121
+<     HadoopUtil.cacheFiles(/*thetas*/getTempPath(WEIGHTS), getConf());
+---
+>     HadoopUtil.cacheFiles(getTempPath(WEIGHTS), getConf());
+128c124
+<     Job thetaSummer = prepareJob(/*summedObservations*/getTempPath(SUMMED_OBSERVATIONS), /*thetas*/getTempPath(THETAS),
+---
+>     Job thetaSummer = prepareJob(getTempPath(SUMMED_OBSERVATIONS), getTempPath(THETAS),
+diff -r ./core/src/main/java/org/apache/mahout/clustering/classify/ClusterClassificationDriver.java ../mahout-distribution-0.7-cdh4/core/src/main/java/org/apache/mahout/clustering/classify/ClusterClassificationDriver.java
+261,264d260
+<     //conf.setBoolean("mapred.output.compress", true);
+<     //conf.set("mapred.output.compression.type", "BLOCK");
+<     //conf.set("mapred.output.compression.codec", "com.hadoop.compression.lzo.LzoCodec");
+< 
+diff -r ./core/src/main/java/org/apache/mahout/clustering/kmeans/KMeansDriver.java ../mahout-distribution-0.7-cdh4/core/src/main/java/org/apache/mahout/clustering/kmeans/KMeansDriver.java
+264c264
+< }
+---
+> }
+\ No newline at end of file
+Only in ../mahout-distribution-0.7-cdh4/core/src/test/resources: cancer.csv
+Only in ../mahout-distribution-0.7-cdh4/core/src/test/resources: sgd.csv
+Only in ../mahout-distribution-0.7-cdh4/core/src/test/resources: word-list.txt
+diff -r ./core/target/antrun/build-main.xml ../mahout-distribution-0.7-cdh4/core/target/antrun/build-main.xml
+4c4
+<   <copy file="../src/conf/driver.classes.props" tofile="/home/kevin/HiBench-2.1/common/mahout-distribution-0.7/core/target/classes/driver.classes.default.props"/>
+---
+>   <copy file="../src/conf/driver.classes.props" tofile="/home2/kwei1/projects/mahout-distribution-0.7-src/core/target/classes/driver.classes.default.props"/>
+diff -r ./core/target/classes/driver.classes.default.props ../mahout-distribution-0.7-cdh4/core/target/classes/driver.classes.default.props
+27d26
+< org.apache.mahout.clustering.kmeans.GenKMeansDataset=kmeansDataSetGenerator : Generate KMeans input data using mixed Uniform and Gaussian distribution
+Binary files ./core/target/mahout-core-0.7.jar and ../mahout-distribution-0.7-cdh4/core/target/mahout-core-0.7.jar differ
+Binary files ./core/target/mahout-core-0.7-job.jar and ../mahout-distribution-0.7-cdh4/core/target/mahout-core-0.7-job.jar differ
+Binary files ./core/target/mahout-core-0.7-sources.jar and ../mahout-distribution-0.7-cdh4/core/target/mahout-core-0.7-sources.jar differ
+Only in ../mahout-distribution-0.7-cdh4/core/target: mahout-core-0.7-tests.jar
+diff -r ./core/target/maven-archiver/pom.properties ../mahout-distribution-0.7-cdh4/core/target/maven-archiver/pom.properties
+2c2
+< #Tue Jun 12 14:07:00 IST 2012
+---
+> #Mon Dec 17 09:17:08 CST 2012
+Only in ./core/target: surefire-reports
+Only in ../mahout-distribution-0.7-cdh4/core/target/test-classes: cancer.csv
+Only in ../mahout-distribution-0.7-cdh4/core/target/test-classes: sgd.csv
+Only in ../mahout-distribution-0.7-cdh4/core/target/test-classes: word-list.txt
+Only in ./distribution: target
+Only in ../mahout-distribution-0.7-cdh4/examples/bin: README.txt
+Only in ../mahout-distribution-0.7-cdh4/examples/src/main/java/org/apache/mahout/clustering/display: README.txt
+Only in ./examples/src/main/java/org/apache/mahout/clustering: kmeans
+diff -r ./examples/src/main/java/org/apache/mahout/clustering/syntheticcontrol/kmeans/Job.java ../mahout-distribution-0.7-cdh4/examples/src/main/java/org/apache/mahout/clustering/syntheticcontrol/kmeans/Job.java
+130,135c130,135
+<     //log.info("Running random seed to get initial clusters");
+<     //Path clusters = new Path(output, Cluster.INITIAL_CLUSTERS_DIR);
+<     //clusters = RandomSeedGenerator.buildRandom(conf, directoryContainingConvertedInput, clusters, k, measure);
+<     //log.info("Running KMeans");
+<     //KMeansDriver.run(conf, directoryContainingConvertedInput, clusters, output, measure, convergenceDelta,
+<     //    maxIterations, true, 0.0, false);
+---
+>     log.info("Running random seed to get initial clusters");
+>     Path clusters = new Path(output, Cluster.INITIAL_CLUSTERS_DIR);
+>     clusters = RandomSeedGenerator.buildRandom(conf, directoryContainingConvertedInput, clusters, k, measure);
+>     log.info("Running KMeans");
+>     KMeansDriver.run(conf, directoryContainingConvertedInput, clusters, output, measure, convergenceDelta,
+>         maxIterations, true, 0.0, false);
+137,139c137,139
+<     //ClusterDumper clusterDumper = new ClusterDumper(new Path(output, "clusters-*-final"), new Path(output,
+<     //    "clusteredPoints"));
+<     //clusterDumper.printClusters(null);
+---
+>     ClusterDumper clusterDumper = new ClusterDumper(new Path(output, "clusters-*-final"), new Path(output,
+>         "clusteredPoints"));
+>     clusterDumper.printClusters(null);
+Only in ../mahout-distribution-0.7-cdh4/examples/src/main: resources
+Only in ../mahout-distribution-0.7-cdh4/examples/src/test/resources: country.txt
+Only in ../mahout-distribution-0.7-cdh4/examples/src/test/resources: subjects.txt
+Only in ../mahout-distribution-0.7-cdh4/examples/target: classes
+Only in ../mahout-distribution-0.7-cdh4/examples/target/dependency: asm-3.1.jar
+Only in ../mahout-distribution-0.7-cdh4/examples/target/dependency: avro-1.7.1.cloudera.2.jar
+Only in ../mahout-distribution-0.7-cdh4/examples/target/dependency: commons-cli-1.1.jar
+Only in ./examples/target/dependency: commons-cli-1.2.jar
+Only in ../mahout-distribution-0.7-cdh4/examples/target/dependency: commons-codec-1.2.jar
+Only in ./examples/target/dependency: commons-codec-1.4.jar
+Only in ../mahout-distribution-0.7-cdh4/examples/target/dependency: commons-el-1.0.jar
+Only in ./examples/target/dependency: commons-httpclient-3.0.1.jar
+Only in ../mahout-distribution-0.7-cdh4/examples/target/dependency: commons-net-3.1.jar
+Only in ../mahout-distribution-0.7-cdh4/examples/target/dependency: hadoop-annotations-2.0.0-cdh4.1.2.jar
+Only in ../mahout-distribution-0.7-cdh4/examples/target/dependency: hadoop-auth-2.0.0-cdh4.1.2.jar
+Only in ../mahout-distribution-0.7-cdh4/examples/target/dependency: hadoop-client-2.0.0-mr1-cdh4.1.2.jar
+Only in ../mahout-distribution-0.7-cdh4/examples/target/dependency: hadoop-common-2.0.0-cdh4.1.2.jar
+Only in ./examples/target/dependency: hadoop-core-0.20.204.0.jar
+Only in ../mahout-distribution-0.7-cdh4/examples/target/dependency: hadoop-core-2.0.0-mr1-cdh4.1.2.jar
+Only in ../mahout-distribution-0.7-cdh4/examples/target/dependency: hadoop-hdfs-2.0.0-cdh4.1.2.jar
+Only in ../mahout-distribution-0.7-cdh4/examples/target/dependency: hsqldb-1.8.0.10.jar
+Only in ../mahout-distribution-0.7-cdh4/examples/target/dependency: jasper-runtime-5.5.23.jar
+Only in ../mahout-distribution-0.7-cdh4/examples/target/dependency: jersey-core-1.8.jar
+Only in ../mahout-distribution-0.7-cdh4/examples/target/dependency: jersey-server-1.8.jar
+Only in ./examples/target/dependency: jetty-6.1.22.jar
+Only in ../mahout-distribution-0.7-cdh4/examples/target/dependency: jetty-6.1.26.cloudera.2.jar
+Only in ./examples/target/dependency: jetty-util-6.1.22.jar
+Only in ../mahout-distribution-0.7-cdh4/examples/target/dependency: jetty-util-6.1.26.cloudera.2.jar
+Only in ../mahout-distribution-0.7-cdh4/examples/target/dependency: jsch-0.1.42.jar
+Only in ../mahout-distribution-0.7-cdh4/examples/target/dependency: jsp-api-2.1.jar
+Binary files ./examples/target/dependency/mahout-core-0.7.jar and ../mahout-distribution-0.7-cdh4/examples/target/dependency/mahout-core-0.7.jar differ
+Binary files ./examples/target/dependency/mahout-core-0.7-tests.jar and ../mahout-distribution-0.7-cdh4/examples/target/dependency/mahout-core-0.7-tests.jar differ
+Binary files ./examples/target/dependency/mahout-integration-0.7.jar and ../mahout-distribution-0.7-cdh4/examples/target/dependency/mahout-integration-0.7.jar differ
+Binary files ./examples/target/dependency/mahout-math-0.7.jar and ../mahout-distribution-0.7-cdh4/examples/target/dependency/mahout-math-0.7.jar differ
+Binary files ./examples/target/dependency/mahout-math-0.7-tests.jar and ../mahout-distribution-0.7-cdh4/examples/target/dependency/mahout-math-0.7-tests.jar differ
+Only in ../mahout-distribution-0.7-cdh4/examples/target/dependency: mockito-all-1.8.5.jar
+Only in ../mahout-distribution-0.7-cdh4/examples/target/dependency: oro-2.0.8.jar
+Only in ../mahout-distribution-0.7-cdh4/examples/target/dependency: paranamer-2.3.jar
+Only in ../mahout-distribution-0.7-cdh4/examples/target/dependency: protobuf-java-2.4.0a.jar
+Only in ./examples/target/dependency: servlet-api-2.5-20081211.jar
+Only in ../mahout-distribution-0.7-cdh4/examples/target/dependency: snappy-java-1.0.4.1.jar
+Only in ../mahout-distribution-0.7-cdh4/examples/target/dependency: tools.jar
+Only in ../mahout-distribution-0.7-cdh4/examples/target/dependency: xmlenc-0.52.jar
+Only in ../mahout-distribution-0.7-cdh4/examples/target/dependency: zookeeper-3.4.3-cdh4.1.2.jar
+Binary files ./examples/target/mahout-examples-0.7.jar and ../mahout-distribution-0.7-cdh4/examples/target/mahout-examples-0.7.jar differ
+Binary files ./examples/target/mahout-examples-0.7-job.jar and ../mahout-distribution-0.7-cdh4/examples/target/mahout-examples-0.7-job.jar differ
+Binary files ./examples/target/mahout-examples-0.7-sources.jar and ../mahout-distribution-0.7-cdh4/examples/target/mahout-examples-0.7-sources.jar differ
+diff -r ./examples/target/maven-archiver/pom.properties ../mahout-distribution-0.7-cdh4/examples/target/maven-archiver/pom.properties
+2c2
+< #Tue Jun 12 14:12:46 IST 2012
+---
+> #Mon Dec 17 09:17:27 CST 2012
+Only in ../mahout-distribution-0.7-cdh4/examples/target/test-classes: country.txt
+Only in ../mahout-distribution-0.7-cdh4/examples/target/test-classes: subjects.txt
+Only in ../mahout-distribution-0.7-cdh4/integration/target/dependency: asm-3.1.jar
+Only in ../mahout-distribution-0.7-cdh4/integration/target/dependency: avro-1.7.1.cloudera.2.jar
+Only in ../mahout-distribution-0.7-cdh4/integration/target/dependency: commons-el-1.0.jar
+Only in ./integration/target/dependency: commons-httpclient-3.0.1.jar
+Only in ../mahout-distribution-0.7-cdh4/integration/target/dependency: commons-net-3.1.jar
+Only in ../mahout-distribution-0.7-cdh4/integration/target/dependency: hadoop-annotations-2.0.0-cdh4.1.2.jar
+Only in ../mahout-distribution-0.7-cdh4/integration/target/dependency: hadoop-auth-2.0.0-cdh4.1.2.jar
+Only in ../mahout-distribution-0.7-cdh4/integration/target/dependency: hadoop-client-2.0.0-mr1-cdh4.1.2.jar
+Only in ../mahout-distribution-0.7-cdh4/integration/target/dependency: hadoop-common-2.0.0-cdh4.1.2.jar
+Only in ./integration/target/dependency: hadoop-core-0.20.204.0.jar
+Only in ../mahout-distribution-0.7-cdh4/integration/target/dependency: hadoop-core-2.0.0-mr1-cdh4.1.2.jar
+Only in ../mahout-distribution-0.7-cdh4/integration/target/dependency: hadoop-hdfs-2.0.0-cdh4.1.2.jar
+Only in ../mahout-distribution-0.7-cdh4/integration/target/dependency: hsqldb-1.8.0.10.jar
+Only in ../mahout-distribution-0.7-cdh4/integration/target/dependency: jasper-runtime-5.5.23.jar
+Only in ../mahout-distribution-0.7-cdh4/integration/target/dependency: jersey-core-1.8.jar
+Only in ../mahout-distribution-0.7-cdh4/integration/target/dependency: jersey-server-1.8.jar
+Only in ./integration/target/dependency: jetty-util-6.1.22.jar
+Only in ../mahout-distribution-0.7-cdh4/integration/target/dependency: jetty-util-6.1.26.cloudera.2.jar
+Only in ../mahout-distribution-0.7-cdh4/integration/target/dependency: jsch-0.1.42.jar
+Only in ../mahout-distribution-0.7-cdh4/integration/target/dependency: jsp-api-2.1.jar
+Binary files ./integration/target/dependency/mahout-core-0.7.jar and ../mahout-distribution-0.7-cdh4/integration/target/dependency/mahout-core-0.7.jar differ
+Binary files ./integration/target/dependency/mahout-core-0.7-tests.jar and ../mahout-distribution-0.7-cdh4/integration/target/dependency/mahout-core-0.7-tests.jar differ
+Binary files ./integration/target/dependency/mahout-math-0.7.jar and ../mahout-distribution-0.7-cdh4/integration/target/dependency/mahout-math-0.7.jar differ
+Binary files ./integration/target/dependency/mahout-math-0.7-tests.jar and ../mahout-distribution-0.7-cdh4/integration/target/dependency/mahout-math-0.7-tests.jar differ
+Only in ../mahout-distribution-0.7-cdh4/integration/target/dependency: mockito-all-1.8.5.jar
+Only in ../mahout-distribution-0.7-cdh4/integration/target/dependency: oro-2.0.8.jar
+Only in ../mahout-distribution-0.7-cdh4/integration/target/dependency: paranamer-2.3.jar
+Only in ../mahout-distribution-0.7-cdh4/integration/target/dependency: protobuf-java-2.4.0a.jar
+Only in ../mahout-distribution-0.7-cdh4/integration/target/dependency: snappy-java-1.0.4.1.jar
+Only in ../mahout-distribution-0.7-cdh4/integration/target/dependency: tools.jar
+Only in ../mahout-distribution-0.7-cdh4/integration/target/dependency: xmlenc-0.52.jar
+Only in ../mahout-distribution-0.7-cdh4/integration/target/dependency: zookeeper-3.4.3-cdh4.1.2.jar
+Binary files ./integration/target/mahout-integration-0.7.jar and ../mahout-distribution-0.7-cdh4/integration/target/mahout-integration-0.7.jar differ
+Binary files ./integration/target/mahout-integration-0.7-sources.jar and ../mahout-distribution-0.7-cdh4/integration/target/mahout-integration-0.7-sources.jar differ
+diff -r ./integration/target/maven-archiver/pom.properties ../mahout-distribution-0.7-cdh4/integration/target/maven-archiver/pom.properties
+2c2
+< #Tue Jun 12 14:11:48 IST 2012
+---
+> #Mon Dec 17 09:17:23 CST 2012
+Only in ../mahout-distribution-0.7-cdh4: LICENSE.txt
+Only in ../mahout-distribution-0.7-cdh4/math/src/test: resources
+Binary files ./math/target/mahout-math-0.7.jar and ../mahout-distribution-0.7-cdh4/math/target/mahout-math-0.7.jar differ
+Binary files ./math/target/mahout-math-0.7-sources.jar and ../mahout-distribution-0.7-cdh4/math/target/mahout-math-0.7-sources.jar differ
+Binary files ./math/target/mahout-math-0.7-tests.jar and ../mahout-distribution-0.7-cdh4/math/target/mahout-math-0.7-tests.jar differ
+diff -r ./math/target/maven-archiver/pom.properties ../mahout-distribution-0.7-cdh4/math/target/maven-archiver/pom.properties
+2c2
+< #Tue Jun 12 14:05:09 IST 2012
+---
+> #Mon Dec 17 09:16:57 CST 2012
+Only in ./math/target: surefire-reports
+Only in ../mahout-distribution-0.7-cdh4/math/target: test-classes
+Only in ../mahout-distribution-0.7-cdh4: NOTICE.txt
+Only in .: out
+diff -r ./pom.xml ../mahout-distribution-0.7-cdh4/pom.xml
+97c97
+<     <skipTests>false</skipTests>
+---
+>     <skipTests>true</skipTests>
+100c100
+<     <hadoop.version>0.20.204.0</hadoop.version>
+---
+>     <hadoop.version>2.0.0-mr1-cdh4.1.2</hadoop.version>
+116a117,124
+>     <repository>
+>       <id>cloudera.releases</id>
+>       <name>Cloudera Releases Repository</name>
+>       <url>https://repository.cloudera.com/artifactory/cloudera-repos</url>
+>       <releases>
+>         <enabled>true</enabled>
+>       </releases>
+>     </repository>
+193,352c201
+<         <artifactId>hadoop-core</artifactId>
+<         <version>${hadoop.version}</version>
+<         <exclusions>
+<           <exclusion>
+<             <groupId>net.sf.kosmosfs</groupId>
+<             <artifactId>kfs</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>org.mortbay.jetty</groupId>
+<             <artifactId>jetty</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>org.mortbay.jetty</groupId>
+<             <artifactId>jetty-util</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>hsqldb</groupId>
+<             <artifactId>hsqldb</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>commons-el</groupId>
+<             <artifactId>commons-el</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>junit</groupId>
+<             <artifactId>junit</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>oro</groupId>
+<             <artifactId>oro</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>org.mortbay.jetty</groupId>
+<             <artifactId>jsp-2.1</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>org.mortbay.jetty</groupId>
+<             <artifactId>jsp-api-2.1</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>org.mortbay.jetty</groupId>
+<             <artifactId>servlet-api-2.5</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>commons-net</groupId>
+<             <artifactId>commons-net</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>tomcat</groupId>
+<             <artifactId>jasper-runtime</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>tomcat</groupId>
+<             <artifactId>jasper-compiler</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>xmlenc</groupId>
+<             <artifactId>xmlenc</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>net.java.dev.jets3t</groupId>
+<             <artifactId>jets3t</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>org.eclipse.jdt</groupId>
+<             <artifactId>core</artifactId>
+<           </exclusion>
+<         </exclusions>
+<       </dependency>
+<       <dependency>
+<         <groupId>org.apache.hadoop</groupId>
+<         <artifactId>hadoop-common</artifactId>
+<         <version>${hadoop.version}</version>
+<         <exclusions>
+<           <exclusion>
+<             <groupId>net.sf.kosmosfs</groupId>
+<             <artifactId>kfs</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>org.mortbay.jetty</groupId>
+<             <artifactId>jetty</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>org.mortbay.jetty</groupId>
+<             <artifactId>jetty-util</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>hsqldb</groupId>
+<             <artifactId>hsqldb</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>commons-el</groupId>
+<             <artifactId>commons-el</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>junit</groupId>
+<             <artifactId>junit</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>oro</groupId>
+<             <artifactId>oro</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>org.mortbay.jetty</groupId>
+<             <artifactId>jsp-2.1</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>org.mortbay.jetty</groupId>
+<             <artifactId>jsp-api-2.1</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>org.mortbay.jetty</groupId>
+<             <artifactId>servlet-api-2.5</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>commons-net</groupId>
+<             <artifactId>commons-net</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>tomcat</groupId>
+<             <artifactId>jasper-runtime</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>tomcat</groupId>
+<             <artifactId>jasper-compiler</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>xmlenc</groupId>
+<             <artifactId>xmlenc</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>net.java.dev.jets3t</groupId>
+<             <artifactId>jets3t</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>org.eclipse.jdt</groupId>
+<             <artifactId>core</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>org.slf4j</groupId>
+<             <artifactId>slf4j-api</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>org.slf4j</groupId>
+<             <artifactId>slf4j-jcl</artifactId>
+<           </exclusion>
+<           <exclusion>
+<             <groupId>org.slf4j</groupId>
+<             <artifactId>slf4j-log4j12</artifactId>
+<           </exclusion>
+<         </exclusions>
+<       </dependency>
+<       <dependency>
+<         <groupId>org.apache.hadoop</groupId>
+<         <artifactId>hadoop-mapreduce-client-core</artifactId>
+<         <version>${hadoop.version}</version>
+<       </dependency>
+<       <dependency>
+<         <groupId>org.apache.hadoop</groupId>
+<         <artifactId>hadoop-mapreduce-client-common</artifactId>
+---
+>         <artifactId>hadoop-client</artifactId>
+355a205
+> 
+Only in ../mahout-distribution-0.7-cdh4: README.txt
+diff -r ./src/conf/driver.classes.props ../mahout-distribution-0.7-cdh4/src/conf/driver.classes.props
+27d26
+< org.apache.mahout.clustering.kmeans.GenKMeansDataset=kmeansDataSetGenerator : Generate KMeans input data using mixed Uniform and Gaussian distribution

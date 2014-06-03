@@ -26,15 +26,15 @@ DIR=`cd $bin/../; pwd`
 
 # compress check
 if [ $COMPRESS -eq 1 ]; then
-    COMPRESS_OPTS="-D mapred.output.compress=true \
-    -D mapred.output.compression.type=BLOCK \
-    -D mapred.output.compression.codec=$COMPRESS_CODEC"
+    COMPRESS_OPTS="-D mapred.output.fileoutputformat.compress=true \
+    -D mapred.output.fileoutputformat.compression.type=BLOCK \
+    -D mapred.output.fileoutputformat.compress.codec=$COMPRESS_CODEC"
 else
-    COMPRESS_OPTS="-D mapred.output.compress=false"
+    COMPRESS_OPTS="-D mapred.output.fileoutputformat.compress=false"
 fi
 
 # path check
-$HADOOP_EXECUTABLE fs -rmr $INPUT_HDFS/indexes
+#$HADOOP_EXECUTABLE fs -rmr $INPUT_HDFS/indexes
 
 # pre-running
 SIZE=`dir_size $INPUT_HDFS`

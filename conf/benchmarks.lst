@@ -1,9 +1,8 @@
-nutchindexing
 wordcount
-dfsioe
-hivebench
-kmeans
+terasort
+sort
 pagerank
 bayes
-sort
-terasort
+kmeans
+dfsioe
+hivebench

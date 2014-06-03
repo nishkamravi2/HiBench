@@ -27,20 +27,34 @@ DIR=`cd $bin/../; pwd`
 # path check
 rm -rf ${DIR}/metastore_db
 rm -rf ${DIR}/TempStatsStore
-$HADOOP_EXECUTABLE fs -rmr /user/hive/warehouse/rankings_uservisits_join
-$HADOOP_EXECUTABLE fs -rmr /tmp
+$HADOOP_EXECUTABLE fs -rm -r -skipTrash /user/hive/warehouse/rankings_uservisits_join
+#$HADOOP_EXECUTABLE fs -rm -r -skipTrash /tmp
 
 # pre-running
 echo "USE DEFAULT;">$DIR/hive-benchmark/rankings_uservisits_join.hive
-echo "set mapred.map.tasks=$NUM_MAPS;">>$DIR/hive-benchmark/rankings_uservisits_join.hive
-echo "set mapred.reduce.tasks=$NUM_REDS;">>$DIR/hive-benchmark/rankings_uservisits_join.hive
-echo "set hive.stats.autogather=false;">>$DIR/hive-benchmark/rankings_uservisits_join.hive
 
-if [ $COMPRESS -eq 1 ]; then
+if [ $MR2 = 0 ]; then
+  echo "set mapred.map.tasks=$NUM_MAPS;">>$DIR/hive-benchmark/rankings_uservisits_join.hive
+  echo "set mapred.reduce.tasks=$NUM_REDS;">>$DIR/hive-benchmark/rankings_uservisits_join.hive
+  echo "set hive.stats.autogather=false;">>$DIR/hive-benchmark/rankings_uservisits_join.hive
+
+  if [ $COMPRESS -eq 1 ]; then
     echo "set mapred.output.compress=true;">>$DIR/hive-benchmark/rankings_uservisits_join.hive
     echo "set hive.exec.compress.output=true;">>$DIR/hive-benchmark/rankings_uservisits_join.hive
     echo "set mapred.output.compression.type=BLOCK;">>$DIR/hive-benchmark/rankings_uservisits_join.hive
     echo "set mapred.output.compression.codec=${COMPRESS_CODEC};">>$DIR/hive-benchmark/rankings_uservisits_join.hive
+  fi
+else 
+  echo "set mapreduce.job.maps=$NUM_MAPS;">>$DIR/hive-benchmark/rankings_uservisits_join.hive
+  echo "set mapreduce.job.reduces=$NUM_REDS;">>$DIR/hive-benchmark/rankings_uservisits_join.hive
+  echo "set hive.stats.autogather=false;">>$DIR/hive-benchmark/rankings_uservisits_join.hive
+
+  if [ $COMPRESS -eq 1 ]; then
+    echo "set mapreduce.output.fileoutputformat.compress=true;">>$DIR/hive-benchmark/rankings_uservisits_join.hive
+    echo "set hive.exec.compress.output=true;">>$DIR/hive-benchmark/rankings_uservisits_join.hive
+    echo "set mapreduce.output.fileoutputformat.compress.type=BLOCK;">>$DIR/hive-benchmark/rankings_uservisits_join.hive
+    echo "set mapreduce.output.fileoutputformat.compress.codec=${COMPRESS_CODEC};">>$DIR/hive-benchmark/rankings_uservisits_join.hive
+  fi
 fi
 
 echo "DROP TABLE rankings;">>$DIR/hive-benchmark/rankings_uservisits_join.hive
@@ -50,15 +64,17 @@ echo "CREATE EXTERNAL TABLE rankings (pageURL STRING, pageRank INT, avgDuration 
 echo "CREATE EXTERNAL TABLE uservisits (sourceIP STRING,destURL STRING,visitDate STRING,adRevenue DOUBLE,userAgent STRING,countryCode STRING,languageCode STRING,searchWord STRING,duration INT ) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' STORED AS SEQUENCEFILE LOCATION '$INPUT_HDFS/uservisits/';">>$DIR/hive-benchmark/rankings_uservisits_join.hive
 cat $DIR/hive-benchmark/rankings_uservisits_join.template>>$DIR/hive-benchmark/rankings_uservisits_join.hive
 
-USIZE=$($HADOOP_EXECUTABLE job -history $INPUT_HDFS/uservisits | grep 'HiBench.Counters.*|BYTES_DATA_GENERATED')
-USIZE=${USIZE##*|}
-USIZE=${USIZE//,/}
+if [ $MR2 = 0 ]; then
+  USIZE=$($HADOOP_EXECUTABLE job -history $INPUT_HDFS/uservisits | grep 'HiBench.Counters.*|BYTES_DATA_GENERATED')
+  USIZE=${USIZE##*|}
+  USIZE=${USIZE//,/}
 
-RSIZE=$($HADOOP_EXECUTABLE job -history $INPUT_HDFS/rankings | grep 'HiBench.Counters.*|BYTES_DATA_GENERATED')
-RSIZE=${RSIZE##*|}
-RSIZE=${RSIZE//,/}
+  RSIZE=$($HADOOP_EXECUTABLE job -history $INPUT_HDFS/rankings | grep 'HiBench.Counters.*|BYTES_DATA_GENERATED')
+  RSIZE=${RSIZE##*|}
+  RSIZE=${RSIZE//,/}
 
-SIZE=$((USIZE+RSIZE))
+  SIZE=$((USIZE+RSIZE))
+fi
 
 START_TIME=`timestamp`
 
@@ -74,7 +90,13 @@ fi
 
 # post-running
 END_TIME=`timestamp`
-gen_report "HIVEJOIN" ${START_TIME} ${END_TIME} ${SIZE}
 
-$HADOOP_EXECUTABLE fs -rmr $OUTPUT_HDFS/hive-join
+if [ $MR2 = 0 ]; then
+  gen_report "HIVEJOIN" ${START_TIME} ${END_TIME} ${SIZE}
+else
+  gen_report2 "HIVEJOIN" ${START_TIME} ${END_TIME}
+fi
+
+$HADOOP_EXECUTABLE fs -rm -r -skipTrash $OUTPUT_HDFS/hive-join
+$HADOOP_EXECUTABLE fs -mkdir $OUTPUT_HDFS/hive-join
 $HADOOP_EXECUTABLE fs -cp /user/hive/warehouse/rankings_uservisits_join $OUTPUT_HDFS/hive-join

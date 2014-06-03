@@ -1,4 +1,4 @@
-#!/bin/bash
+h
 # Licensed to the Apache Software Foundation (ASF) under one or more
 # contributor license agreements.  See the NOTICE file distributed with
 # this work for additional information regarding copyright ownership.
@@ -25,27 +25,41 @@ DIR=`cd $bin/../; pwd`
 . "${DIR}/conf/configure.sh"
 
 # compress check
-if [ $COMPRESS -eq 1 ]
-then
+
+if [ $MR2 = 0 ]; then
+ if [ $COMPRESS -eq 1 ]
+ then
     COMPRESS_OPT="-Dmapred.output.compress=true \
     -Dmapred.output.compression.codec=$COMPRESS_CODEC"
-else
+ else
     COMPRESS_OPT="-Dmapred.output.compress=false"
+ fi
+else
+ if [ $COMPRESS -eq 1 ]
+ then
+    COMPRESS_OPT="-Dmapreduce.output.fileoutputformat.compress=true \
+    -Dmapreduce.output.fileoutputformat.compress.codec=$COMPRESS_CODEC"
+ else
+    COMPRESS_OPT="-Dmapreduce.output.fileoutputformat.compress=false"
+ fi
 fi
 
 # path check
-$HADOOP_EXECUTABLE dfs -rmr $OUTPUT_HDFS
+$HADOOP_EXECUTABLE fs -rm r -skipTrash $OUTPUT_HDFS
 
 # pre-running
-VSIZE=$($HADOOP_EXECUTABLE job -history $INPUT_HDFS/vertices | grep 'HiBench.Counters.*|BYTES_DATA_GENERATED')
-VSIZE=${VSIZE##*|}
-VSIZE=${VSIZE//,/}
+if [ $MR2 = 0 ]; then
+ VSIZE=$($HADOOP_EXECUTABLE job -history $INPUT_HDFS/vertices | grep 'HiBench.Counters.*|BYTES_DATA_GENERATED')
+ VSIZE=${VSIZE##*|}
+ VSIZE=${VSIZE//,/}
 
-ESIZE=$($HADOOP_EXECUTABLE job -history $INPUT_HDFS/edges | grep 'HiBench.Counters.*|BYTES_DATA_GENERATED')
-ESIZE=${ESIZE##*|}
-ESIZE=${ESIZE//,/}
+ ESIZE=$($HADOOP_EXECUTABLE job -history $INPUT_HDFS/edges | grep 'HiBench.Counters.*|BYTES_DATA_GENERATED')
+ ESIZE=${ESIZE##*|}
+ ESIZE=${ESIZE//,/}
 
-SIZE=$((VSIZE+ESIZE))
+ SIZE=$((VSIZE+ESIZE))
+fi
+
 if [ $BLOCK -eq 0 ]
 then
     OPTION="${COMPRESS_OPT} ${INPUT_HDFS}/edges ${OUTPUT_HDFS} ${PAGES} ${NUM_REDS} ${NUM_ITERATIONS} nosym new"
@@ -69,8 +83,8 @@ else
 	exit $result
     fi
 
-    $HADOOP_EXECUTABLE dfs -rmr ${OUTPUT_HDFS}/pr_input
-    $HADOOP_EXECUTABLE dfs -rmr ${OUTPUT_HDFS}/pr_iv_block
+    $HADOOP_EXECUTABLE fs -rm -r -skipTrash ${OUTPUT_HDFS}/pr_input
+    $HADOOP_EXECUTABLE fs -rm -r -skipTrash ${OUTPUT_HDFS}/pr_iv_block
 
     $HADOOP_EXECUTABLE jar ${DIR}/pegasus-2.0.jar pegasus.matvec.MatvecPrep ${COMPRESS_OPT} ${OUTPUT_HDFS}/pr_initvector ${OUTPUT_HDFS}/pr_iv_block ${PAGES} ${BLOCK_WIDTH} ${NUM_REDS} s makesym
     result=$?
@@ -80,8 +94,8 @@ else
         exit $result
     fi
 
-    $HADOOP_EXECUTABLE dfs -rmr ${OUTPUT_HDFS}/pr_initvector
-    $HADOOP_EXECUTABLE dfs -rmr ${OUTPUT_HDFS}/pr_edge_colnorm
+    $HADOOP_EXECUTABLE fs -rm -r -skipTrash ${OUTPUT_HDFS}/pr_initvector
+    $HADOOP_EXECUTABLE fs -rm -r -skipTrash ${OUTPUT_HDFS}/pr_edge_colnorm
 
     $HADOOP_EXECUTABLE jar ${DIR}/pegasus-2.0.jar pegasus.PagerankPrep ${COMPRESS_OPT} ${INPUT_HDFS}/edges ${OUTPUT_HDFS}/pr_edge_colnorm ${NUM_REDS} makesym
     result=$?
@@ -91,7 +105,7 @@ else
         exit $result
     fi
 
-    $HADOOP_EXECUTABLE dfs -rmr ${OUTPUT_HDFS}/pr_edge_block
+    $HADOOP_EXECUTABLE fs -rm -r -skipTrash ${OUTPUT_HDFS}/pr_edge_block
     
     $HADOOP_EXECUTABLE jar ${DIR}/pegasus-2.0.jar pegasus.matvec.MatvecPrep ${COMPRESS_OPT} ${OUTPUT_HDFS}/pr_edge_colnorm ${OUTPUT_HDFS}/pr_edge_block ${PAGES} ${BLOCK_WIDTH} ${NUM_REDS} null nosym
     result=$?
@@ -101,7 +115,7 @@ else
         exit $result
     fi
 
-    $HADOOP_EXECUTABLE dfs -rmr ${OUTPUT_HDFS}/pr_edge_colnorm
+    $HADOOP_EXECUTABLE fs -rm -r -skipTrash ${OUTPUT_HDFS}/pr_edge_colnorm
 
     $HADOOP_EXECUTABLE jar ${DIR}/pegasus-2.0.jar pegasus.PagerankBlock ${OPTION}
     result=$?
@@ -114,4 +128,9 @@ fi
 
 # post-running
 END_TIME=`timestamp`
-gen_report "PAGERANK" ${START_TIME} ${END_TIME} ${SIZE}
+
+if [ $MR2 = 0 ]; then 
+ gen_report "PAGERANK" ${START_TIME} ${END_TIME} ${SIZE}
+else
+ gen_report2 "PAGERANK" ${START_TIME} ${END_TIME}
+fi

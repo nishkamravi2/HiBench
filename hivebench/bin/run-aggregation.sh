@@ -27,35 +27,54 @@ DIR=`cd $bin/../; pwd`
 # path check
 rm -rf ${DIR}/metastore_db
 rm -rf ${DIR}/TempStatsStore
-$HADOOP_EXECUTABLE fs -rmr /user/hive/warehouse/uservisits_aggre
-$HADOOP_EXECUTABLE fs -rmr /tmp
+$HADOOP_EXECUTABLE fs -rm -r -skipTrash /user/hive/warehouse/uservisits_aggre
+#$HADOOP_EXECUTABLE fs -rm -r -skipTrash /tmp
 
 # pre-running
 echo "USE DEFAULT;" > $DIR/hive-benchmark/uservisits_aggre.hive
-echo "set mapred.map.tasks=$NUM_MAPS;" >> $DIR/hive-benchmark/uservisits_aggre.hive
-echo "set mapred.reduce.tasks=$NUM_REDS;" >> $DIR/hive-benchmark/uservisits_aggre.hive
-echo "set hive.stats.autogather=false;" >> $DIR/hive-benchmark/uservisits_aggre.hive
 
-if [ $COMPRESS -eq 1 ]; then
+if [ $MR2 = 0 ]; then
+  echo "set mapred.map.tasks=$NUM_MAPS;" >> $DIR/hive-benchmark/uservisits_aggre.hive
+  echo "set mapred.reduce.tasks=$NUM_REDS;" >> $DIR/hive-benchmark/uservisits_aggre.hive
+  if [ $COMPRESS -eq 1 ]; then
     echo "set mapred.output.compress=true;" >> $DIR/hive-benchmark/uservisits_aggre.hive
     echo "set hive.exec.compress.output=true;" >> $DIR/hive-benchmark/uservisits_aggre.hive
     echo "set mapred.output.compression.type=BLOCK;" >> $DIR/hive-benchmark/uservisits_aggre.hive
     echo "set mapred.output.compression.codec=$COMPRESS_CODEC;" >> $DIR/hive-benchmark/uservisits_aggre.hive
+  fi
+else
+  echo "set mapreduce.job.maps=$NUM_MAPS;" >> $DIR/hive-benchmark/uservisits_aggre.hive
+  echo "set mapreduce.job.reduces=$NUM_REDS;" >> $DIR/hive-benchmark/uservisits_aggre.hive
+  if [ $COMPRESS -eq 1 ]; then
+    echo "set mapreduce.output.fileoutputformat.compress=true;" >> $DIR/hive-benchmark/uservisits_aggre.hive
+    echo "set hive.exec.compress.output=true;" >> $DIR/hive-benchmark/uservisits_aggre.hive
+    echo "set mapreduce.output.fileoutputformat.compress.type=BLOCK;" >> $DIR/hive-benchmark/uservisits_aggre.hive
+    echo "set mapreduce.output.fileoutputformat.compress.codec=$COMPRESS_CODEC;" >> $DIR/hive-benchmark/uservisits_aggre.hive
+  fi
 fi
+
+echo "set hive.stats.autogather=false;" >> $DIR/hive-benchmark/uservisits_aggre.hive
 
 echo "DROP TABLE uservisits;" >> $DIR/hive-benchmark/uservisits_aggre.hive
 echo "DROP TABLE uservisits_aggre;" >> $DIR/hive-benchmark/uservisits_aggre.hive
 echo "CREATE EXTERNAL TABLE uservisits (sourceIP STRING,destURL STRING,visitDate STRING,adRevenue DOUBLE,userAgent STRING,countryCode STRING,languageCode STRING,searchWord STRING,duration INT ) ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' STORED AS SEQUENCEFILE LOCATION '$INPUT_HDFS/uservisits';">> $DIR/hive-benchmark/uservisits_aggre.hive
 cat $DIR/hive-benchmark/uservisits_aggre.template >> $DIR/hive-benchmark/uservisits_aggre.hive
 
-SIZE=$($HADOOP_EXECUTABLE job -history $INPUT_HDFS/uservisits | grep 'HiBench.Counters.*|BYTES_DATA_GENERATED')
-SIZE=${SIZE##*|}
-SIZE=${SIZE//,/}
+if [ $MR2 = 0 ]; then
+  SIZE=$($HADOOP_EXECUTABLE job -history $INPUT_HDFS/uservisits | grep 'HiBench.Counters.*|BYTES_DATA_GENERATED')
+  SIZE=${SIZE##*|}
+  SIZE=${SIZE//,/}
+fi
+
 START_TIME=`timestamp`
 
 # run bench
+
+echo $HIVE_HOME/bin/hive -f $DIR/hive-benchmark/uservisits_aggre.hive
+
 $HIVE_HOME/bin/hive -f $DIR/hive-benchmark/uservisits_aggre.hive
 result=$?
+
 if [ $result -ne 0 ] 
 then
     echo "ERROR: Hadoop job failed to run successfully." 
@@ -64,7 +83,13 @@ fi
 
 # post-running
 END_TIME=`timestamp`
-gen_report "HIVEAGGR" ${START_TIME} ${END_TIME} ${SIZE}
+if [ $MR2 = 0 ]; then
+  gen_report "HIVEAGGR" ${START_TIME} ${END_TIME} ${SIZE}
+else
+  gen_report2 "HIVEAGGR" ${START_TIME} ${END_TIME}
+fi
 
-$HADOOP_EXECUTABLE fs -rmr $OUTPUT_HDFS/hive-aggre
-$HADOOP_EXECUTABLE fs -cp /user/hive/warehouse/uservisits_aggre $OUTPUT_HDFS/hive-aggre
+$HADOOP_EXECUTABLE fs -rm -r -skipTrash $OUTPUT_HDFS
+$HADOOP_EXECUTABLE fs -mkdir $OUTPUT_HDFS
+$HADOOP_EXECUTABLE fs -rm -r -skipTrash $OUTPUT_HDFS
+$HADOOP_EXECUTABLE fs -cp /user/hive/warehouse/uservisits_aggre $OUTPUT_HDFS

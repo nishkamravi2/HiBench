@@ -40,6 +40,8 @@ OPTION="-t pagerank \
 	-o text"
 
 #	-d ${DELIMITER} \
+
+echo $HADOOP_EXECUTABLE jar ${DATATOOLS} HiBench.DataGen ${OPTION} ${COMPRESS_OPT}
 $HADOOP_EXECUTABLE jar ${DATATOOLS} HiBench.DataGen ${OPTION} ${COMPRESS_OPT}
 result=$?
 if [ $result -ne 0 ]

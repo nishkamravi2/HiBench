@@ -28,5 +28,6 @@ execHiveCmd () {
   fi
 
   # hadoop 20 or newer - skip the aux_jars option. picked up from hiveconf
+  echo $HADOOP jar ${HIVE_LIB}/hive-cli-*.jar $CLASS $HIVE_OPTS "$@"
   exec $HADOOP jar ${HIVE_LIB}/hive-cli-*.jar $CLASS $HIVE_OPTS "$@"
 }

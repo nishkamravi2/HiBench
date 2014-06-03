@@ -25,20 +25,31 @@ DIR=`cd $bin/../; pwd`
 . "${DIR}/conf/configure.sh"
 
 # compress check
-if [ $COMPRESS -eq 1 ]; then
+if [ $MR2 = 0 ]; then
+  if [ $COMPRESS -eq 1 ]; then
     COMPRESS_OPT="-Dmapred.output.compress=true
     -Dmapred.output.compression.codec=$COMPRESS_CODEC"
-else
+  else
     COMPRESS_OPT="-Dmapred.output.compress=false"
+  fi
+else
+  if [ $COMPRESS -eq 1 ]; then
+    COMPRESS_OPT="-Dmapreduce.output.fileoutputformat.compress=true
+    -Dmapreduce.output.fileoutputformat.compress.codec=$COMPRESS_CODEC"
+  else
+    COMPRESS_OPT="-Dmapreduce.output.fileoutputformat.compress=false"
+  fi
 fi
 
 # path check
-${HADOOP_EXECUTABLE} fs -rmr ${OUTPUT_HDFS}
+${HADOOP_EXECUTABLE} fs -rm -r -skipTrash ${OUTPUT_HDFS}
 
 # pre-running
-SIZE=$($HADOOP_EXECUTABLE job -history $INPUT_HDFS | grep 'HiBench.Counters.*|BYTES_DATA_GENERATED')
-SIZE=${SIZE##*|}
-SIZE=${SIZE//,/}
+if [ $MR2 = 0 ]; then
+ SIZE=$($HADOOP_EXECUTABLE job -history $INPUT_HDFS | grep 'HiBench.Counters.*|BYTES_DATA_GENERATED')
+ SIZE=${SIZE##*|}
+ SIZE=${SIZE//,/}
+fi
 START_TIME=`timestamp`
 
 # run bench
@@ -63,5 +74,10 @@ fi
 
 # post-running
 END_TIME=`timestamp`
-gen_report "BAYES" ${START_TIME} ${END_TIME} ${SIZE}
+
+if [ $MR2 = 0 ]; then
+ gen_report "BAYES" ${START_TIME} ${END_TIME} ${SIZE}
+else
+ gen_report2 "BAYES" ${START_TIME} ${END_TIME} 
+fi
 

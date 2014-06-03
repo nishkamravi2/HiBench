@@ -20,39 +20,39 @@ this="$bin/$script"
 
 export HIBENCH_VERSION="2.2"
 
+export JAVA_HOME=/usr/java/default
+export PATH=$PATH:$JAVA_HOME/bin
+#export CLASSPATH=$CLASSPATH:.
+alias scalac='/opt/toolchain/scala-2.10.3/bin/scalac'
+
+
 ###################### Global Paths ##################
 
-HADOOP_EXECUTABLE= 
-HADOOP_CONF_DIR=
-HADOOP_EXAMPLES_JAR=
-HADOOP_HOME=`printenv HADOOP_HOME`
-HIBENCH_HOME=`printenv HIBENCH_HOME`
-HIBENCH_CONF=`printenv HIBENCH_CONF`
-HIVE_HOME=`printenv HIVE_HOME`
-MAHOUT_HOME=`printenv MAHOUT_HOME`
-NUTCH_HOME=`printenv NUTCH_HOME`
-DATATOOLS=`printenv DATATOOLS`
+export CDH_HOME=/opt/cloudera/parcels/CDH
 
-if [ -n "$HADOOP_HOME" ]; then
-	HADOOP_EXECUTABLE=$HADOOP_HOME/bin/hadoop
-	HADOOP_CONF_DIR=$HADOOP_HOME/conf
-	HADOOP_EXAMPLES_JAR=$HADOOP_HOME/hadoop-examples*.jar
-else 					
-##make some guess if none of these variables are set
-	if [ -z $HADOOP_EXECUTABLE ]; then
-		HADOOP_EXECUTABLE=`which hadoop`
-	fi
-	IFS=':'
-	for d in `$HADOOP_EXECUTABLE classpath`; do
-		if [ -z $HADOOP_CONF_DIR ] && [[ $d = */conf ]]; then
-			HADOOP_CONF_DIR=$d
-		fi
-		if [ -z $HADOOP_EXAMPLES_JAR ] && [[ $d = *hadoop-examples*.jar ]]; then
-			HADOOP_EXAMPLES_JAR=$d
-		fi
-	done
-	unset IFS
+export MR2=1
+
+if [ $MR2 = "1" ]; then
+  export HADOOP_HOME=$CDH_HOME/lib/hadoop-mapreduce #MR2
+  export HADOOP_MAPRED_HOME=$CDH_HOME/lib/hadoop-mapreduce #MR2
+  export HADOOP_EXAMPLES_JAR=$HADOOP_HOME/hadoop-mapreduce-examples.jar #MR2
+  export HADOOP_CONF_DIR=/etc/hadoop/conf.cloudera.YARN-1
+else 
+  export HADOOP_HOME=$CDH_HOME/lib/hadoop-0.20-mapreduce #MR1  
+  export HADOOP_MAPRED_HOME=$CDH_HOME/lib/hadoop-0.20-mapreduce
+  export HADOOP_EXAMPLES_JAR=$HADOOP_HOME/hadoop-examples.jar #MR1
+  export HADOOP_CONF_DIR=/etc/hadoop/conf.cloudera.MAPREDUCE-1
 fi
+
+export HADOOP_EXECUTABLE=/usr/bin/hadoop
+export HIBENCH_HOME=/var/lib/jenkins/HiBench
+export HIBENCH_CONF=$HIBENCH_HOME/conf
+
+export HIVE_HOME=`printenv HIVE_HOME`
+export MAHOUT_HOME=`printenv MAHOUT_HOME`
+export NUTCH_HOME=`printenv NUTCH_HOME`
+export DATATOOLS=`printenv DATATOOLS`
+
 
 echo HADOOP_EXECUTABLE=${HADOOP_EXECUTABLE:? "ERROR: Please set paths in $this before using HiBench."}
 echo HADOOP_CONF_DIR=${HADOOP_CONF_DIR:? "ERROR: Please set paths in $this before using HiBench."}
@@ -66,29 +66,37 @@ if [ -z "$HIBENCH_CONF" ]; then
     export HIBENCH_CONF=${HIBENCH_HOME}/conf
 fi
 
+
 if [ -f "${HIBENCH_CONF}/funcs.sh" ]; then
     . "${HIBENCH_CONF}/funcs.sh"
 fi
 
-
 if [ -z "$HIVE_HOME" ]; then
-    export HIVE_HOME=${HIBENCH_HOME}/common/hive-0.9.0-bin
+    #export HIVE_HOME=${HIBENCH_HOME}/common/hive-0.9.0-bin
+    export HIVE_HOME=$CDH_HOME/lib/hive
 fi
 
 
 if $HADOOP_EXECUTABLE version|grep -i -q cdh4; then
 	HADOOP_VERSION=cdh4
-else
+else if $HADOOP_EXECUTABLE version|grep -i -q cdh5; then
+	HADOOP_VERSION=cdh5
+  else 
 	HADOOP_VERSION=hadoop1
+  fi
 fi
 
 if [ -z "$MAHOUT_HOME" ]; then
-    export MAHOUT_HOME=${HIBENCH_HOME}/common/mahout-distribution-0.7-$HADOOP_VERSION
+    export MAHOUT_HOME=${HIBENCH_HOME}/common/mahout-distribution-$HADOOP_VERSION
 fi
+
+#export MAHOUT_HOME=/opt/cloudera/parcels/CDH/lib/mahout
+echo $MAHOUT_HOME
 
 if [ -z "$NUTCH_HOME" ]; then
     export NUTCH_HOME=${HIBENCH_HOME}/nutchindexing/nutch-1.2-$HADOOP_VERSION
 fi
+
 
 if [ -z "$DATATOOLS" ]; then
     export DATATOOLS=${HIBENCH_HOME}/common/autogen/dist/datatools.jar
@@ -107,10 +115,15 @@ fi
 HADOOP_CONF_DIR="${HADOOP_CONF_DIR:-$HADOOP_HOME/conf}"
 
 # base dir HDFS
-export DATA_HDFS=/HiBench
+#export DATA_HDFS=HiBench
+export DATA_HDFS=/user/jenkins/HiBench
 
 # local report
-export HIBENCH_REPORT=${HIBENCH_HOME}/hibench.report
+if [ $MR2 = "0" ]; then
+  export HIBENCH_REPORT=${HIBENCH_HOME}/hibench_MR1.report
+else
+  export HIBENCH_REPORT=${HIBENCH_HOME}/hibench_MR2.report
+fi
 
 ################# Compress Options #################
 # swith on/off compression: 0-off, 1-on

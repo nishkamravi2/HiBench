@@ -40,6 +40,9 @@ OPTION="-t bayes \
         -class ${CLASSES} \
         -o sequence"
 
+$HADOOP_EXECUTABLE fs -rm -r -skipTrash $BAYES_INPUT
+
+
 $HADOOP_EXECUTABLE jar ${DATATOOLS} HiBench.DataGen ${OPTION} ${COMPRESS_OPT}
 result=$?
 if [ $result -ne 0 ]

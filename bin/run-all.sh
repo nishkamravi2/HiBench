@@ -20,9 +20,10 @@ DIR=`cd "${DIR}/.."; pwd`
 
 . $DIR/bin/hibench-config.sh
 
-if [ -f $HIBENCH_REPORT ]; then
-    rm $HIBENCH_REPORT
-fi
+#if [ -f $HIBENCH_REPORT ]; then
+#    rm $HIBENCH_REPORT
+#fi
+
 
 for benchmark in `cat $DIR/conf/benchmarks.lst`; do
     if [[ $benchmark == \#* ]]; then

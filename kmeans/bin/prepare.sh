@@ -35,11 +35,26 @@ else
 fi
 
 # paths check
-$HADOOP_EXECUTABLE dfs -rmr ${INPUT_HDFS}
+$HADOOP_EXECUTABLE fs -rm -r -skipTrash ${INPUT_HDFS}
 
 # generate data
+
+echo $MAHOUT_HOME
+
 OPTION="-sampleDir ${INPUT_SAMPLE} -clusterDir ${INPUT_CLUSTER} -numClusters ${NUM_OF_CLUSTERS} -numSamples ${NUM_OF_SAMPLES} -samplesPerFile ${SAMPLES_PER_INPUTFILE} -sampleDimension ${DIMENSIONS}"
 export HADOOP_CLASSPATH=`${MAHOUT_HOME}/bin/mahout classpath | tail -1`
 
-exec "$HADOOP_EXECUTABLE" --config $HADOOP_CONF_DIR jar ${DATATOOLS} org.apache.mahout.clustering.kmeans.GenKMeansDataset -libjars $MAHOUT_HOME/examples/target/mahout-examples-0.7-job.jar ${COMPRESS_OPT} ${OPTION}
+export HADOOP_CLASSPATH=$HADOOP_CLASSPATH:${HIBENCH_HOME}/common/autogen/lib/uncommons-maths-1.2.2.jar
+
+
+#exec "$HADOOP_EXECUTABLE" --config $HADOOP_CONF_DIR jar ${DATATOOLS} org.apache.mahout.clustering.kmeans.GenKMeansDataset -libjars /var/lib/jenkins/HiBench/common/mahout-distribution-0.7-hadoop1/examples/target/mahout-examples-0.7-job.jar ${COMPRESS_OPT} ${OPTION}
+
+#exec "$HADOOP_EXECUTABLE" --config $HADOOP_CONF_DIR jar ${DATATOOLS} org.apache.mahout.clustering.kmeans.GenKMeansDataset -libjars /opt/cloudera/parcels/CDH/lib/mahout/mahout-examples-0.9-cdh5.1.0-SNAPSHOT-job.jar,${HIBENCH_HOME}/common/autogen/lib/uncommons-maths-1.2.2.jar  ${COMPRESS_OPT} ${OPTION}
+
+
+echo "$HADOOP_EXECUTABLE" --config $HADOOP_CONF_DIR jar ${DATATOOLS} org.apache.mahout.clustering.kmeans.GenKMeansDataset -libjars ${HIBENCH_HOME}/common/mahout-distribution-cdh5/examples/target/mahout-examples-0.9-cdh5.1.0-SNAPSHOT-job.jar,${HIBENCH_HOME}/common/autogen/lib/uncommons-maths-1.2.2.jar ${COMPRESS_OPT} ${OPTION}
+
+exec "$HADOOP_EXECUTABLE" --config $HADOOP_CONF_DIR jar ${DATATOOLS} org.apache.mahout.clustering.kmeans.GenKMeansDataset -libjars ${HIBENCH_HOME}/common/mahout-distribution-cdh5/examples/target/mahout-examples-0.9-cdh5.1.0-SNAPSHOT-job.jar,${HIBENCH_HOME}/common/autogen/lib/uncommons-maths-1.2.2.jar ${COMPRESS_OPT} ${OPTION}
+
+
 

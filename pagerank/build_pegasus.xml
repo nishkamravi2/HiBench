@@ -7,10 +7,11 @@ PEGASUS: A Peta-Scale Graph Mining System
 
 <property environment="env" />
 <property name="hadoop.home" value="${env.HADOOP_HOME}" />
+<property name="hadoop.home2" value="${env.HADOOP_HOME2}" />
 <property name="basedir" location="." />
 <property name="src.dir" location="src/pegasus/hadi:src/pegasus/matvec:src/pegasus/con_cmpth:src/pegasus/pegasus:src/pegasus/pagerank:src/pegasus/rwr:src/pegasus/degdist:src/pegasus/heigen:src/pegasus/column_joiner" />
 <property name="build.dir" location="${basedir}/classes"/>
-<property name="hadoop.version" value="0.20.1"/>
+<property name="hadoop.version" value="2.3.0-cdh5.1.0-SNAPSHOT"/>
 <property name="hadoop.dir" value="${basedir}/../../hadoop"/>
 <property name="app.jar" location="${basedir}/pegasus-2.0.jar"/>
 
@@ -19,7 +20,10 @@ PEGASUS: A Peta-Scale Graph Mining System
 <path id="build.classpath">
 <pathelement location="${build.dir}"/>
     <fileset dir="${hadoop.home}">
-        <include name="hadoop-core*.jar" />
+        <include name="*.jar" />
+    </fileset>
+     <fileset dir="${hadoop.home2}">
+        <include name="*.jar" />
     </fileset>
 </path>
 

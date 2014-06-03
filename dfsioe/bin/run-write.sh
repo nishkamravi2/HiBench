@@ -31,6 +31,8 @@ DIR=`cd $bin/../; pwd`
 OPTION="-write -nrFiles ${WT_NUM_OF_FILES} -fileSize ${WT_FILE_SIZE} -bufferSize 4096 -plotInteval 1000 -sampleUnit m -sampleInteval 200 -sumThreshold 0.5 -tputReportTotal"
 START_TIME=`timestamp`
 
+export HADOOP_OPTS="-Dtest.build.data=${DATA_HDFS}/benchmarks/TestDFSIO-Enh"
+
 #run benchmark
 ${HADOOP_EXECUTABLE} jar ${DATATOOLS} org.apache.hadoop.fs.dfsioe.TestDFSIOEnh ${OPTION} -resFile ${DIR}/result_write.txt -tputFile ${DIR}/throughput_write.csv
 result=$?
