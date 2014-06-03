@@ -1,0 +1,231 @@
+2014-05-16 15:18:42,443 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeq-seed#[ABC7AEC73F32B467]) [WARN - org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62)] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-05-16 15:18:45,162 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeq-seed#[ABC7AEC73F32B467]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Command line arguments: {--analyzerName=[org.apache.lucene.analysis.standard.StandardAnalyzer], --cardinality=[5000], --encoderClass=[org.apache.mahout.vectorizer.encoders.LuceneTextValueEncoder], --encoderFieldName=[text], --endPhase=[2147483647], --input=[file:/tmp/mahout-EncodedVectorsFromSequenceFilesTest-8193223079223690240/documents/docs.file], --output=[file:/tmp/mahout-EncodedVectorsFromSequenceFilesTest-8193223079223690240/output], --sequentialAccessVector=null, --startPhase=[0], --tempDir=[temp]}
+2014-05-16 15:18:45,260 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeq-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1009)] mapred.input.dir is deprecated. Instead, use mapreduce.input.fileinputformat.inputdir
+2014-05-16 15:18:45,261 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeq-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1009)] mapred.compress.map.output is deprecated. Instead, use mapreduce.map.output.compress
+2014-05-16 15:18:45,262 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeq-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1009)] mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2014-05-16 15:18:45,298 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeq-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:76)] Initializing JVM Metrics with processName=JobTracker, sessionId=
+2014-05-16 15:18:45,898 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeq-seed#[ABC7AEC73F32B467]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:259)] No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2014-05-16 15:18:45,943 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeq-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.lib.input.FileInputFormat.listStatus(FileInputFormat.java:287)] Total input paths to process : 1
+2014-05-16 15:18:46,142 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeq-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:396)] number of splits:1
+2014-05-16 15:18:46,863 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeq-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.printTokens(JobSubmitter.java:479)] Submitting tokens for job: job_local629586474_0001
+2014-05-16 15:18:47,122 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeq-seed#[ABC7AEC73F32B467]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-EncodedVectorsFromSequenceFilesTest-1779955466261512192/hadoop0.6026363005344338/mapred/staging/jenkins629586474/.staging/job_local629586474_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:47,123 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeq-seed#[ABC7AEC73F32B467]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-EncodedVectorsFromSequenceFilesTest-1779955466261512192/hadoop0.6026363005344338/mapred/staging/jenkins629586474/.staging/job_local629586474_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:47,759 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeq-seed#[ABC7AEC73F32B467]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-EncodedVectorsFromSequenceFilesTest-1779955466261512192/hadoop0.6026363005344338/mapred/local/localRunner/jenkins/job_local629586474_0001/job_local629586474_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:47,761 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeq-seed#[ABC7AEC73F32B467]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-EncodedVectorsFromSequenceFilesTest-1779955466261512192/hadoop0.6026363005344338/mapred/local/localRunner/jenkins/job_local629586474_0001/job_local629586474_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:47,852 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeq-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.Job.submit(Job.java:1299)] The url to track the job: http://localhost:8080/
+2014-05-16 15:18:47,854 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeq-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)] Running job: job_local629586474_0001
+2014-05-16 15:18:47,859 (Thread-12) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:471)] OutputCommitter set in config null
+2014-05-16 15:18:47,888 (Thread-12) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:489)] OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2014-05-16 15:18:48,306 (Thread-12) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for map tasks
+2014-05-16 15:18:48,316 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] Starting task: attempt_local629586474_0001_m_000000_0
+2014-05-16 15:18:48,599 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:18:48,607 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:733)] Processing split: file:/tmp/mahout-EncodedVectorsFromSequenceFilesTest-8193223079223690240/documents/docs.file:0+96925
+2014-05-16 15:18:48,880 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeq-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1365)] Job job_local629586474_0001 running in uber mode : false
+2014-05-16 15:18:48,883 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeq-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1372)]  map 0% reduce 0%
+2014-05-16 15:18:51,568 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:18:51,577 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local629586474_0001_m_000000_0 is done. And is in the process of committing
+2014-05-16 15:18:51,641 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:18:51,651 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.commit(Task.java:1156)] Task attempt_local629586474_0001_m_000000_0 is allowed to commit now
+2014-05-16 15:18:51,659 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitTask(FileOutputCommitter.java:439)] Saved output of task 'attempt_local629586474_0001_m_000000_0' to file:/tmp/mahout-EncodedVectorsFromSequenceFilesTest-8193223079223690240/output/_temporary/0/task_local629586474_0001_m_000000
+2014-05-16 15:18:51,683 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] map
+2014-05-16 15:18:51,684 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local629586474_0001_m_000000_0' done.
+2014-05-16 15:18:51,685 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] Finishing task: attempt_local629586474_0001_m_000000_0
+2014-05-16 15:18:51,685 (Thread-12) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] map task executor complete.
+2014-05-16 15:18:51,890 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeq-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1372)]  map 100% reduce 0%
+2014-05-16 15:18:51,892 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeq-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1383)] Job job_local629586474_0001 completed successfully
+2014-05-16 15:18:51,966 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeq-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1390)] Counters: 18
+	File System Counters
+		FILE: Number of bytes read=97907
+		FILE: Number of bytes written=568266
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=100
+		Map output records=100
+		Input split bytes=157
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=106
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=514850816
+	File Input Format Counters 
+		Bytes Read=97693
+	File Output Format Counters 
+		Bytes Written=245971
+2014-05-16 15:18:51,968 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeq-seed#[ABC7AEC73F32B467]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] result of run: true
+2014-05-16 15:18:52,551 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateNamed-seed#[ABC7AEC73F32B467]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Command line arguments: {--analyzerName=[org.apache.lucene.analysis.standard.StandardAnalyzer], --cardinality=[5000], --encoderClass=[org.apache.mahout.vectorizer.encoders.LuceneTextValueEncoder], --encoderFieldName=[text], --endPhase=[2147483647], --input=[file:/tmp/mahout-EncodedVectorsFromSequenceFilesTest-5446254031885650944/documents/docs.file], --namedVector=null, --output=[file:/tmp/mahout-EncodedVectorsFromSequenceFilesTest-5446254031885650944/output], --startPhase=[0], --tempDir=[temp]}
+2014-05-16 15:18:52,554 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateNamed-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1009)] mapred.input.dir is deprecated. Instead, use mapreduce.input.fileinputformat.inputdir
+2014-05-16 15:18:52,557 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateNamed-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1009)] mapred.compress.map.output is deprecated. Instead, use mapreduce.map.output.compress
+2014-05-16 15:18:52,559 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateNamed-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1009)] mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2014-05-16 15:18:52,570 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateNamed-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:71)] Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-05-16 15:18:52,637 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateNamed-seed#[ABC7AEC73F32B467]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:259)] No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2014-05-16 15:18:52,640 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateNamed-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.lib.input.FileInputFormat.listStatus(FileInputFormat.java:287)] Total input paths to process : 1
+2014-05-16 15:18:52,772 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateNamed-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:396)] number of splits:1
+2014-05-16 15:18:52,920 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateNamed-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.printTokens(JobSubmitter.java:479)] Submitting tokens for job: job_local1466296369_0002
+2014-05-16 15:18:53,006 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateNamed-seed#[ABC7AEC73F32B467]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-EncodedVectorsFromSequenceFilesTest-8239615628149735424/hadoop0.02866286326959333/mapred/staging/jenkins1466296369/.staging/job_local1466296369_0002/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:53,017 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateNamed-seed#[ABC7AEC73F32B467]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-EncodedVectorsFromSequenceFilesTest-8239615628149735424/hadoop0.02866286326959333/mapred/staging/jenkins1466296369/.staging/job_local1466296369_0002/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:53,411 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateNamed-seed#[ABC7AEC73F32B467]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-EncodedVectorsFromSequenceFilesTest-8239615628149735424/hadoop0.02866286326959333/mapred/local/localRunner/jenkins/job_local1466296369_0002/job_local1466296369_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:53,411 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateNamed-seed#[ABC7AEC73F32B467]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-EncodedVectorsFromSequenceFilesTest-8239615628149735424/hadoop0.02866286326959333/mapred/local/localRunner/jenkins/job_local1466296369_0002/job_local1466296369_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:53,435 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateNamed-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.Job.submit(Job.java:1299)] The url to track the job: http://localhost:8080/
+2014-05-16 15:18:53,436 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateNamed-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)] Running job: job_local1466296369_0002
+2014-05-16 15:18:53,444 (Thread-27) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:471)] OutputCommitter set in config null
+2014-05-16 15:18:53,446 (Thread-27) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:489)] OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2014-05-16 15:18:53,457 (Thread-27) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for map tasks
+2014-05-16 15:18:53,471 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] Starting task: attempt_local1466296369_0002_m_000000_0
+2014-05-16 15:18:53,483 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:18:53,486 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:733)] Processing split: file:/tmp/mahout-EncodedVectorsFromSequenceFilesTest-5446254031885650944/documents/docs.file:0+96925
+2014-05-16 15:18:54,446 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateNamed-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1365)] Job job_local1466296369_0002 running in uber mode : false
+2014-05-16 15:18:54,446 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateNamed-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1372)]  map 0% reduce 0%
+2014-05-16 15:18:54,546 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:18:54,546 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local1466296369_0002_m_000000_0 is done. And is in the process of committing
+2014-05-16 15:18:54,549 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:18:54,549 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.commit(Task.java:1156)] Task attempt_local1466296369_0002_m_000000_0 is allowed to commit now
+2014-05-16 15:18:54,550 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitTask(FileOutputCommitter.java:439)] Saved output of task 'attempt_local1466296369_0002_m_000000_0' to file:/tmp/mahout-EncodedVectorsFromSequenceFilesTest-5446254031885650944/output/_temporary/0/task_local1466296369_0002_m_000000
+2014-05-16 15:18:54,566 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] map
+2014-05-16 15:18:54,567 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local1466296369_0002_m_000000_0' done.
+2014-05-16 15:18:54,567 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] Finishing task: attempt_local1466296369_0002_m_000000_0
+2014-05-16 15:18:54,571 (Thread-27) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] map task executor complete.
+2014-05-16 15:18:55,447 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateNamed-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1372)]  map 100% reduce 0%
+2014-05-16 15:18:55,448 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateNamed-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1383)] Job job_local1466296369_0002 completed successfully
+2014-05-16 15:18:55,454 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateNamed-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1390)] Counters: 18
+	File System Counters
+		FILE: Number of bytes read=441785
+		FILE: Number of bytes written=1165684
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=100
+		Map output records=100
+		Input split bytes=157
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=0
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=514850816
+	File Input Format Counters 
+		Bytes Read=97693
+	File Output Format Counters 
+		Bytes Written=273847
+2014-05-16 15:18:55,455 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateNamed-seed#[ABC7AEC73F32B467]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] result of run: true
+2014-05-16 15:18:55,767 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeqNamed-seed#[ABC7AEC73F32B467]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Command line arguments: {--analyzerName=[org.apache.lucene.analysis.standard.StandardAnalyzer], --cardinality=[5000], --encoderClass=[org.apache.mahout.vectorizer.encoders.LuceneTextValueEncoder], --encoderFieldName=[text], --endPhase=[2147483647], --input=[file:/tmp/mahout-EncodedVectorsFromSequenceFilesTest-461318364480461824/documents/docs.file], --namedVector=null, --output=[file:/tmp/mahout-EncodedVectorsFromSequenceFilesTest-461318364480461824/output], --sequentialAccessVector=null, --startPhase=[0], --tempDir=[temp]}
+2014-05-16 15:18:55,778 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeqNamed-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1009)] mapred.input.dir is deprecated. Instead, use mapreduce.input.fileinputformat.inputdir
+2014-05-16 15:18:55,779 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeqNamed-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1009)] mapred.compress.map.output is deprecated. Instead, use mapreduce.map.output.compress
+2014-05-16 15:18:55,779 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeqNamed-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1009)] mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2014-05-16 15:18:55,792 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeqNamed-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:71)] Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-05-16 15:18:55,842 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeqNamed-seed#[ABC7AEC73F32B467]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:259)] No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2014-05-16 15:18:55,845 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeqNamed-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.lib.input.FileInputFormat.listStatus(FileInputFormat.java:287)] Total input paths to process : 1
+2014-05-16 15:18:55,975 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeqNamed-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:396)] number of splits:1
+2014-05-16 15:18:56,198 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeqNamed-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.printTokens(JobSubmitter.java:479)] Submitting tokens for job: job_local829990659_0003
+2014-05-16 15:18:56,362 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeqNamed-seed#[ABC7AEC73F32B467]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-EncodedVectorsFromSequenceFilesTest-6086314815469954048/hadoop0.33831787467653107/mapred/staging/jenkins829990659/.staging/job_local829990659_0003/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:56,363 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeqNamed-seed#[ABC7AEC73F32B467]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-EncodedVectorsFromSequenceFilesTest-6086314815469954048/hadoop0.33831787467653107/mapred/staging/jenkins829990659/.staging/job_local829990659_0003/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:56,743 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeqNamed-seed#[ABC7AEC73F32B467]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-EncodedVectorsFromSequenceFilesTest-6086314815469954048/hadoop0.33831787467653107/mapred/local/localRunner/jenkins/job_local829990659_0003/job_local829990659_0003.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:56,744 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeqNamed-seed#[ABC7AEC73F32B467]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-EncodedVectorsFromSequenceFilesTest-6086314815469954048/hadoop0.33831787467653107/mapred/local/localRunner/jenkins/job_local829990659_0003/job_local829990659_0003.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:56,761 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeqNamed-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.Job.submit(Job.java:1299)] The url to track the job: http://localhost:8080/
+2014-05-16 15:18:56,762 (Thread-40) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:471)] OutputCommitter set in config null
+2014-05-16 15:18:56,769 (Thread-40) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:489)] OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2014-05-16 15:18:56,787 (Thread-40) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for map tasks
+2014-05-16 15:18:56,788 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] Starting task: attempt_local829990659_0003_m_000000_0
+2014-05-16 15:18:56,772 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeqNamed-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)] Running job: job_local829990659_0003
+2014-05-16 15:18:56,807 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:18:56,810 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:733)] Processing split: file:/tmp/mahout-EncodedVectorsFromSequenceFilesTest-461318364480461824/documents/docs.file:0+96925
+2014-05-16 15:18:57,118 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:18:57,119 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local829990659_0003_m_000000_0 is done. And is in the process of committing
+2014-05-16 15:18:57,121 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:18:57,133 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.commit(Task.java:1156)] Task attempt_local829990659_0003_m_000000_0 is allowed to commit now
+2014-05-16 15:18:57,135 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitTask(FileOutputCommitter.java:439)] Saved output of task 'attempt_local829990659_0003_m_000000_0' to file:/tmp/mahout-EncodedVectorsFromSequenceFilesTest-461318364480461824/output/_temporary/0/task_local829990659_0003_m_000000
+2014-05-16 15:18:57,145 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] map
+2014-05-16 15:18:57,146 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local829990659_0003_m_000000_0' done.
+2014-05-16 15:18:57,146 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] Finishing task: attempt_local829990659_0003_m_000000_0
+2014-05-16 15:18:57,147 (Thread-40) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] map task executor complete.
+2014-05-16 15:18:57,807 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeqNamed-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1365)] Job job_local829990659_0003 running in uber mode : false
+2014-05-16 15:18:57,808 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeqNamed-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1372)]  map 100% reduce 0%
+2014-05-16 15:18:57,809 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeqNamed-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1383)] Job job_local829990659_0003 completed successfully
+2014-05-16 15:18:57,815 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeqNamed-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1390)] Counters: 18
+	File System Counters
+		FILE: Number of bytes read=813538
+		FILE: Number of bytes written=1736179
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=100
+		Map output records=100
+		Input split bytes=156
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=0
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=514850816
+	File Input Format Counters 
+		Bytes Read=97693
+	File Output Format Counters 
+		Bytes Written=247777
+2014-05-16 15:18:57,815 (TEST-EncodedVectorsFromSequenceFilesTest.testCreateSeqNamed-seed#[ABC7AEC73F32B467]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] result of run: true
+2014-05-16 15:18:58,238 (TEST-EncodedVectorsFromSequenceFilesTest.testCreate-seed#[ABC7AEC73F32B467]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Command line arguments: {--analyzerName=[org.apache.lucene.analysis.standard.StandardAnalyzer], --cardinality=[5000], --encoderClass=[org.apache.mahout.vectorizer.encoders.LuceneTextValueEncoder], --encoderFieldName=[text], --endPhase=[2147483647], --input=[file:/tmp/mahout-EncodedVectorsFromSequenceFilesTest-7764417988766799872/documents/docs.file], --output=[file:/tmp/mahout-EncodedVectorsFromSequenceFilesTest-7764417988766799872/output], --startPhase=[0], --tempDir=[temp]}
+2014-05-16 15:18:58,240 (TEST-EncodedVectorsFromSequenceFilesTest.testCreate-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1009)] mapred.input.dir is deprecated. Instead, use mapreduce.input.fileinputformat.inputdir
+2014-05-16 15:18:58,248 (TEST-EncodedVectorsFromSequenceFilesTest.testCreate-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1009)] mapred.compress.map.output is deprecated. Instead, use mapreduce.map.output.compress
+2014-05-16 15:18:58,248 (TEST-EncodedVectorsFromSequenceFilesTest.testCreate-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1009)] mapred.output.dir is deprecated. Instead, use mapreduce.output.fileoutputformat.outputdir
+2014-05-16 15:18:58,251 (TEST-EncodedVectorsFromSequenceFilesTest.testCreate-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:71)] Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-05-16 15:18:58,287 (TEST-EncodedVectorsFromSequenceFilesTest.testCreate-seed#[ABC7AEC73F32B467]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:259)] No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2014-05-16 15:18:58,289 (TEST-EncodedVectorsFromSequenceFilesTest.testCreate-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.lib.input.FileInputFormat.listStatus(FileInputFormat.java:287)] Total input paths to process : 1
+2014-05-16 15:18:58,522 (TEST-EncodedVectorsFromSequenceFilesTest.testCreate-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:396)] number of splits:1
+2014-05-16 15:18:58,646 (TEST-EncodedVectorsFromSequenceFilesTest.testCreate-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.printTokens(JobSubmitter.java:479)] Submitting tokens for job: job_local663129906_0004
+2014-05-16 15:18:58,766 (TEST-EncodedVectorsFromSequenceFilesTest.testCreate-seed#[ABC7AEC73F32B467]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-EncodedVectorsFromSequenceFilesTest-8379858753496263680/hadoop0.0304371780396423/mapred/staging/jenkins663129906/.staging/job_local663129906_0004/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:58,767 (TEST-EncodedVectorsFromSequenceFilesTest.testCreate-seed#[ABC7AEC73F32B467]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-EncodedVectorsFromSequenceFilesTest-8379858753496263680/hadoop0.0304371780396423/mapred/staging/jenkins663129906/.staging/job_local663129906_0004/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:58,920 (TEST-EncodedVectorsFromSequenceFilesTest.testCreate-seed#[ABC7AEC73F32B467]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-EncodedVectorsFromSequenceFilesTest-8379858753496263680/hadoop0.0304371780396423/mapred/local/localRunner/jenkins/job_local663129906_0004/job_local663129906_0004.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:58,921 (TEST-EncodedVectorsFromSequenceFilesTest.testCreate-seed#[ABC7AEC73F32B467]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-EncodedVectorsFromSequenceFilesTest-8379858753496263680/hadoop0.0304371780396423/mapred/local/localRunner/jenkins/job_local663129906_0004/job_local663129906_0004.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:58,932 (TEST-EncodedVectorsFromSequenceFilesTest.testCreate-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.Job.submit(Job.java:1299)] The url to track the job: http://localhost:8080/
+2014-05-16 15:18:58,933 (TEST-EncodedVectorsFromSequenceFilesTest.testCreate-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)] Running job: job_local663129906_0004
+2014-05-16 15:18:58,941 (Thread-53) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:471)] OutputCommitter set in config null
+2014-05-16 15:18:58,942 (Thread-53) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:489)] OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2014-05-16 15:18:58,955 (Thread-53) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for map tasks
+2014-05-16 15:18:58,956 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] Starting task: attempt_local663129906_0004_m_000000_0
+2014-05-16 15:18:58,973 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:18:58,976 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:733)] Processing split: file:/tmp/mahout-EncodedVectorsFromSequenceFilesTest-7764417988766799872/documents/docs.file:0+96925
+2014-05-16 15:18:59,222 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:18:59,223 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local663129906_0004_m_000000_0 is done. And is in the process of committing
+2014-05-16 15:18:59,225 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:18:59,228 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.commit(Task.java:1156)] Task attempt_local663129906_0004_m_000000_0 is allowed to commit now
+2014-05-16 15:18:59,230 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitTask(FileOutputCommitter.java:439)] Saved output of task 'attempt_local663129906_0004_m_000000_0' to file:/tmp/mahout-EncodedVectorsFromSequenceFilesTest-7764417988766799872/output/_temporary/0/task_local663129906_0004_m_000000
+2014-05-16 15:18:59,233 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] map
+2014-05-16 15:18:59,237 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local663129906_0004_m_000000_0' done.
+2014-05-16 15:18:59,237 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] Finishing task: attempt_local663129906_0004_m_000000_0
+2014-05-16 15:18:59,238 (Thread-53) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] map task executor complete.
+2014-05-16 15:18:59,939 (TEST-EncodedVectorsFromSequenceFilesTest.testCreate-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1365)] Job job_local663129906_0004 running in uber mode : false
+2014-05-16 15:18:59,940 (TEST-EncodedVectorsFromSequenceFilesTest.testCreate-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1372)]  map 100% reduce 0%
+2014-05-16 15:18:59,941 (TEST-EncodedVectorsFromSequenceFilesTest.testCreate-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1383)] Job job_local663129906_0004 completed successfully
+2014-05-16 15:18:59,947 (TEST-EncodedVectorsFromSequenceFilesTest.testCreate-seed#[ABC7AEC73F32B467]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1390)] Counters: 18
+	File System Counters
+		FILE: Number of bytes read=1159222
+		FILE: Number of bytes written=2330529
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=100
+		Map output records=100
+		Input split bytes=157
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=0
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=514850816
+	File Input Format Counters 
+		Bytes Read=97693
+	File Output Format Counters 
+		Bytes Written=272045
+2014-05-16 15:18:59,948 (TEST-EncodedVectorsFromSequenceFilesTest.testCreate-seed#[ABC7AEC73F32B467]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] result of run: true

@@ -1,0 +1,1 @@
+2014-05-16 15:18:27,916 (TEST-SamplingCandidateItemsStrategyTest.testStrategy-seed#[33B51772DF6D251A]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 3 users

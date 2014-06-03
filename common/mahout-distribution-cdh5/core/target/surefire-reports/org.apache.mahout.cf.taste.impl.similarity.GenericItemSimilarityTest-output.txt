@@ -1,0 +1,1 @@
+2014-05-16 15:18:30,866 (TEST-GenericItemSimilarityTest.testFromCorrelation-seed#[D6E6068F84D60E0]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 3 users

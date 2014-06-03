@@ -1,0 +1,108 @@
+2014-05-16 15:23:05,396 (TEST-SequenceFilesFromLuceneStorageMRJobTest.testRun-seed#[97EA003D38272ACA]) [WARN - org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62)] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-05-16 15:23:11,495 (TEST-SequenceFilesFromLuceneStorageMRJobTest.testRun-seed#[97EA003D38272ACA]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:76)] Initializing JVM Metrics with processName=JobTracker, sessionId=
+2014-05-16 15:23:12,091 (TEST-SequenceFilesFromLuceneStorageMRJobTest.testRun-seed#[97EA003D38272ACA]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:150)] Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-05-16 15:23:12,119 (TEST-SequenceFilesFromLuceneStorageMRJobTest.testRun-seed#[97EA003D38272ACA]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:259)] No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2014-05-16 15:23:12,282 (TEST-SequenceFilesFromLuceneStorageMRJobTest.testRun-seed#[97EA003D38272ACA]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:326)] Created 14506 byte input split for index 'file:/tmp/mahout-SequenceFilesFromLuceneStorageMRJobTest-7624683353801494528/index1' segment _0
+2014-05-16 15:23:12,284 (TEST-SequenceFilesFromLuceneStorageMRJobTest.testRun-seed#[97EA003D38272ACA]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:326)] Created 14653 byte input split for index 'file:/tmp/mahout-SequenceFilesFromLuceneStorageMRJobTest-7624683353801494528/index1' segment _1
+2014-05-16 15:23:12,285 (TEST-SequenceFilesFromLuceneStorageMRJobTest.testRun-seed#[97EA003D38272ACA]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:326)] Created 1339 byte input split for index 'file:/tmp/mahout-SequenceFilesFromLuceneStorageMRJobTest-7624683353801494528/index1' segment _2
+2014-05-16 15:23:12,306 (TEST-SequenceFilesFromLuceneStorageMRJobTest.testRun-seed#[97EA003D38272ACA]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:326)] Created 14607 byte input split for index 'file:/tmp/mahout-SequenceFilesFromLuceneStorageMRJobTest-7624683353801494528/index2' segment _0
+2014-05-16 15:23:12,308 (TEST-SequenceFilesFromLuceneStorageMRJobTest.testRun-seed#[97EA003D38272ACA]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:326)] Created 14653 byte input split for index 'file:/tmp/mahout-SequenceFilesFromLuceneStorageMRJobTest-7624683353801494528/index2' segment _1
+2014-05-16 15:23:12,417 (TEST-SequenceFilesFromLuceneStorageMRJobTest.testRun-seed#[97EA003D38272ACA]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:396)] number of splits:5
+2014-05-16 15:23:12,971 (TEST-SequenceFilesFromLuceneStorageMRJobTest.testRun-seed#[97EA003D38272ACA]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.printTokens(JobSubmitter.java:479)] Submitting tokens for job: job_local1174659692_0001
+2014-05-16 15:23:13,105 (TEST-SequenceFilesFromLuceneStorageMRJobTest.testRun-seed#[97EA003D38272ACA]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-SequenceFilesFromLuceneStorageMRJobTest-6612441700093477888/hadoop0.42959312048374054/mapred/staging/jenkins1174659692/.staging/job_local1174659692_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:23:13,106 (TEST-SequenceFilesFromLuceneStorageMRJobTest.testRun-seed#[97EA003D38272ACA]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-SequenceFilesFromLuceneStorageMRJobTest-6612441700093477888/hadoop0.42959312048374054/mapred/staging/jenkins1174659692/.staging/job_local1174659692_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:23:13,647 (TEST-SequenceFilesFromLuceneStorageMRJobTest.testRun-seed#[97EA003D38272ACA]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-SequenceFilesFromLuceneStorageMRJobTest-6612441700093477888/hadoop0.42959312048374054/mapred/local/localRunner/jenkins/job_local1174659692_0001/job_local1174659692_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:23:13,648 (TEST-SequenceFilesFromLuceneStorageMRJobTest.testRun-seed#[97EA003D38272ACA]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-SequenceFilesFromLuceneStorageMRJobTest-6612441700093477888/hadoop0.42959312048374054/mapred/local/localRunner/jenkins/job_local1174659692_0001/job_local1174659692_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:23:13,672 (TEST-SequenceFilesFromLuceneStorageMRJobTest.testRun-seed#[97EA003D38272ACA]) [INFO - org.apache.hadoop.mapreduce.Job.submit(Job.java:1299)] The url to track the job: http://localhost:8080/
+2014-05-16 15:23:13,676 (TEST-SequenceFilesFromLuceneStorageMRJobTest.testRun-seed#[97EA003D38272ACA]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)] Running job: job_local1174659692_0001
+2014-05-16 15:23:13,676 (Thread-11) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:471)] OutputCommitter set in config null
+2014-05-16 15:23:13,699 (Thread-11) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:489)] OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2014-05-16 15:23:13,925 (Thread-11) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for map tasks
+2014-05-16 15:23:13,926 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] Starting task: attempt_local1174659692_0001_m_000000_0
+2014-05-16 15:23:13,999 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:23:14,006 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:733)] Processing split: org.apache.mahout.text.LuceneSegmentInputSplit@795bca46
+2014-05-16 15:23:14,317 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:23:14,357 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local1174659692_0001_m_000000_0 is done. And is in the process of committing
+2014-05-16 15:23:14,367 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:23:14,367 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.commit(Task.java:1156)] Task attempt_local1174659692_0001_m_000000_0 is allowed to commit now
+2014-05-16 15:23:14,369 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitTask(FileOutputCommitter.java:439)] Saved output of task 'attempt_local1174659692_0001_m_000000_0' to file:/tmp/mahout-SequenceFilesFromLuceneStorageMRJobTest-7624683353801494528/seqOutputPath/_temporary/0/task_local1174659692_0001_m_000000
+2014-05-16 15:23:14,370 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] map
+2014-05-16 15:23:14,370 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local1174659692_0001_m_000000_0' done.
+2014-05-16 15:23:14,370 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] Finishing task: attempt_local1174659692_0001_m_000000_0
+2014-05-16 15:23:14,371 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] Starting task: attempt_local1174659692_0001_m_000001_0
+2014-05-16 15:23:14,373 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:23:14,375 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:733)] Processing split: org.apache.mahout.text.LuceneSegmentInputSplit@4d70dfac
+2014-05-16 15:23:14,521 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:23:14,521 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local1174659692_0001_m_000001_0 is done. And is in the process of committing
+2014-05-16 15:23:14,523 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:23:14,523 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.commit(Task.java:1156)] Task attempt_local1174659692_0001_m_000001_0 is allowed to commit now
+2014-05-16 15:23:14,524 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitTask(FileOutputCommitter.java:439)] Saved output of task 'attempt_local1174659692_0001_m_000001_0' to file:/tmp/mahout-SequenceFilesFromLuceneStorageMRJobTest-7624683353801494528/seqOutputPath/_temporary/0/task_local1174659692_0001_m_000001
+2014-05-16 15:23:14,525 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] map
+2014-05-16 15:23:14,526 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local1174659692_0001_m_000001_0' done.
+2014-05-16 15:23:14,526 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] Finishing task: attempt_local1174659692_0001_m_000001_0
+2014-05-16 15:23:14,526 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] Starting task: attempt_local1174659692_0001_m_000002_0
+2014-05-16 15:23:14,528 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:23:14,530 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:733)] Processing split: org.apache.mahout.text.LuceneSegmentInputSplit@150421e7
+2014-05-16 15:23:14,680 (TEST-SequenceFilesFromLuceneStorageMRJobTest.testRun-seed#[97EA003D38272ACA]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1365)] Job job_local1174659692_0001 running in uber mode : false
+2014-05-16 15:23:14,682 (TEST-SequenceFilesFromLuceneStorageMRJobTest.testRun-seed#[97EA003D38272ACA]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1372)]  map 100% reduce 0%
+2014-05-16 15:23:14,702 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:23:14,703 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local1174659692_0001_m_000002_0 is done. And is in the process of committing
+2014-05-16 15:23:14,704 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:23:14,704 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.commit(Task.java:1156)] Task attempt_local1174659692_0001_m_000002_0 is allowed to commit now
+2014-05-16 15:23:14,706 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitTask(FileOutputCommitter.java:439)] Saved output of task 'attempt_local1174659692_0001_m_000002_0' to file:/tmp/mahout-SequenceFilesFromLuceneStorageMRJobTest-7624683353801494528/seqOutputPath/_temporary/0/task_local1174659692_0001_m_000002
+2014-05-16 15:23:14,707 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] map
+2014-05-16 15:23:14,707 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local1174659692_0001_m_000002_0' done.
+2014-05-16 15:23:14,707 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] Finishing task: attempt_local1174659692_0001_m_000002_0
+2014-05-16 15:23:14,707 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] Starting task: attempt_local1174659692_0001_m_000003_0
+2014-05-16 15:23:14,710 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:23:14,712 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:733)] Processing split: org.apache.mahout.text.LuceneSegmentInputSplit@325dc1bc
+2014-05-16 15:23:14,901 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:23:14,901 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local1174659692_0001_m_000003_0 is done. And is in the process of committing
+2014-05-16 15:23:14,904 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:23:14,904 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.commit(Task.java:1156)] Task attempt_local1174659692_0001_m_000003_0 is allowed to commit now
+2014-05-16 15:23:14,905 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitTask(FileOutputCommitter.java:439)] Saved output of task 'attempt_local1174659692_0001_m_000003_0' to file:/tmp/mahout-SequenceFilesFromLuceneStorageMRJobTest-7624683353801494528/seqOutputPath/_temporary/0/task_local1174659692_0001_m_000003
+2014-05-16 15:23:14,907 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] map
+2014-05-16 15:23:14,907 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local1174659692_0001_m_000003_0' done.
+2014-05-16 15:23:14,908 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] Finishing task: attempt_local1174659692_0001_m_000003_0
+2014-05-16 15:23:14,908 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] Starting task: attempt_local1174659692_0001_m_000004_0
+2014-05-16 15:23:14,911 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:23:14,913 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:733)] Processing split: org.apache.mahout.text.LuceneSegmentInputSplit@7e521366
+2014-05-16 15:23:14,969 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:23:14,969 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local1174659692_0001_m_000004_0 is done. And is in the process of committing
+2014-05-16 15:23:14,972 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:23:14,972 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.commit(Task.java:1156)] Task attempt_local1174659692_0001_m_000004_0 is allowed to commit now
+2014-05-16 15:23:14,974 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitTask(FileOutputCommitter.java:439)] Saved output of task 'attempt_local1174659692_0001_m_000004_0' to file:/tmp/mahout-SequenceFilesFromLuceneStorageMRJobTest-7624683353801494528/seqOutputPath/_temporary/0/task_local1174659692_0001_m_000004
+2014-05-16 15:23:14,975 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] map
+2014-05-16 15:23:14,975 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local1174659692_0001_m_000004_0' done.
+2014-05-16 15:23:14,976 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] Finishing task: attempt_local1174659692_0001_m_000004_0
+2014-05-16 15:23:14,976 (Thread-11) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] map task executor complete.
+2014-05-16 15:23:15,686 (TEST-SequenceFilesFromLuceneStorageMRJobTest.testRun-seed#[97EA003D38272ACA]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1383)] Job job_local1174659692_0001 completed successfully
+2014-05-16 15:23:15,723 (TEST-SequenceFilesFromLuceneStorageMRJobTest.testRun-seed#[97EA003D38272ACA]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1390)] Counters: 20
+	File System Counters
+		FILE: Number of bytes read=1612765
+		FILE: Number of bytes written=1425884
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=2002
+		Map output records=2002
+		Input split bytes=720
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=0
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=2574254080
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=79653
+	org.apache.mahout.text.SequenceFilesFromLuceneStorageMapper$DataStatus
+		EMPTY_KEY=1
+		EMPTY_VALUE=1
+2014-05-16 15:23:15,856 (TEST-SequenceFilesFromLuceneStorageMRJobTest.testRun-seed#[97EA003D38272ACA]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageMRJobTest-7624683353801494528/seqOutputPath
+2014-05-16 15:23:15,857 (TEST-SequenceFilesFromLuceneStorageMRJobTest.testRun-seed#[97EA003D38272ACA]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageMRJobTest-7624683353801494528/index1
+2014-05-16 15:23:15,858 (TEST-SequenceFilesFromLuceneStorageMRJobTest.testRun-seed#[97EA003D38272ACA]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageMRJobTest-7624683353801494528/index2

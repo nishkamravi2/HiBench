@@ -1,0 +1,1 @@
+2014-05-16 15:19:14,807 (TEST-TestAffinityMatrixInputJob.testAffinityMatrixInputMapper-seed#[392140B9CBFE835]) [WARN - org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62)] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable

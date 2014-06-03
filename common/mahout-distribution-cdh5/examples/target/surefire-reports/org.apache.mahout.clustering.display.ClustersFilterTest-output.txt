@@ -1,0 +1,1 @@
+2014-05-16 15:23:43,872 (TEST-ClustersFilterTest.testAcceptNotFinal-seed#[B64ADCBED7915CC7]) [WARN - org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62)] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable

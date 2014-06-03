@@ -1,0 +1,3 @@
+2014-05-16 15:18:02,604 (TEST-PartialBuilderTest.testProcessOutput-seed#[2F14E1541AD7DB78]) [WARN - org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62)] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-05-16 15:18:04,541 (TEST-PartialBuilderTest.testProcessOutput-seed#[2F14E1541AD7DB78]) [INFO - org.apache.hadoop.io.compress.CodecPool.getCompressor(CodecPool.java:151)] Got brand-new compressor [.deflate]
+2014-05-16 15:18:04,618 (TEST-PartialBuilderTest.testProcessOutput-seed#[2F14E1541AD7DB78]) [INFO - org.apache.hadoop.io.compress.CodecPool.getDecompressor(CodecPool.java:179)] Got brand-new decompressor [.deflate]

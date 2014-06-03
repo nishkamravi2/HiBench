@@ -1,0 +1,807 @@
+May 16, 2014 3:16:44 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Finding 50 singular vectors of matrix with 1000 rows, via Hebbian
+May 16, 2014 3:16:44 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:44 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:44 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:44 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:44 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:44 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 4 passes through the corpus, checking convergence...
+May 16, 2014 3:16:44 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -2020.9910127295543, convergence target is: 1.0E-5
+May 16, 2014 3:16:44 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 0, eigenvalue: 117.10628215758277
+May 16, 2014 3:16:44 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:44 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:44 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:44 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:44 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -2145.057917951814, convergence target is: 1.0E-5
+May 16, 2014 3:16:44 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 1, eigenvalue: 104.26747146513165
+May 16, 2014 3:16:44 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -2285.067735163005, convergence target is: 1.0E-5
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 2, eigenvalue: 111.13440193578336
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1716.236407315249, convergence target is: 1.0E-5
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 3, eigenvalue: 102.5690165554163
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -3732.7449988993867, convergence target is: 1.0E-5
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 4, eigenvalue: 120.93306604409696
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -2977.364893654584, convergence target is: 1.0E-5
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 5, eigenvalue: 109.00566159105271
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -2493.0529089890324, convergence target is: 1.0E-5
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 6, eigenvalue: 106.51171723697337
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -3565.9834632998463, convergence target is: 1.0E-5
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 7, eigenvalue: 106.48342504230082
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -4739.220044866966, convergence target is: 1.0E-5
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 8, eigenvalue: 111.63335051797274
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -2143.122884827554, convergence target is: 1.0E-5
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 9, eigenvalue: 95.93753714772633
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -2164.5708788766246, convergence target is: 1.0E-5
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 10, eigenvalue: 105.85412829278106
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -2775.403189817275, convergence target is: 1.0E-5
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 11, eigenvalue: 106.756721817754
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -2867.1235300579287, convergence target is: 1.0E-5
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 12, eigenvalue: 99.35881300559495
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -2587.87384118475, convergence target is: 1.0E-5
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 13, eigenvalue: 99.68217778942497
+May 16, 2014 3:16:45 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -2510.656621492895, convergence target is: 1.0E-5
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 14, eigenvalue: 97.39809954002342
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1746.4886159280186, convergence target is: 1.0E-5
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 15, eigenvalue: 92.46469134193968
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1728.7890678498582, convergence target is: 1.0E-5
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 16, eigenvalue: 89.19916503301218
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1610.9707681738978, convergence target is: 1.0E-5
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 17, eigenvalue: 85.27353877003377
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1813.0153376433168, convergence target is: 1.0E-5
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 18, eigenvalue: 89.11300076655891
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1349.167026960829, convergence target is: 1.0E-5
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 19, eigenvalue: 81.22457649955757
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1881.807442590615, convergence target is: 1.0E-5
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 20, eigenvalue: 90.19150611898715
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1493.7500475891113, convergence target is: 1.0E-5
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 21, eigenvalue: 84.09461313544472
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1252.2628954518873, convergence target is: 1.0E-5
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 22, eigenvalue: 80.20331256946626
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1671.6280378048564, convergence target is: 1.0E-5
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 23, eigenvalue: 84.37921373642531
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1232.0743315262391, convergence target is: 1.0E-5
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 24, eigenvalue: 76.60640180855164
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1445.785856025514, convergence target is: 1.0E-5
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 25, eigenvalue: 82.93641883264551
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1785.011500650392, convergence target is: 1.0E-5
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 26, eigenvalue: 83.4586014283139
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1227.0026991590983, convergence target is: 1.0E-5
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 27, eigenvalue: 76.23941836769107
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1180.757864601817, convergence target is: 1.0E-5
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 28, eigenvalue: 78.02068603955027
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1004.3375344958793, convergence target is: 1.0E-5
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 29, eigenvalue: 72.98030704504863
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1619.667397687327, convergence target is: 1.0E-5
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 30, eigenvalue: 78.19809526295113
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1469.4348376842315, convergence target is: 1.0E-5
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 31, eigenvalue: 74.90055740919044
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1274.8121941952752, convergence target is: 1.0E-5
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 32, eigenvalue: 78.84974216110386
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1350.2655298008513, convergence target is: 1.0E-5
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 33, eigenvalue: 77.72999822198128
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1948.5841582719333, convergence target is: 1.0E-5
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 34, eigenvalue: 82.57721800491412
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1175.3310027502498, convergence target is: 1.0E-5
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 35, eigenvalue: 74.44627393734538
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1335.99030249623, convergence target is: 1.0E-5
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 36, eigenvalue: 75.67416331793122
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:46 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1368.6667059454812, convergence target is: 1.0E-5
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 37, eigenvalue: 75.16270679495922
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1120.6293237488305, convergence target is: 1.0E-5
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 38, eigenvalue: 69.83317661590515
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -990.3657647630288, convergence target is: 1.0E-5
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 39, eigenvalue: 69.43410941992728
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1292.9531751745208, convergence target is: 1.0E-5
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 40, eigenvalue: 73.45937701508646
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1038.6427190476254, convergence target is: 1.0E-5
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 41, eigenvalue: 69.12404637249143
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1143.0954329549513, convergence target is: 1.0E-5
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 42, eigenvalue: 71.32282554929198
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1181.0337869794862, convergence target is: 1.0E-5
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 43, eigenvalue: 65.49239551112238
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1520.747376416378, convergence target is: 1.0E-5
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 44, eigenvalue: 68.20898539767605
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1015.9980267576992, convergence target is: 1.0E-5
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 45, eigenvalue: 66.16591091117006
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -925.8051802597264, convergence target is: 1.0E-5
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 46, eigenvalue: 64.17249087836915
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -1583.5868505271908, convergence target is: 1.0E-5
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 47, eigenvalue: 69.56216100047793
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -951.6345260556062, convergence target is: 1.0E-5
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 48, eigenvalue: 63.161879412130304
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: First pass through the corpus, no need to check convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 2 passes through the corpus, checking convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Verifier not finished, making another pass...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Have made 3 passes through the corpus, checking convergence...
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Has 1 - cosAngle: -946.8902841613356, convergence target is: 1.0E-5
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.hebbian.HebbianSolver info
+INFO: Found eigenvector 49, eigenvalue: 64.4912482841029
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.014658453976566954 for eigen 0
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.01094387388591056 for eigen 1
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.014259166386898614 for eigen 2
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.019704150731938874 for eigen 3
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.012221183535739089 for eigen 4
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.01811676524685446 for eigen 5
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.01380932187640016 for eigen 6
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.013608679333921625 for eigen 7
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.009214122774077071 for eigen 8
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.015150828711504749 for eigen 9
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.023174271150101955 for eigen 10
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.014176797085550752 for eigen 11
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.01679172127084172 for eigen 12
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.020345115993694374 for eigen 13
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.016839195412715613 for eigen 14
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.017396712119798097 for eigen 15
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.018785944175173985 for eigen 16
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.02393662583586853 for eigen 17
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.01691459726414668 for eigen 18
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.01921649592465724 for eigen 19
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.017700777477402396 for eigen 20
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.021692032006370376 for eigen 21
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.023134542759744026 for eigen 22
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.01861484593777396 for eigen 23
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.01818908177716405 for eigen 24
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.022285192259135833 for eigen 25
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.02592041494777242 for eigen 26
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.016441471310712608 for eigen 27
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.022121955704560325 for eigen 28
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.019259442373212532 for eigen 29
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.026881677824399874 for eigen 30
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.019293433631200396 for eigen 31
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.019746149970598648 for eigen 32
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.020048598979897747 for eigen 33
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.020734441207447274 for eigen 34
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.021112938119497215 for eigen 35
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.020508640010400647 for eigen 36
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.020000104245892825 for eigen 37
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.020082340693973966 for eigen 38
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.024029269802995024 for eigen 39
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.021917557373839047 for eigen 40
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.02347581514870911 for eigen 41
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.02180405059196988 for eigen 42
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.01908960060533016 for eigen 43
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.021283125634992572 for eigen 44
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.019767929883555357 for eigen 45
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.021034160967866145 for eigen 46
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.021924825850457297 for eigen 47
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.017166694685454842 for eigen 48
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: the eigen-error: 0.020985095369187357 for eigen 49
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+May 16, 2014 3:16:47 PM org.apache.mahout.math.decomposer.SolverTest info
+INFO: 0:[]
+Avg solving (Hebbian) time in ms: 3192

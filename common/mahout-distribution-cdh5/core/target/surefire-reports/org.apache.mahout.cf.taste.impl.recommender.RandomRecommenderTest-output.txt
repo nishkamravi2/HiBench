@@ -1,0 +1,1 @@
+2014-05-16 15:18:24,267 (TEST-RandomRecommenderTest.testRecommender-seed#[4A7A031DA67781F6]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 4 users

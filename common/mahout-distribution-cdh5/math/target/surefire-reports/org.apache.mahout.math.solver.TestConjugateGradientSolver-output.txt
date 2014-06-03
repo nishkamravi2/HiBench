@@ -1,0 +1,120 @@
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient initial residual norm = 2.3772877753877424
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 1 residual norm = 1.7545036179209657
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 2 residual norm = 1.422448642435743
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 3 residual norm = 0.7973277180869496
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 4 residual norm = 0.6517237875126137
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 5 residual norm = 0.3892299413590186
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 6 residual norm = 0.12138991603995655
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 7 residual norm = 0.032399073956924145
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient initial residual norm = 2.3772877753877424
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 1 residual norm = 1.7545036179209657
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 2 residual norm = 1.422448642435743
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 3 residual norm = 0.7973277180869496
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 4 residual norm = 0.6517237875126137
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 5 residual norm = 0.3892299413590186
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 6 residual norm = 0.12138991603995655
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 7 residual norm = 0.032399073956924145
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient initial residual norm = 2.3772877753877424
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 1 residual norm = 5.987438049300915
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 2 residual norm = 7.492863798121873
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 3 residual norm = 1.8487623331898464
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 4 residual norm = 1.4065150816163403
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 5 residual norm = 2.2614250986943905
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 6 residual norm = 0.7591370927034338
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 7 residual norm = 20.728866555013045
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 8 residual norm = 0.20959048463647925
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 9 residual norm = 0.17317290219557696
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 10 residual norm = 15.364403089389814
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 11 residual norm = 0.13417856515276336
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 12 residual norm = 0.039021107249536946
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 13 residual norm = 0.0013424989772309588
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 14 residual norm = 0.3156389544403296
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 15 residual norm = 1.1097884708327406E-4
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 16 residual norm = 9.276278410137324E-10
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient initial residual norm = 2.3772877753877424
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 1 residual norm = 44.252654857562106
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 2 residual norm = 150.48982072223322
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 3 residual norm = 1.8932927794672825
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 4 residual norm = 1.5076885239411997
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 5 residual norm = 1.2549915595134546
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 6 residual norm = 82.2096080716347
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 7 residual norm = 7.953887304423744
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 8 residual norm = 0.5013043715469717
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 9 residual norm = 0.3682579087038782
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 10 residual norm = 0.07252506804248557
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 11 residual norm = 0.9954843550402431
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 12 residual norm = 0.046267755222469
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 13 residual norm = 0.009577020069866446
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 14 residual norm = 7.870255616185932E-7
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 15 residual norm = 3.587619042904057E-10
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient initial residual norm = 2.3772877753877424
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 1 residual norm = 1.7545036179209657
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 2 residual norm = 1.422448642435743
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 3 residual norm = 0.7973277180869496
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 4 residual norm = 0.6517237875126137
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 5 residual norm = 0.3892299413590186
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 6 residual norm = 0.12138991603995655
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 7 residual norm = 0.032399073956924145
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 8 residual norm = 0.011186881083454042
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 9 residual norm = 0.017486040810501556
+May 16, 2014 3:16:47 PM org.apache.mahout.math.solver.ConjugateGradientSolver info
+INFO: Conjugate gradient iteration 10 residual norm = 1.0929687386410054E-12

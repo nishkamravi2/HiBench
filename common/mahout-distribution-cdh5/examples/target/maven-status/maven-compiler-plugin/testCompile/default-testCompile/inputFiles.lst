@@ -1,0 +1,5 @@
+/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/examples/src/test/java/org/apache/mahout/classifier/sgd/TrainLogisticTest.java
+/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/examples/src/test/java/org/apache/mahout/clustering/display/ClustersFilterTest.java
+/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/examples/src/test/java/org/apache/mahout/classifier/sgd/ModelDissectorTest.java
+/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/examples/src/test/java/org/apache/mahout/examples/MahoutTestCase.java
+/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/examples/src/test/java/org/apache/mahout/classifier/sgd/LogisticModelParametersTest.java

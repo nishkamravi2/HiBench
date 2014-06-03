@@ -1,0 +1,1 @@
+2014-05-16 15:23:09,232 (TEST-RegexMapperTest.testRegex-seed#[C95BF912828C9A58]) [WARN - org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62)] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable

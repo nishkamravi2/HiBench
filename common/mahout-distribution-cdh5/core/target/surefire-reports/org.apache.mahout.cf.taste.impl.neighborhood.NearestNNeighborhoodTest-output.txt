@@ -1,0 +1,1 @@
+2014-05-16 15:18:34,098 (TEST-NearestNNeighborhoodTest.testNeighborhood-seed#[2F732F38B25880BF]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 4 users

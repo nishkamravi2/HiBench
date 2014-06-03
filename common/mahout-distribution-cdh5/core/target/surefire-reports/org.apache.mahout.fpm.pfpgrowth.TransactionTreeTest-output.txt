@@ -1,0 +1,7 @@
+2014-05-16 15:19:20,304 (TEST-TransactionTreeTest.testTransactionTree-seed#[3054A62D079BDE0F]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Input integers: 1501277
+2014-05-16 15:19:20,333 (TEST-TransactionTreeTest.testTransactionTree-seed#[3054A62D079BDE0F]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Input data Size: 6.005108
+2014-05-16 15:19:20,333 (TEST-TransactionTreeTest.testTransactionTree-seed#[3054A62D079BDE0F]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Nodes in Tree: 147226
+2014-05-16 15:19:20,348 (TEST-TransactionTreeTest.testTransactionTree-seed#[3054A62D079BDE0F]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Size of Tree: 2.94452
+2014-05-16 15:19:21,595 (TEST-TransactionTreeTest.testTransactionTree-seed#[3054A62D079BDE0F]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Number of transaction integers: 569015
+2014-05-16 15:19:21,602 (TEST-TransactionTreeTest.testTransactionTree-seed#[3054A62D079BDE0F]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Size of Transactions: 3.156644
+2014-05-16 15:19:21,602 (TEST-TransactionTreeTest.testTransactionTree-seed#[3054A62D079BDE0F]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Number of Transactions: 110073

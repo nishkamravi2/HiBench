@@ -1,0 +1,39 @@
+2014-05-16 15:19:18,031 (TEST-FPGrowthTest.testNoNullPointerExceptionWhenReturnableFeaturesIsNull-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Number of unique items 0
+2014-05-16 15:19:18,065 (TEST-FPGrowthTest.testNoNullPointerExceptionWhenReturnableFeaturesIsNull-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Number of unique pruned items 0
+2014-05-16 15:19:18,111 (TEST-FPGrowthTest.testNoNullPointerExceptionWhenReturnableFeaturesIsNull-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Number of Nodes in the FP Tree: 0
+2014-05-16 15:19:18,114 (TEST-FPGrowthTest.testNoNullPointerExceptionWhenReturnableFeaturesIsNull-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:307)] Tree Cache: First Level: Cache hits=0 Cache Misses=0
+2014-05-16 15:19:19,354 (TEST-FPGrowthTest.testMaxHeapFPGrowthData1-seed#[31AB23C9F25C2CCB]) [WARN - org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62)] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[(X,22), (Y,14)]
+2014-05-16 15:19:21,255 (TEST-FPGrowthTest.testMaxHeapFPGrowthData1-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Number of unique items 2
+2014-05-16 15:19:21,256 (TEST-FPGrowthTest.testMaxHeapFPGrowthData1-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Number of unique pruned items 2
+2014-05-16 15:19:21,257 (TEST-FPGrowthTest.testMaxHeapFPGrowthData1-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Number of Nodes in the FP Tree: 3
+2014-05-16 15:19:21,263 (TEST-FPGrowthTest.testMaxHeapFPGrowthData1-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Mining FTree Tree for all patterns with 1
+2014-05-16 15:19:21,307 (TEST-FPGrowthTest.testMaxHeapFPGrowthData1-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:307)] Found 2 Patterns with Least Support 14
+2014-05-16 15:19:21,309 (TEST-FPGrowthTest.testMaxHeapFPGrowthData1-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Mining FTree Tree for all patterns with 0
+2014-05-16 15:19:21,313 (TEST-FPGrowthTest.testMaxHeapFPGrowthData1-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:307)] Found 2 Patterns with Least Support 22
+2014-05-16 15:19:21,314 (TEST-FPGrowthTest.testMaxHeapFPGrowthData1-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:307)] Tree Cache: First Level: Cache hits=1 Cache Misses=2
+[(X,33), (Y,25), (Z,11)]
+2014-05-16 15:19:22,023 (TEST-FPGrowthTest.testMaxHeapFPGrowthData2-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Number of unique items 3
+2014-05-16 15:19:22,023 (TEST-FPGrowthTest.testMaxHeapFPGrowthData2-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Number of unique pruned items 3
+2014-05-16 15:19:22,024 (TEST-FPGrowthTest.testMaxHeapFPGrowthData2-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Number of Nodes in the FP Tree: 4
+2014-05-16 15:19:22,027 (TEST-FPGrowthTest.testMaxHeapFPGrowthData2-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Mining FTree Tree for all patterns with 2
+2014-05-16 15:19:22,028 (TEST-FPGrowthTest.testMaxHeapFPGrowthData2-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:307)] Found 1 Patterns with Least Support 11
+2014-05-16 15:19:22,029 (TEST-FPGrowthTest.testMaxHeapFPGrowthData2-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Mining FTree Tree for all patterns with 1
+2014-05-16 15:19:22,030 (TEST-FPGrowthTest.testMaxHeapFPGrowthData2-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:307)] Found 3 Patterns with Least Support 25
+2014-05-16 15:19:22,030 (TEST-FPGrowthTest.testMaxHeapFPGrowthData2-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Mining FTree Tree for all patterns with 0
+2014-05-16 15:19:22,031 (TEST-FPGrowthTest.testMaxHeapFPGrowthData2-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:307)] Found 3 Patterns with Least Support 33
+2014-05-16 15:19:22,031 (TEST-FPGrowthTest.testMaxHeapFPGrowthData2-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:307)] Tree Cache: First Level: Cache hits=3 Cache Misses=3
+2014-05-16 15:19:22,444 (TEST-FPGrowthTest.testMaxHeapFPGrowth-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Number of unique items 5
+2014-05-16 15:19:22,445 (TEST-FPGrowthTest.testMaxHeapFPGrowth-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Number of unique pruned items 5
+2014-05-16 15:19:22,445 (TEST-FPGrowthTest.testMaxHeapFPGrowth-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Number of Nodes in the FP Tree: 12
+2014-05-16 15:19:22,446 (TEST-FPGrowthTest.testMaxHeapFPGrowth-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Mining FTree Tree for all patterns with 4
+2014-05-16 15:19:22,447 (TEST-FPGrowthTest.testMaxHeapFPGrowth-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:307)] Found 1 Patterns with Least Support 3
+2014-05-16 15:19:22,447 (TEST-FPGrowthTest.testMaxHeapFPGrowth-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Mining FTree Tree for all patterns with 3
+2014-05-16 15:19:22,449 (TEST-FPGrowthTest.testMaxHeapFPGrowth-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:307)] Found 3 Patterns with Least Support 4
+2014-05-16 15:19:22,449 (TEST-FPGrowthTest.testMaxHeapFPGrowth-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Mining FTree Tree for all patterns with 2
+2014-05-16 15:19:22,451 (TEST-FPGrowthTest.testMaxHeapFPGrowth-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:307)] Found 7 Patterns with Least Support 5
+2014-05-16 15:19:22,451 (TEST-FPGrowthTest.testMaxHeapFPGrowth-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Mining FTree Tree for all patterns with 1
+2014-05-16 15:19:22,453 (TEST-FPGrowthTest.testMaxHeapFPGrowth-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:307)] Found 5 Patterns with Least Support 6
+2014-05-16 15:19:22,453 (TEST-FPGrowthTest.testMaxHeapFPGrowth-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Mining FTree Tree for all patterns with 0
+2014-05-16 15:19:22,456 (TEST-FPGrowthTest.testMaxHeapFPGrowth-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:307)] Found 6 Patterns with Least Support 6
+2014-05-16 15:19:22,456 (TEST-FPGrowthTest.testMaxHeapFPGrowth-seed#[31AB23C9F25C2CCB]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:307)] Tree Cache: First Level: Cache hits=10 Cache Misses=5

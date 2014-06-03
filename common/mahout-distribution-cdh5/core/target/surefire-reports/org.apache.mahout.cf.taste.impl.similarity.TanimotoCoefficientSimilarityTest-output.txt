@@ -1,0 +1,10 @@
+2014-05-16 15:18:29,131 (TEST-TanimotoCoefficientSimilarityTest.testNoCorrelation-seed#[49107B7632FFAA24]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:29,190 (TEST-TanimotoCoefficientSimilarityTest.testRefresh-seed#[49107B7632FFAA24]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 4 users
+2014-05-16 15:18:29,297 (TEST-TanimotoCoefficientSimilarityTest.testRefresh-seed#[49107B7632FFAA24]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Added refreshable: GenericDataModel[users:1,2,3...]
+2014-05-16 15:18:29,303 (TEST-TanimotoCoefficientSimilarityTest.testRefresh-seed#[49107B7632FFAA24]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Refreshed: [GenericDataModel[users:1,2,3...]]
+2014-05-16 15:18:29,352 (TEST-TanimotoCoefficientSimilarityTest.testCorrelation1-seed#[49107B7632FFAA24]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:29,381 (TEST-TanimotoCoefficientSimilarityTest.testFullCorrelation1-seed#[49107B7632FFAA24]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:29,468 (TEST-TanimotoCoefficientSimilarityTest.testCorrelation2-seed#[49107B7632FFAA24]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:29,526 (TEST-TanimotoCoefficientSimilarityTest.testReturnNaNDoubleWhenNoSimilaritiesForTwoItems-seed#[49107B7632FFAA24]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:29,582 (TEST-TanimotoCoefficientSimilarityTest.testFullCorrelation2-seed#[49107B7632FFAA24]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:29,625 (TEST-TanimotoCoefficientSimilarityTest.testItemsSimilarities-seed#[49107B7632FFAA24]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users

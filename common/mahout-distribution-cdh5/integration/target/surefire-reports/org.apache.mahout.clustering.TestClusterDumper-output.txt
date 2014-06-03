@@ -1,0 +1,1099 @@
+2014-05-16 15:23:05,123 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62)] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+0 all
+1 baseball
+2 best
+3 black
+4 bob
+5 brown
+6 cap
+7 cat
+8 crazy
+9 dick
+10 dogs
+11 english
+12 fleece
+13 fox
+14 goat
+15 had
+16 jacket
+17 jumped
+18 lamb
+19 lazy
+20 little
+21 man
+22 mary
+23 moby
+24 obsessed
+25 over
+26 quick
+27 red
+28 robber
+29 snow
+30 spaniel
+31 springer
+32 story
+33 tar
+34 walrus
+35 whale
+36 white
+37 whose
+38 wore
+P(0) = [brown:2.099, dogs:1.916, fox:2.609, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]
+P(1) = [brown:2.099, dogs:1.916, fox:2.609, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]
+P(2) = [brown:2.099, cat:2.609, dogs:1.916, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]
+P(3) = [brown:2.099, cat:2.609, dogs:1.916, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]
+P(4) = [fleece:1.629, had:2.099, lamb:2.609, little:2.099, mary:2.322, snow:2.322, white:2.099, whose:2.099]
+P(5) = [fleece:1.629, goat:2.609, had:2.099, little:2.099, mary:2.322, snow:2.322, white:2.099, whose:2.099]
+P(6) = [black:2.609, fleece:1.629, had:2.099, lamb:2.609, little:2.099, mary:2.322, tar:3.015, whose:2.099]
+P(7) = [dick:2.322, fleece:1.629, goat:2.609, had:2.099, little:2.099, snow:2.322, white:2.099, whose:2.099]
+P(8) = [dick:2.322, man:2.322, moby:2.322, obsessed:2.609, story:2.322, whale:2.609]
+P(9) = [bob:3.015, man:2.322, moby:2.322, obsessed:2.609, story:2.322, walrus:3.015]
+P(10) = [crazy:3.015, dick:2.322, man:2.322, moby:2.322, story:2.322, whale:2.609]
+P(11) = [baseball:2.322, black:2.609, cap:2.322, fleece:1.629, jacket:2.322, robber:2.322, wore:2.322]
+P(12) = [baseball:2.322, cap:2.322, fleece:1.629, jacket:2.322, red:1.916, robber:2.322, wore:2.322]
+P(13) = [baseball:2.322, cap:2.322, fleece:1.629, jacket:2.322, robber:2.322, white:2.099, wore:2.322]
+P(14) = [all:3.015, best:3.015, dogs:1.916, english:3.015, spaniel:3.015, springer:3.015]
+2014-05-16 15:23:09,165 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:326)] Build Clusters Input: file:/tmp/mahout-TestClusterDumper-228895902094087168/testdata Out: file:/tmp/mahout-TestClusterDumper-228895902094087168/output Measure: org.apache.mahout.common.distance.EuclideanDistanceMeasure@19ebcb16 t1: 8.0 t2: 4.0
+2014-05-16 15:23:09,500 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:326)] Input: file:/tmp/mahout-TestClusterDumper-228895902094087168/testdata Clusters In: file:/tmp/mahout-TestClusterDumper-228895902094087168/output/clusters-0-final Out: file:/tmp/mahout-TestClusterDumper-228895902094087168/output/kmeans
+2014-05-16 15:23:09,501 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:307)] convergence: 0.001 max Iterations: 10
+2014-05-16 15:23:09,992 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:76)] Initializing JVM Metrics with processName=JobTracker, sessionId=
+2014-05-16 15:23:10,548 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:150)] Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-05-16 15:23:10,774 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.lib.input.FileInputFormat.listStatus(FileInputFormat.java:287)] Total input paths to process : 1
+2014-05-16 15:23:10,895 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:396)] number of splits:1
+2014-05-16 15:23:11,536 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.printTokens(JobSubmitter.java:479)] Submitting tokens for job: job_local101334702_0001
+2014-05-16 15:23:11,589 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-TestClusterDumper-3846639356261909504/hadoop0.3534781522841848/mapred/staging/jenkins101334702/.staging/job_local101334702_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:23:11,590 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-TestClusterDumper-3846639356261909504/hadoop0.3534781522841848/mapred/staging/jenkins101334702/.staging/job_local101334702_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:23:12,029 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-TestClusterDumper-3846639356261909504/hadoop0.3534781522841848/mapred/local/localRunner/jenkins/job_local101334702_0001/job_local101334702_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:23:12,032 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-TestClusterDumper-3846639356261909504/hadoop0.3534781522841848/mapred/local/localRunner/jenkins/job_local101334702_0001/job_local101334702_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:23:12,065 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.submit(Job.java:1299)] The url to track the job: http://localhost:8080/
+2014-05-16 15:23:12,066 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)] Running job: job_local101334702_0001
+2014-05-16 15:23:12,083 (Thread-25) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:471)] OutputCommitter set in config null
+2014-05-16 15:23:12,100 (Thread-25) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:489)] OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2014-05-16 15:23:12,182 (Thread-25) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for map tasks
+2014-05-16 15:23:12,183 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] Starting task: attempt_local101334702_0001_m_000000_0
+2014-05-16 15:23:12,274 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:23:12,279 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:733)] Processing split: file:/tmp/mahout-TestClusterDumper-228895902094087168/testdata/file1:0+1398
+2014-05-16 15:23:12,318 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:388)] Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-05-16 15:23:12,420 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.setEquator(MapTask.java:1182)] (EQUATOR) 0 kvi 26214396(104857584)
+2014-05-16 15:23:12,421 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:975)] mapreduce.task.io.sort.mb: 100
+2014-05-16 15:23:12,421 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:976)] soft limit at 83886080
+2014-05-16 15:23:12,421 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:977)] bufstart = 0; bufvoid = 104857600
+2014-05-16 15:23:12,422 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:978)] kvstart = 26214396; length = 6553600
+2014-05-16 15:23:12,573 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:23:12,574 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1437)] Starting flush of map output
+2014-05-16 15:23:12,574 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1455)] Spilling map output
+2014-05-16 15:23:12,574 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1456)] bufstart = 0; bufend = 3090; bufvoid = 104857600
+2014-05-16 15:23:12,574 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1458)] kvstart = 26214396(104857584); kvend = 26214368(104857472); length = 29/6553600
+2014-05-16 15:23:12,588 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.sortAndSpill(MapTask.java:1641)] Finished spill 0
+2014-05-16 15:23:12,594 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local101334702_0001_m_000000_0 is done. And is in the process of committing
+2014-05-16 15:23:12,614 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] map
+2014-05-16 15:23:12,614 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local101334702_0001_m_000000_0' done.
+2014-05-16 15:23:12,615 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] Finishing task: attempt_local101334702_0001_m_000000_0
+2014-05-16 15:23:12,615 (Thread-25) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] map task executor complete.
+2014-05-16 15:23:12,620 (Thread-25) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for reduce tasks
+2014-05-16 15:23:12,620 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] Starting task: attempt_local101334702_0001_r_000000_0
+2014-05-16 15:23:12,637 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:23:12,648 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@49d60362
+2014-05-16 15:23:12,672 (pool-3-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:193)] MergerManager: memoryLimit=360395552, maxSingleShuffleLimit=90098888, mergeThreshold=237861072, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2014-05-16 15:23:12,684 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] attempt_local101334702_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2014-05-16 15:23:12,779 (localfetcher#1) [INFO - org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:140)] localfetcher#1 about to shuffle output of map attempt_local101334702_0001_m_000000_0 decomp: 3124 len: 3128 to MEMORY
+2014-05-16 15:23:12,813 (localfetcher#1) [INFO - org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] Read 3124 bytes from map-output for attempt_local101334702_0001_m_000000_0
+2014-05-16 15:23:12,813 (localfetcher#1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:307)] closeInMemoryFile -> map-output of size: 3124, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->3124
+2014-05-16 15:23:12,816 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] EventFetcher is interrupted.. Returning
+2014-05-16 15:23:12,818 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:23:12,819 (pool-3-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:667)] finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2014-05-16 15:23:12,840 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:23:12,841 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 3116 bytes
+2014-05-16 15:23:12,845 (pool-3-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:742)] Merged 1 segments, 3124 bytes to disk to satisfy reduce memory limit
+2014-05-16 15:23:12,846 (pool-3-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:772)] Merging 1 files, 3128 bytes from disk
+2014-05-16 15:23:12,847 (pool-3-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:787)] Merging 0 segments, 0 bytes from memory into reduce
+2014-05-16 15:23:12,847 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:23:12,856 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 3116 bytes
+2014-05-16 15:23:12,857 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:23:12,888 (pool-3-thread-1) [INFO - org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1009)] mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2014-05-16 15:23:13,007 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local101334702_0001_r_000000_0 is done. And is in the process of committing
+2014-05-16 15:23:13,010 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:23:13,011 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.Task.commit(Task.java:1156)] Task attempt_local101334702_0001_r_000000_0 is allowed to commit now
+2014-05-16 15:23:13,013 (pool-3-thread-1) [INFO - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitTask(FileOutputCommitter.java:439)] Saved output of task 'attempt_local101334702_0001_r_000000_0' to file:/tmp/mahout-TestClusterDumper-228895902094087168/output/kmeans/clusters-1/_temporary/0/task_local101334702_0001_r_000000
+2014-05-16 15:23:13,014 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] reduce > reduce
+2014-05-16 15:23:13,015 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local101334702_0001_r_000000_0' done.
+2014-05-16 15:23:13,015 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] Finishing task: attempt_local101334702_0001_r_000000_0
+2014-05-16 15:23:13,015 (Thread-25) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] reduce task executor complete.
+2014-05-16 15:23:13,088 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1365)] Job job_local101334702_0001 running in uber mode : false
+2014-05-16 15:23:13,089 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1372)]  map 100% reduce 100%
+2014-05-16 15:23:13,091 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1383)] Job job_local101334702_0001 completed successfully
+2014-05-16 15:23:13,125 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1390)] Counters: 33
+	File System Counters
+		FILE: Number of bytes read=2972566
+		FILE: Number of bytes written=3432709
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=15
+		Map output records=8
+		Map output bytes=3090
+		Map output materialized bytes=3128
+		Input split bytes=133
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=8
+		Reduce shuffle bytes=3128
+		Reduce input records=8
+		Reduce output records=8
+		Spilled Records=16
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=0
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=1029701632
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=1418
+	File Output Format Counters 
+		Bytes Written=2161
+2014-05-16 15:23:13,160 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:71)] Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-05-16 15:23:13,167 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:150)] Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-05-16 15:23:13,252 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.lib.input.FileInputFormat.listStatus(FileInputFormat.java:287)] Total input paths to process : 1
+2014-05-16 15:23:13,283 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:396)] number of splits:1
+2014-05-16 15:23:13,375 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.printTokens(JobSubmitter.java:479)] Submitting tokens for job: job_local1284872035_0002
+2014-05-16 15:23:13,410 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-TestClusterDumper-3846639356261909504/hadoop0.3534781522841848/mapred/staging/jenkins1284872035/.staging/job_local1284872035_0002/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:23:13,411 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-TestClusterDumper-3846639356261909504/hadoop0.3534781522841848/mapred/staging/jenkins1284872035/.staging/job_local1284872035_0002/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:23:13,577 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-TestClusterDumper-3846639356261909504/hadoop0.3534781522841848/mapred/local/localRunner/jenkins/job_local1284872035_0002/job_local1284872035_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:23:13,578 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-TestClusterDumper-3846639356261909504/hadoop0.3534781522841848/mapred/local/localRunner/jenkins/job_local1284872035_0002/job_local1284872035_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:23:13,582 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.submit(Job.java:1299)] The url to track the job: http://localhost:8080/
+2014-05-16 15:23:13,582 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)] Running job: job_local1284872035_0002
+2014-05-16 15:23:13,583 (Thread-49) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:471)] OutputCommitter set in config null
+2014-05-16 15:23:13,595 (Thread-49) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:489)] OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2014-05-16 15:23:13,605 (Thread-49) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for map tasks
+2014-05-16 15:23:13,605 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] Starting task: attempt_local1284872035_0002_m_000000_0
+2014-05-16 15:23:13,610 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:23:13,613 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:733)] Processing split: file:/tmp/mahout-TestClusterDumper-228895902094087168/testdata/file1:0+1398
+2014-05-16 15:23:13,614 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:388)] Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-05-16 15:23:13,697 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.setEquator(MapTask.java:1182)] (EQUATOR) 0 kvi 26214396(104857584)
+2014-05-16 15:23:13,698 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:975)] mapreduce.task.io.sort.mb: 100
+2014-05-16 15:23:13,698 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:976)] soft limit at 83886080
+2014-05-16 15:23:13,698 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:977)] bufstart = 0; bufvoid = 104857600
+2014-05-16 15:23:13,699 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:978)] kvstart = 26214396; length = 6553600
+2014-05-16 15:23:13,867 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:23:13,868 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1437)] Starting flush of map output
+2014-05-16 15:23:13,868 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1455)] Spilling map output
+2014-05-16 15:23:13,868 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1456)] bufstart = 0; bufend = 2946; bufvoid = 104857600
+2014-05-16 15:23:13,868 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1458)] kvstart = 26214396(104857584); kvend = 26214368(104857472); length = 29/6553600
+2014-05-16 15:23:13,874 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.sortAndSpill(MapTask.java:1641)] Finished spill 0
+2014-05-16 15:23:13,878 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local1284872035_0002_m_000000_0 is done. And is in the process of committing
+2014-05-16 15:23:13,881 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] map
+2014-05-16 15:23:13,881 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local1284872035_0002_m_000000_0' done.
+2014-05-16 15:23:13,882 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] Finishing task: attempt_local1284872035_0002_m_000000_0
+2014-05-16 15:23:13,882 (Thread-49) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] map task executor complete.
+2014-05-16 15:23:13,884 (Thread-49) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for reduce tasks
+2014-05-16 15:23:13,884 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] Starting task: attempt_local1284872035_0002_r_000000_0
+2014-05-16 15:23:13,888 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:23:13,889 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@459ca1ae
+2014-05-16 15:23:13,890 (pool-6-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:193)] MergerManager: memoryLimit=360395552, maxSingleShuffleLimit=90098888, mergeThreshold=237861072, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2014-05-16 15:23:13,902 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] attempt_local1284872035_0002_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2014-05-16 15:23:13,908 (localfetcher#2) [INFO - org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:140)] localfetcher#2 about to shuffle output of map attempt_local1284872035_0002_m_000000_0 decomp: 2980 len: 2984 to MEMORY
+2014-05-16 15:23:13,909 (localfetcher#2) [INFO - org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] Read 2980 bytes from map-output for attempt_local1284872035_0002_m_000000_0
+2014-05-16 15:23:13,910 (localfetcher#2) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:307)] closeInMemoryFile -> map-output of size: 2980, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2980
+2014-05-16 15:23:13,915 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] EventFetcher is interrupted.. Returning
+2014-05-16 15:23:13,916 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:23:13,916 (pool-6-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:667)] finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2014-05-16 15:23:13,920 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:23:13,921 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 2972 bytes
+2014-05-16 15:23:13,930 (pool-6-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:742)] Merged 1 segments, 2980 bytes to disk to satisfy reduce memory limit
+2014-05-16 15:23:13,931 (pool-6-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:772)] Merging 1 files, 2984 bytes from disk
+2014-05-16 15:23:13,931 (pool-6-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:787)] Merging 0 segments, 0 bytes from memory into reduce
+2014-05-16 15:23:13,932 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:23:13,932 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 2972 bytes
+2014-05-16 15:23:13,933 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:23:14,013 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local1284872035_0002_r_000000_0 is done. And is in the process of committing
+2014-05-16 15:23:14,016 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:23:14,017 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.Task.commit(Task.java:1156)] Task attempt_local1284872035_0002_r_000000_0 is allowed to commit now
+2014-05-16 15:23:14,018 (pool-6-thread-1) [INFO - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitTask(FileOutputCommitter.java:439)] Saved output of task 'attempt_local1284872035_0002_r_000000_0' to file:/tmp/mahout-TestClusterDumper-228895902094087168/output/kmeans/clusters-2/_temporary/0/task_local1284872035_0002_r_000000
+2014-05-16 15:23:14,020 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] reduce > reduce
+2014-05-16 15:23:14,021 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local1284872035_0002_r_000000_0' done.
+2014-05-16 15:23:14,021 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] Finishing task: attempt_local1284872035_0002_r_000000_0
+2014-05-16 15:23:14,022 (Thread-49) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] reduce task executor complete.
+2014-05-16 15:23:14,584 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1365)] Job job_local1284872035_0002 running in uber mode : false
+2014-05-16 15:23:14,585 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1372)]  map 100% reduce 100%
+2014-05-16 15:23:14,585 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1383)] Job job_local1284872035_0002 completed successfully
+2014-05-16 15:23:14,598 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1390)] Counters: 33
+	File System Counters
+		FILE: Number of bytes read=5946519
+		FILE: Number of bytes written=6856759
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=15
+		Map output records=8
+		Map output bytes=2946
+		Map output materialized bytes=2984
+		Input split bytes=133
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=8
+		Reduce shuffle bytes=2984
+		Reduce input records=8
+		Reduce output records=8
+		Spilled Records=16
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=0
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=1029701632
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=1418
+	File Output Format Counters 
+		Bytes Written=2161
+2014-05-16 15:23:14,637 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:263)] Clustering data
+2014-05-16 15:23:14,637 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:263)] Running Clustering
+2014-05-16 15:23:14,637 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:326)] Input: file:/tmp/mahout-TestClusterDumper-228895902094087168/testdata Clusters In: file:/tmp/mahout-TestClusterDumper-228895902094087168/output/kmeans Out: file:/tmp/mahout-TestClusterDumper-228895902094087168/output/kmeans
+2014-05-16 15:23:14,682 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:71)] Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-05-16 15:23:14,729 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:150)] Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-05-16 15:23:14,770 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.lib.input.FileInputFormat.listStatus(FileInputFormat.java:287)] Total input paths to process : 1
+2014-05-16 15:23:14,791 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:396)] number of splits:1
+2014-05-16 15:23:14,823 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.printTokens(JobSubmitter.java:479)] Submitting tokens for job: job_local1111375546_0003
+2014-05-16 15:23:14,852 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-TestClusterDumper-3846639356261909504/hadoop0.3534781522841848/mapred/staging/jenkins1111375546/.staging/job_local1111375546_0003/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:23:14,852 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-TestClusterDumper-3846639356261909504/hadoop0.3534781522841848/mapred/staging/jenkins1111375546/.staging/job_local1111375546_0003/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:23:14,928 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-TestClusterDumper-3846639356261909504/hadoop0.3534781522841848/mapred/local/localRunner/jenkins/job_local1111375546_0003/job_local1111375546_0003.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:23:14,929 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-TestClusterDumper-3846639356261909504/hadoop0.3534781522841848/mapred/local/localRunner/jenkins/job_local1111375546_0003/job_local1111375546_0003.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:23:14,931 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.submit(Job.java:1299)] The url to track the job: http://localhost:8080/
+2014-05-16 15:23:14,932 (Thread-72) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:471)] OutputCommitter set in config null
+2014-05-16 15:23:14,932 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)] Running job: job_local1111375546_0003
+2014-05-16 15:23:14,934 (Thread-72) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:489)] OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2014-05-16 15:23:14,938 (Thread-72) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for map tasks
+2014-05-16 15:23:14,938 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] Starting task: attempt_local1111375546_0003_m_000000_0
+2014-05-16 15:23:14,941 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:23:14,944 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:733)] Processing split: file:/tmp/mahout-TestClusterDumper-228895902094087168/testdata/file1:0+1398
+2014-05-16 15:23:15,021 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:23:15,021 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local1111375546_0003_m_000000_0 is done. And is in the process of committing
+2014-05-16 15:23:15,024 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:23:15,024 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.commit(Task.java:1156)] Task attempt_local1111375546_0003_m_000000_0 is allowed to commit now
+2014-05-16 15:23:15,026 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitTask(FileOutputCommitter.java:439)] Saved output of task 'attempt_local1111375546_0003_m_000000_0' to file:/tmp/mahout-TestClusterDumper-228895902094087168/output/kmeans/clusteredPoints/_temporary/0/task_local1111375546_0003_m_000000
+2014-05-16 15:23:15,027 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] map
+2014-05-16 15:23:15,027 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local1111375546_0003_m_000000_0' done.
+2014-05-16 15:23:15,028 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] Finishing task: attempt_local1111375546_0003_m_000000_0
+2014-05-16 15:23:15,028 (Thread-72) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] map task executor complete.
+2014-05-16 15:23:15,934 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1365)] Job job_local1111375546_0003 running in uber mode : false
+2014-05-16 15:23:15,934 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1372)]  map 100% reduce 0%
+2014-05-16 15:23:15,935 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1383)] Job job_local1111375546_0003 completed successfully
+2014-05-16 15:23:15,940 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1390)] Counters: 18
+	File System Counters
+		FILE: Number of bytes read=4455407
+		FILE: Number of bytes written=5136332
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=15
+		Map output records=15
+		Input split bytes=133
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=0
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=514850816
+	File Input Format Counters 
+		Bytes Read=1418
+	File Output Format Counters 
+		Bytes Written=2035
+C-0{n=5 c=[baseball:0.464, brown:1.679, cap:0.464, cat:1.044, dogs:1.533, fleece:0.326, fox:1.044, jacket:0.464, jumped:1.679, lazy:1.679, over:1.679, quick:1.679, red:1.916, robber:0.464, wore:0.464] r=[baseball:0.929, brown:0.839, cap:0.929, cat:1.278, dogs:0.767, fleece:0.651, fox:1.278, jacket:0.929, jumped:0.839, lazy:0.839, over:0.839, quick:0.839, robber:0.929, wore:0.929]}
+	Top Terms: 
+		red                                     =>  1.9162907600402832
+		over                                    =>   1.678889846801758
+		lazy                                    =>   1.678889846801758
+		brown                                   =>   1.678889846801758
+		quick                                   =>   1.678889846801758
+		jumped                                  =>   1.678889846801758
+		dogs                                    =>  1.5330326080322265
+		cat                                     =>  1.0437751770019532
+		fox                                     =>  1.0437751770019532
+		cap                                     => 0.46435117721557617
+	Weight : [props - optional]:  Point:
+	1.0 : [distance=1.8451512642306749]: P(0) = [brown:2.099, dogs:1.916, fox:2.609, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]
+	1.0 : [distance=1.8451512642306749]: P(1) = [brown:2.099, dogs:1.916, fox:2.609, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]
+	1.0 : [distance=1.8451512642306749]: P(2) = [brown:2.099, cat:2.609, dogs:1.916, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]
+	1.0 : [distance=1.8451512642306749]: P(3) = [brown:2.099, cat:2.609, dogs:1.916, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]
+C-1{n=5 c=[baseball:0.464, black:0.522, cap:0.464, dick:0.464, fleece:1.629, goat:1.044, had:1.679, jacket:0.464, lamb:1.044, little:1.679, mary:1.393, robber:0.464, snow:1.393, tar:0.603, white:1.679, whose:1.679, wore:0.464] r=[baseball:0.929, black:1.044, cap:0.929, dick:0.929, goat:1.278, had:0.839, jacket:0.929, lamb:1.278, little:0.839, mary:1.137, robber:0.929, snow:1.137, tar:1.206, white:0.839, whose:0.839, wore:0.929]}
+	Top Terms: 
+		had                                     =>   1.678889846801758
+		little                                  =>   1.678889846801758
+		whose                                   =>   1.678889846801758
+		white                                   =>   1.678889846801758
+		fleece                                  =>  1.6286087036132812
+		mary                                    =>  1.3930535316467285
+		snow                                    =>  1.3930535316467285
+		lamb                                    =>  1.0437751770019532
+		goat                                    =>  1.0437751770019532
+		tar                                     =>  0.6029806137084961
+	Weight : [props - optional]:  Point:
+	1.0 : [distance=2.692673842429729]: P(4) = [fleece:1.629, had:2.099, lamb:2.609, little:2.099, mary:2.322, snow:2.322, white:2.099, whose:2.099]
+	1.0 : [distance=1.6465260918620572]: P(5) = [fleece:1.629, goat:2.609, had:2.099, little:2.099, mary:2.322, snow:2.322, white:2.099, whose:2.099]
+	1.0 : [distance=2.510925812167177]: P(7) = [dick:2.322, fleece:1.629, goat:2.609, had:2.099, little:2.099, snow:2.322, white:2.099, whose:2.099]
+C-2{n=3 c=[baseball:0.774, black:1.740, cap:0.774, dick:0.774, fleece:1.629, goat:0.870, had:1.399, jacket:0.774, lamb:0.870, little:1.399, mary:0.774, robber:0.774, snow:0.774, tar:1.005, white:0.700, whose:1.399, wore:0.774] r=[baseball:1.094, black:1.230, cap:1.094, dick:1.094, goat:1.230, had:0.989, jacket:1.094, lamb:1.230, little:0.989, mary:1.094, robber:1.094, snow:1.094, tar:1.421, white:0.989, whose:0.989, wore:1.094]}
+	Top Terms: 
+		black                                   =>  1.7396252950032551
+		fleece                                  =>  1.6286087036132812
+		had                                     =>   1.399074872334798
+		little                                  =>   1.399074872334798
+		whose                                   =>   1.399074872334798
+		tar                                     =>  1.0049676895141602
+		lamb                                    =>  0.8698126475016276
+		goat                                    =>  0.8698126475016276
+		cap                                     =>   0.773918628692627
+		dick                                    =>   0.773918628692627
+	Weight : [props - optional]:  Point:
+	1.0 : [distance=0.0]: P(6) = [black:2.609, fleece:1.629, had:2.099, lamb:2.609, little:2.099, mary:2.322, tar:3.015, whose:2.099]
+C-3{n=3 c=[baseball:0.774, cap:0.774, dick:1.548, fleece:1.086, goat:0.870, had:0.700, jacket:0.774, little:0.700, man:0.774, moby:0.774, obsessed:0.870, robber:0.774, snow:0.774, story:0.774, whale:0.870, white:1.399, whose:0.700, wore:0.774] r=[baseball:1.094, cap:1.094, dick:1.094, fleece:0.768, goat:1.230, had:0.989, jacket:1.094, little:0.989, man:1.094, moby:1.094, obsessed:1.230, robber:1.094, snow:1.094, story:1.094, whale:1.230, white:0.989, whose:0.989, wore:1.094]}
+	Top Terms: 
+		dick                                    =>   1.547837257385254
+		white                                   =>   1.399074872334798
+		fleece                                  =>  1.0857391357421875
+		goat                                    =>  0.8698126475016276
+		whale                                   =>  0.8698126475016276
+		obsessed                                =>  0.8698126475016276
+		snow                                    =>   0.773918628692627
+		story                                   =>   0.773918628692627
+		cap                                     =>   0.773918628692627
+		wore                                    =>   0.773918628692627
+C-4{n=3 c=[bob:1.005, crazy:1.005, dick:1.548, man:2.322, moby:2.322, obsessed:1.740, story:2.322, walrus:1.005, whale:1.740] r=[bob:1.421, crazy:1.421, dick:1.094, obsessed:1.230, walrus:1.421, whale:1.230]}
+	Top Terms: 
+		man                                     =>   2.321755886077881
+		story                                   =>   2.321755886077881
+		moby                                    =>   2.321755886077881
+		whale                                   =>  1.7396252950032551
+		obsessed                                =>  1.7396252950032551
+		dick                                    =>   1.547837257385254
+		crazy                                   =>  1.0049676895141602
+		bob                                     =>  1.0049676895141602
+		walrus                                  =>  1.0049676895141602
+	Weight : [props - optional]:  Point:
+	1.0 : [distance=1.9936653987373973]: P(8) = [dick:2.322, man:2.322, moby:2.322, obsessed:2.609, story:2.322, whale:2.609]
+	1.0 : [distance=1.9936653987373973]: P(10) = [crazy:3.015, dick:2.322, man:2.322, moby:2.322, story:2.322, whale:2.609]
+C-5{n=2 c=[bob:1.507, crazy:1.507, dick:1.161, man:2.322, moby:2.322, obsessed:1.305, story:2.322, walrus:1.507, whale:1.305] r=[bob:1.507, crazy:1.507, dick:1.161, obsessed:1.305, walrus:1.507, whale:1.305]}
+	Top Terms: 
+		man                                     =>   2.321755886077881
+		story                                   =>   2.321755886077881
+		moby                                    =>   2.321755886077881
+		crazy                                   =>  1.5074515342712402
+		bob                                     =>  1.5074515342712402
+		walrus                                  =>  1.5074515342712402
+		whale                                   =>  1.3047189712524414
+		obsessed                                =>  1.3047189712524414
+		dick                                    =>  1.1608779430389404
+	Weight : [props - optional]:  Point:
+	1.0 : [distance=0.0]: P(9) = [bob:3.015, man:2.322, moby:2.322, obsessed:2.609, story:2.322, walrus:3.015]
+C-6{n=3 c=[baseball:2.322, black:0.870, cap:2.322, fleece:1.629, jacket:2.322, red:0.639, robber:2.322, white:0.700, wore:2.322] r=[black:1.230, red:0.903, white:0.989]}
+	Top Terms: 
+		baseball                                =>   2.321755886077881
+		jacket                                  =>   2.321755886077881
+		wore                                    =>   2.321755886077881
+		robber                                  =>   2.321755886077881
+		cap                                     =>   2.321755886077881
+		fleece                                  =>  1.6286087036132812
+		black                                   =>  0.8698126475016276
+		white                                   =>   0.699537436167399
+		red                                     =>  0.6387635866800944
+	Weight : [props - optional]:  Point:
+	1.0 : [distance=1.9808250077387546]: P(11) = [baseball:2.322, black:2.609, cap:2.322, fleece:1.629, jacket:2.322, robber:2.322, wore:2.322]
+	1.0 : [distance=1.696467608009985]: P(12) = [baseball:2.322, cap:2.322, fleece:1.629, jacket:2.322, red:1.916, robber:2.322, wore:2.322]
+	1.0 : [distance=1.7669192001392815]: P(13) = [baseball:2.322, cap:2.322, fleece:1.629, jacket:2.322, robber:2.322, white:2.099, wore:2.322]
+C-7{n=1 c=[all:3.015, best:3.015, dogs:1.916, english:3.015, spaniel:3.015, springer:3.015] r=P(14) =]}
+	Top Terms: 
+		all                                     =>  3.0149030685424805
+		english                                 =>  3.0149030685424805
+		best                                    =>  3.0149030685424805
+		spaniel                                 =>  3.0149030685424805
+		springer                                =>  3.0149030685424805
+		dogs                                    =>  1.9162907600402832
+	Weight : [props - optional]:  Point:
+	1.0 : [distance=0.0]: P(14) = [all:3.015, best:3.015, dogs:1.916, english:3.015, spaniel:3.015, springer:3.015]
+2014-05-16 15:23:16,019 (TEST-TestClusterDumper.testKmeans-seed#[6E7612D223EB509A]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Wrote 8 clusters
+0 all
+1 baseball
+2 best
+3 black
+4 bob
+5 brown
+6 cap
+7 cat
+8 crazy
+9 dick
+10 dogs
+11 english
+12 fleece
+13 fox
+14 goat
+15 had
+16 jacket
+17 jumped
+18 lamb
+19 lazy
+20 little
+21 man
+22 mary
+23 moby
+24 obsessed
+25 over
+26 quick
+27 red
+28 robber
+29 snow
+30 spaniel
+31 springer
+32 story
+33 tar
+34 walrus
+35 whale
+36 white
+37 whose
+38 wore
+P(0) = [brown:2.099, dogs:1.916, fox:2.609, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]
+P(1) = [brown:2.099, dogs:1.916, fox:2.609, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]
+P(2) = [brown:2.099, cat:2.609, dogs:1.916, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]
+P(3) = [brown:2.099, cat:2.609, dogs:1.916, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]
+P(4) = [fleece:1.629, had:2.099, lamb:2.609, little:2.099, mary:2.322, snow:2.322, white:2.099, whose:2.099]
+P(5) = [fleece:1.629, goat:2.609, had:2.099, little:2.099, mary:2.322, snow:2.322, white:2.099, whose:2.099]
+P(6) = [black:2.609, fleece:1.629, had:2.099, lamb:2.609, little:2.099, mary:2.322, tar:3.015, whose:2.099]
+P(7) = [dick:2.322, fleece:1.629, goat:2.609, had:2.099, little:2.099, snow:2.322, white:2.099, whose:2.099]
+P(8) = [dick:2.322, man:2.322, moby:2.322, obsessed:2.609, story:2.322, whale:2.609]
+P(9) = [bob:3.015, man:2.322, moby:2.322, obsessed:2.609, story:2.322, walrus:3.015]
+P(10) = [crazy:3.015, dick:2.322, man:2.322, moby:2.322, story:2.322, whale:2.609]
+P(11) = [baseball:2.322, black:2.609, cap:2.322, fleece:1.629, jacket:2.322, robber:2.322, wore:2.322]
+P(12) = [baseball:2.322, cap:2.322, fleece:1.629, jacket:2.322, red:1.916, robber:2.322, wore:2.322]
+P(13) = [baseball:2.322, cap:2.322, fleece:1.629, jacket:2.322, robber:2.322, white:2.099, wore:2.322]
+P(14) = [all:3.015, best:3.015, dogs:1.916, english:3.015, spaniel:3.015, springer:3.015]
+2014-05-16 15:23:16,118 (TEST-TestClusterDumper.testCanopy-seed#[6E7612D223EB509A]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:326)] Build Clusters Input: file:/tmp/mahout-TestClusterDumper-1060267248109927424/testdata Out: file:/tmp/mahout-TestClusterDumper-1060267248109927424/output Measure: org.apache.mahout.common.distance.EuclideanDistanceMeasure@5eb9fc t1: 8.0 t2: 4.0
+C-0{n=5 c=[baseball:0.464, brown:1.679, cap:0.464, cat:1.044, dogs:1.533, fleece:0.326, fox:1.044, jacket:0.464, jumped:1.679, lazy:1.679, over:1.679, quick:1.679, red:1.916, robber:0.464, wore:0.464] r=[baseball:0.929, brown:0.839, cap:0.929, cat:1.278, dogs:0.767, fleece:0.651, fox:1.278, jacket:0.929, jumped:0.839, lazy:0.839, over:0.839, quick:0.839, robber:0.929, wore:0.929]}
+	Top Terms: 
+		red                                     =>  1.9162907600402832
+		over                                    =>   1.678889846801758
+		lazy                                    =>   1.678889846801758
+		brown                                   =>   1.678889846801758
+		quick                                   =>   1.678889846801758
+		jumped                                  =>   1.678889846801758
+		dogs                                    =>  1.5330326080322265
+		cat                                     =>  1.0437751770019532
+		fox                                     =>  1.0437751770019532
+		cap                                     => 0.46435117721557617
+	Weight : [props - optional]:  Point:
+	0.2709282197292571 : [distance=2.3984771798069326]: 0 = [brown:2.099, dogs:1.916, fox:2.609, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]
+	0.2709282197292571 : [distance=2.3984771798069326]: 1 = [brown:2.099, dogs:1.916, fox:2.609, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]
+	0.2709282197292571 : [distance=2.3984771798069326]: 2 = [brown:2.099, cat:2.609, dogs:1.916, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]
+	0.2709282197292571 : [distance=2.3984771798069326]: 3 = [brown:2.099, cat:2.609, dogs:1.916, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]
+C-1{n=5 c=[baseball:0.464, black:0.522, cap:0.464, dick:0.464, fleece:1.629, goat:1.044, had:1.679, jacket:0.464, lamb:1.044, little:1.679, mary:1.393, robber:0.464, snow:1.393, tar:0.603, white:1.679, whose:1.679, wore:0.464] r=[baseball:0.929, black:1.044, cap:0.929, dick:0.929, goat:1.278, had:0.839, jacket:0.929, lamb:1.278, little:0.839, mary:1.137, robber:0.929, snow:1.137, tar:1.206, white:0.839, whose:0.839, wore:0.929]}
+	Top Terms: 
+		had                                     =>   1.678889846801758
+		little                                  =>   1.678889846801758
+		whose                                   =>   1.678889846801758
+		white                                   =>   1.678889846801758
+		fleece                                  =>  1.6286087036132812
+		mary                                    =>  1.3930535316467285
+		snow                                    =>  1.3930535316467285
+		lamb                                    =>  1.0437751770019532
+		goat                                    =>  1.0437751770019532
+		tar                                     =>  0.6029806137084961
+	Weight : [props - optional]:  Point:
+	0.2294180446197763 : [distance=2.8107107270780785]: 4 = [fleece:1.629, had:2.099, lamb:2.609, little:2.099, mary:2.322, snow:2.322, white:2.099, whose:2.099]
+	0.22730223643861594 : [distance=2.810710727078077]: 5 = [fleece:1.629, goat:2.609, had:2.099, little:2.099, mary:2.322, snow:2.322, white:2.099, whose:2.099]
+	0.19383745121265317 : [distance=3.494643773969187]: 7 = [dick:2.322, fleece:1.629, goat:2.609, had:2.099, little:2.099, snow:2.322, white:2.099, whose:2.099]
+C-2{n=3 c=[baseball:0.774, black:1.740, cap:0.774, dick:0.774, fleece:1.629, goat:0.870, had:1.399, jacket:0.774, lamb:0.870, little:1.399, mary:0.774, robber:0.774, snow:0.774, tar:1.005, white:0.700, whose:1.399, wore:0.774] r=[baseball:1.094, black:1.230, cap:1.094, dick:1.094, goat:1.230, had:0.989, jacket:1.094, lamb:1.230, little:0.989, mary:1.094, robber:1.094, snow:1.094, tar:1.421, white:0.989, whose:0.989, wore:1.094]}
+	Top Terms: 
+		black                                   =>  1.7396252950032551
+		fleece                                  =>  1.6286087036132812
+		had                                     =>   1.399074872334798
+		little                                  =>   1.399074872334798
+		whose                                   =>   1.399074872334798
+		tar                                     =>  1.0049676895141602
+		lamb                                    =>  0.8698126475016276
+		goat                                    =>  0.8698126475016276
+		cap                                     =>   0.773918628692627
+		dick                                    =>   0.773918628692627
+	Weight : [props - optional]:  Point:
+	0.18969659961613985 : [distance=4.13825391427391]: 6 = [black:2.609, fleece:1.629, had:2.099, lamb:2.609, little:2.099, mary:2.322, tar:3.015, whose:2.099]
+C-3{n=3 c=[baseball:0.774, cap:0.774, dick:1.548, fleece:1.086, goat:0.870, had:0.700, jacket:0.774, little:0.700, man:0.774, moby:0.774, obsessed:0.870, robber:0.774, snow:0.774, story:0.774, whale:0.870, white:1.399, whose:0.700, wore:0.774] r=[baseball:1.094, cap:1.094, dick:1.094, fleece:0.768, goat:1.230, had:0.989, jacket:1.094, little:0.989, man:1.094, moby:1.094, obsessed:1.230, robber:1.094, snow:1.094, story:1.094, whale:1.230, white:0.989, whose:0.989, wore:1.094]}
+	Top Terms: 
+		dick                                    =>   1.547837257385254
+		white                                   =>   1.399074872334798
+		fleece                                  =>  1.0857391357421875
+		goat                                    =>  0.8698126475016276
+		whale                                   =>  0.8698126475016276
+		obsessed                                =>  0.8698126475016276
+		snow                                    =>   0.773918628692627
+		story                                   =>   0.773918628692627
+		cap                                     =>   0.773918628692627
+		wore                                    =>   0.773918628692627
+C-4{n=3 c=[bob:1.005, crazy:1.005, dick:1.548, man:2.322, moby:2.322, obsessed:1.740, story:2.322, walrus:1.005, whale:1.740] r=[bob:1.421, crazy:1.421, dick:1.094, obsessed:1.230, walrus:1.421, whale:1.230]}
+	Top Terms: 
+		man                                     =>   2.321755886077881
+		story                                   =>   2.321755886077881
+		moby                                    =>   2.321755886077881
+		whale                                   =>  1.7396252950032551
+		obsessed                                =>  1.7396252950032551
+		dick                                    =>   1.547837257385254
+		crazy                                   =>  1.0049676895141602
+		bob                                     =>  1.0049676895141602
+		walrus                                  =>  1.0049676895141602
+	Weight : [props - optional]:  Point:
+	0.24075206555429396 : [distance=2.2675930627534013]: 8 = [dick:2.322, man:2.322, moby:2.322, obsessed:2.609, story:2.322, whale:2.609]
+	0.20124991048187027 : [distance=3.2313434658684934]: 10 = [crazy:3.015, dick:2.322, man:2.322, moby:2.322, story:2.322, whale:2.609]
+C-5{n=2 c=[bob:1.507, crazy:1.507, dick:1.161, man:2.322, moby:2.322, obsessed:1.305, story:2.322, walrus:1.507, whale:1.305] r=[bob:1.507, crazy:1.507, dick:1.161, obsessed:1.305, walrus:1.507, whale:1.305]}
+	Top Terms: 
+		man                                     =>   2.321755886077881
+		story                                   =>   2.321755886077881
+		moby                                    =>   2.321755886077881
+		crazy                                   =>  1.5074515342712402
+		bob                                     =>  1.5074515342712402
+		walrus                                  =>  1.5074515342712402
+		whale                                   =>  1.3047189712524414
+		obsessed                                =>  1.3047189712524414
+		dick                                    =>  1.1608779430389404
+	Weight : [props - optional]:  Point:
+	0.20589055622613786 : [distance=3.4013895941301002]: 9 = [bob:3.015, man:2.322, moby:2.322, obsessed:2.609, story:2.322, walrus:3.015]
+C-6{n=3 c=[baseball:2.322, black:0.870, cap:2.322, fleece:1.629, jacket:2.322, red:0.639, robber:2.322, white:0.700, wore:2.322] r=[black:1.230, red:0.903, white:0.989]}
+	Top Terms: 
+		baseball                                =>   2.321755886077881
+		jacket                                  =>   2.321755886077881
+		wore                                    =>   2.321755886077881
+		robber                                  =>   2.321755886077881
+		cap                                     =>   2.321755886077881
+		fleece                                  =>  1.6286087036132812
+		black                                   =>  0.8698126475016276
+		white                                   =>   0.699537436167399
+		red                                     =>  0.6387635866800944
+	Weight : [props - optional]:  Point:
+	0.2694581424203502 : [distance=1.9808250077387546]: 11 = [baseball:2.322, black:2.609, cap:2.322, fleece:1.629, jacket:2.322, robber:2.322, wore:2.322]
+	0.28661801752969407 : [distance=1.696467608009985]: 12 = [baseball:2.322, cap:2.322, fleece:1.629, jacket:2.322, red:1.916, robber:2.322, wore:2.322]
+	0.27740864075020394 : [distance=1.7669192001392815]: 13 = [baseball:2.322, cap:2.322, fleece:1.629, jacket:2.322, robber:2.322, white:2.099, wore:2.322]
+C-7{n=1 c=[all:3.015, best:3.015, dogs:1.916, english:3.015, spaniel:3.015, springer:3.015] r=P(14) =]}
+	Top Terms: 
+		all                                     =>  3.0149030685424805
+		english                                 =>  3.0149030685424805
+		best                                    =>  3.0149030685424805
+		spaniel                                 =>  3.0149030685424805
+		springer                                =>  3.0149030685424805
+		dogs                                    =>  1.9162907600402832
+	Weight : [props - optional]:  Point:
+	0.5749105277432465 : [distance=0.0]: 14 = [all:3.015, best:3.015, dogs:1.916, english:3.015, spaniel:3.015, springer:3.015]
+2014-05-16 15:23:16,265 (TEST-TestClusterDumper.testCanopy-seed#[6E7612D223EB509A]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Wrote 8 clusters
+0 all
+1 baseball
+2 best
+3 black
+4 bob
+5 brown
+6 cap
+7 cat
+8 crazy
+9 dick
+10 dogs
+11 english
+12 fleece
+13 fox
+14 goat
+15 had
+16 jacket
+17 jumped
+18 lamb
+19 lazy
+20 little
+21 man
+22 mary
+23 moby
+24 obsessed
+25 over
+26 quick
+27 red
+28 robber
+29 snow
+30 spaniel
+31 springer
+32 story
+33 tar
+34 walrus
+35 whale
+36 white
+37 whose
+38 wore
+P(0) = [brown:2.099, dogs:1.916, fox:2.609, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]
+P(1) = [brown:2.099, dogs:1.916, fox:2.609, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]
+P(2) = [brown:2.099, cat:2.609, dogs:1.916, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]
+P(3) = [brown:2.099, cat:2.609, dogs:1.916, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]
+P(4) = [fleece:1.629, had:2.099, lamb:2.609, little:2.099, mary:2.322, snow:2.322, white:2.099, whose:2.099]
+P(5) = [fleece:1.629, goat:2.609, had:2.099, little:2.099, mary:2.322, snow:2.322, white:2.099, whose:2.099]
+P(6) = [black:2.609, fleece:1.629, had:2.099, lamb:2.609, little:2.099, mary:2.322, tar:3.015, whose:2.099]
+P(7) = [dick:2.322, fleece:1.629, goat:2.609, had:2.099, little:2.099, snow:2.322, white:2.099, whose:2.099]
+P(8) = [dick:2.322, man:2.322, moby:2.322, obsessed:2.609, story:2.322, whale:2.609]
+P(9) = [bob:3.015, man:2.322, moby:2.322, obsessed:2.609, story:2.322, walrus:3.015]
+P(10) = [crazy:3.015, dick:2.322, man:2.322, moby:2.322, story:2.322, whale:2.609]
+P(11) = [baseball:2.322, black:2.609, cap:2.322, fleece:1.629, jacket:2.322, robber:2.322, wore:2.322]
+P(12) = [baseball:2.322, cap:2.322, fleece:1.629, jacket:2.322, red:1.916, robber:2.322, wore:2.322]
+P(13) = [baseball:2.322, cap:2.322, fleece:1.629, jacket:2.322, robber:2.322, white:2.099, wore:2.322]
+P(14) = [all:3.015, best:3.015, dogs:1.916, english:3.015, spaniel:3.015, springer:3.015]
+2014-05-16 15:23:16,368 (TEST-TestClusterDumper.testFuzzyKmeans-seed#[6E7612D223EB509A]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:326)] Build Clusters Input: file:/tmp/mahout-TestClusterDumper-4133602444859596800/testdata Out: file:/tmp/mahout-TestClusterDumper-4133602444859596800/output Measure: org.apache.mahout.common.distance.EuclideanDistanceMeasure@5803214e t1: 8.0 t2: 4.0
+2014-05-16 15:23:16,797 (TEST-TestClusterDumper.testFuzzyKmeans-seed#[6E7612D223EB509A]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:263)] Clustering
+C-0{n=5 c=[baseball:0.464, brown:1.679, cap:0.464, cat:1.044, dogs:1.533, fleece:0.326, fox:1.044, jacket:0.464, jumped:1.679, lazy:1.679, over:1.679, quick:1.679, red:1.916, robber:0.464, wore:0.464] r=[baseball:0.929, brown:0.839, cap:0.929, cat:1.278, dogs:0.767, fleece:0.651, fox:1.278, jacket:0.929, jumped:0.839, lazy:0.839, over:0.839, quick:0.839, robber:0.929, wore:0.929]}
+	Top Terms: 
+		red                                     =>  1.9162907600402832
+		over                                    =>   1.678889846801758
+		lazy                                    =>   1.678889846801758
+		brown                                   =>   1.678889846801758
+		quick                                   =>   1.678889846801758
+		jumped                                  =>   1.678889846801758
+		dogs                                    =>  1.5330326080322265
+		cat                                     =>  1.0437751770019532
+		fox                                     =>  1.0437751770019532
+		cap                                     => 0.46435117721557617
+	Weight : [props - optional]:  Point:
+	0.9999999999995708 : [distance=1.8451512642306749]: 0 = [brown:2.099, dogs:1.916, fox:2.609, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]
+	0.9999999999995708 : [distance=1.8451512642306749]: 1 = [brown:2.099, dogs:1.916, fox:2.609, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]
+	0.9999999999995708 : [distance=1.8451512642306749]: 2 = [brown:2.099, cat:2.609, dogs:1.916, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]
+	0.9999999999995708 : [distance=1.8451512642306749]: 3 = [brown:2.099, cat:2.609, dogs:1.916, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]
+C-1{n=5 c=[baseball:0.464, black:0.522, cap:0.464, dick:0.464, fleece:1.629, goat:1.044, had:1.679, jacket:0.464, lamb:1.044, little:1.679, mary:1.393, robber:0.464, snow:1.393, tar:0.603, white:1.679, whose:1.679, wore:0.464] r=[baseball:0.929, black:1.044, cap:0.929, dick:0.929, goat:1.278, had:0.839, jacket:0.929, lamb:1.278, little:0.839, mary:1.137, robber:0.929, snow:1.137, tar:1.206, white:0.839, whose:0.839, wore:0.929]}
+	Top Terms: 
+		had                                     =>   1.678889846801758
+		little                                  =>   1.678889846801758
+		whose                                   =>   1.678889846801758
+		white                                   =>   1.678889846801758
+		fleece                                  =>  1.6286087036132812
+		mary                                    =>  1.3930535316467285
+		snow                                    =>  1.3930535316467285
+		lamb                                    =>  1.0437751770019532
+		goat                                    =>  1.0437751770019532
+		tar                                     =>  0.6029806137084961
+	Weight : [props - optional]:  Point:
+	0.9999999955329526 : [distance=1.8451421683830913]: 4 = [fleece:1.629, had:2.099, lamb:2.609, little:2.099, mary:2.322, snow:2.322, white:2.099, whose:2.099]
+	0.9999901341403941 : [distance=1.845160360078267]: 5 = [fleece:1.629, goat:2.609, had:2.099, little:2.099, mary:2.322, snow:2.322, white:2.099, whose:2.099]
+C-2{n=3 c=[baseball:0.774, black:1.740, cap:0.774, dick:0.774, fleece:1.629, goat:0.870, had:1.399, jacket:0.774, lamb:0.870, little:1.399, mary:0.774, robber:0.774, snow:0.774, tar:1.005, white:0.700, whose:1.399, wore:0.774] r=[baseball:1.094, black:1.230, cap:1.094, dick:1.094, goat:1.230, had:0.989, jacket:1.094, lamb:1.230, little:0.989, mary:1.094, robber:1.094, snow:1.094, tar:1.421, white:0.989, whose:0.989, wore:1.094]}
+	Top Terms: 
+		black                                   =>  1.7396252950032551
+		fleece                                  =>  1.6286087036132812
+		had                                     =>   1.399074872334798
+		little                                  =>   1.399074872334798
+		whose                                   =>   1.399074872334798
+		tar                                     =>  1.0049676895141602
+		lamb                                    =>  0.8698126475016276
+		goat                                    =>  0.8698126475016276
+		cap                                     =>   0.773918628692627
+		dick                                    =>   0.773918628692627
+	Weight : [props - optional]:  Point:
+	1.0 : [distance=8.583189522567076E-9]: 6 = [black:2.609, fleece:1.629, had:2.099, lamb:2.609, little:2.099, mary:2.322, tar:3.015, whose:2.099]
+C-3{n=3 c=[baseball:0.774, cap:0.774, dick:1.548, fleece:1.086, goat:0.870, had:0.700, jacket:0.774, little:0.700, man:0.774, moby:0.774, obsessed:0.870, robber:0.774, snow:0.774, story:0.774, whale:0.870, white:1.399, whose:0.700, wore:0.774] r=[baseball:1.094, cap:1.094, dick:1.094, fleece:0.768, goat:1.230, had:0.989, jacket:1.094, little:0.989, man:1.094, moby:1.094, obsessed:1.230, robber:1.094, snow:1.094, story:1.094, whale:1.230, white:0.989, whose:0.989, wore:1.094]}
+	Top Terms: 
+		dick                                    =>   1.547837257385254
+		white                                   =>   1.399074872334798
+		fleece                                  =>  1.0857391357421875
+		goat                                    =>  0.8698126475016276
+		whale                                   =>  0.8698126475016276
+		obsessed                                =>  0.8698126475016276
+		snow                                    =>   0.773918628692627
+		story                                   =>   0.773918628692627
+		cap                                     =>   0.773918628692627
+		wore                                    =>   0.773918628692627
+	Weight : [props - optional]:  Point:
+	1.0 : [distance=3.23955410154657E-5]: 7 = [dick:2.322, fleece:1.629, goat:2.609, had:2.099, little:2.099, snow:2.322, white:2.099, whose:2.099]
+C-4{n=3 c=[bob:1.005, crazy:1.005, dick:1.548, man:2.322, moby:2.322, obsessed:1.740, story:2.322, walrus:1.005, whale:1.740] r=[bob:1.421, crazy:1.421, dick:1.094, obsessed:1.230, walrus:1.421, whale:1.230]}
+	Top Terms: 
+		man                                     =>   2.321755886077881
+		story                                   =>   2.321755886077881
+		moby                                    =>   2.321755886077881
+		whale                                   =>  1.7396252950032551
+		obsessed                                =>  1.7396252950032551
+		dick                                    =>   1.547837257385254
+		crazy                                   =>  1.0049676895141602
+		bob                                     =>  1.0049676895141602
+		walrus                                  =>  1.0049676895141602
+	Weight : [props - optional]:  Point:
+	0.99999999852731 : [distance=1.9936654001815932]: 8 = [dick:2.322, man:2.322, moby:2.322, obsessed:2.609, story:2.322, whale:2.609]
+	0.9999999999762312 : [distance=1.9936653972931995]: 10 = [crazy:3.015, dick:2.322, man:2.322, moby:2.322, story:2.322, whale:2.609]
+C-5{n=2 c=[bob:1.507, crazy:1.507, dick:1.161, man:2.322, moby:2.322, obsessed:1.305, story:2.322, walrus:1.507, whale:1.305] r=[bob:1.507, crazy:1.507, dick:1.161, obsessed:1.305, walrus:1.507, whale:1.305]}
+	Top Terms: 
+		man                                     =>   2.321755886077881
+		story                                   =>   2.321755886077881
+		moby                                    =>   2.321755886077881
+		crazy                                   =>  1.5074515342712402
+		bob                                     =>  1.5074515342712402
+		walrus                                  =>  1.5074515342712402
+		whale                                   =>  1.3047189712524414
+		obsessed                                =>  1.3047189712524414
+		dick                                    =>  1.1608779430389404
+	Weight : [props - optional]:  Point:
+	1.0 : [distance=8.223954837273291E-9]: 9 = [bob:3.015, man:2.322, moby:2.322, obsessed:2.609, story:2.322, walrus:3.015]
+C-6{n=3 c=[baseball:2.322, black:0.870, cap:2.322, fleece:1.629, jacket:2.322, red:0.639, robber:2.322, white:0.700, wore:2.322] r=[black:1.230, red:0.903, white:0.989]}
+	Top Terms: 
+		baseball                                =>   2.321755886077881
+		jacket                                  =>   2.321755886077881
+		wore                                    =>   2.321755886077881
+		robber                                  =>   2.321755886077881
+		cap                                     =>   2.321755886077881
+		fleece                                  =>  1.6286087036132812
+		black                                   =>  0.8698126475016276
+		white                                   =>   0.699537436167399
+		red                                     =>  0.6387635866800944
+	Weight : [props - optional]:  Point:
+	0.999999999997069 : [distance=1.9808250077408762]: 11 = [baseball:2.322, black:2.609, cap:2.322, fleece:1.629, jacket:2.322, robber:2.322, wore:2.322]
+	0.9999999999998039 : [distance=1.6964676080085714]: 12 = [baseball:2.322, cap:2.322, fleece:1.629, jacket:2.322, red:1.916, robber:2.322, wore:2.322]
+	0.9999999999992508 : [distance=1.7669192001382703]: 13 = [baseball:2.322, cap:2.322, fleece:1.629, jacket:2.322, robber:2.322, white:2.099, wore:2.322]
+C-7{n=1 c=[all:3.015, best:3.015, dogs:1.916, english:3.015, spaniel:3.015, springer:3.015] r=P(14) =]}
+	Top Terms: 
+		all                                     =>  3.0149030685424805
+		english                                 =>  3.0149030685424805
+		best                                    =>  3.0149030685424805
+		spaniel                                 =>  3.0149030685424805
+		springer                                =>  3.0149030685424805
+		dogs                                    =>  1.9162907600402832
+	Weight : [props - optional]:  Point:
+	1.0 : [distance=1.986030215885479E-12]: 14 = [all:3.015, best:3.015, dogs:1.916, english:3.015, spaniel:3.015, springer:3.015]
+2014-05-16 15:23:16,920 (TEST-TestClusterDumper.testFuzzyKmeans-seed#[6E7612D223EB509A]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Wrote 8 clusters
+0 all
+1 baseball
+2 best
+3 black
+4 bob
+5 brown
+6 cap
+7 cat
+8 crazy
+9 dick
+10 dogs
+11 english
+12 fleece
+13 fox
+14 goat
+15 had
+16 jacket
+17 jumped
+18 lamb
+19 lazy
+20 little
+21 man
+22 mary
+23 moby
+24 obsessed
+25 over
+26 quick
+27 red
+28 robber
+29 snow
+30 spaniel
+31 springer
+32 story
+33 tar
+34 walrus
+35 whale
+36 white
+37 whose
+38 wore
+P(0) = [brown:2.099, dogs:1.916, fox:2.609, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]
+P(1) = [brown:2.099, dogs:1.916, fox:2.609, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]
+P(2) = [brown:2.099, cat:2.609, dogs:1.916, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]
+P(3) = [brown:2.099, cat:2.609, dogs:1.916, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]
+P(4) = [fleece:1.629, had:2.099, lamb:2.609, little:2.099, mary:2.322, snow:2.322, white:2.099, whose:2.099]
+P(5) = [fleece:1.629, goat:2.609, had:2.099, little:2.099, mary:2.322, snow:2.322, white:2.099, whose:2.099]
+P(6) = [black:2.609, fleece:1.629, had:2.099, lamb:2.609, little:2.099, mary:2.322, tar:3.015, whose:2.099]
+P(7) = [dick:2.322, fleece:1.629, goat:2.609, had:2.099, little:2.099, snow:2.322, white:2.099, whose:2.099]
+P(8) = [dick:2.322, man:2.322, moby:2.322, obsessed:2.609, story:2.322, whale:2.609]
+P(9) = [bob:3.015, man:2.322, moby:2.322, obsessed:2.609, story:2.322, walrus:3.015]
+P(10) = [crazy:3.015, dick:2.322, man:2.322, moby:2.322, story:2.322, whale:2.609]
+P(11) = [baseball:2.322, black:2.609, cap:2.322, fleece:1.629, jacket:2.322, robber:2.322, wore:2.322]
+P(12) = [baseball:2.322, cap:2.322, fleece:1.629, jacket:2.322, red:1.916, robber:2.322, wore:2.322]
+P(13) = [baseball:2.322, cap:2.322, fleece:1.629, jacket:2.322, robber:2.322, white:2.099, wore:2.322]
+P(14) = [all:3.015, best:3.015, dogs:1.916, english:3.015, spaniel:3.015, springer:3.015]
+2014-05-16 15:23:17,008 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:326)] Build Clusters Input: file:/tmp/mahout-TestClusterDumper-4732785065364085760/testdata Out: file:/tmp/mahout-TestClusterDumper-4732785065364085760/output Measure: org.apache.mahout.common.distance.EuclideanDistanceMeasure@415517d3 t1: 8.0 t2: 4.0
+2014-05-16 15:23:17,031 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:326)] Input: file:/tmp/mahout-TestClusterDumper-4732785065364085760/testdata Clusters In: file:/tmp/mahout-TestClusterDumper-4732785065364085760/output/clusters-0-final Out: file:/tmp/mahout-TestClusterDumper-4732785065364085760/output/kmeans
+2014-05-16 15:23:17,032 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:307)] convergence: 0.001 max Iterations: 10
+2014-05-16 15:23:17,097 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:71)] Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-05-16 15:23:17,103 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:150)] Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-05-16 15:23:17,124 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.lib.input.FileInputFormat.listStatus(FileInputFormat.java:287)] Total input paths to process : 1
+2014-05-16 15:23:17,134 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:396)] number of splits:1
+2014-05-16 15:23:17,145 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.printTokens(JobSubmitter.java:479)] Submitting tokens for job: job_local952390180_0004
+2014-05-16 15:23:17,159 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-TestClusterDumper-7001024131365888000/hadoop0.32954947794806844/mapred/staging/jenkins952390180/.staging/job_local952390180_0004/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:23:17,159 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-TestClusterDumper-7001024131365888000/hadoop0.32954947794806844/mapred/staging/jenkins952390180/.staging/job_local952390180_0004/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:23:17,199 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-TestClusterDumper-7001024131365888000/hadoop0.32954947794806844/mapred/local/localRunner/jenkins/job_local952390180_0004/job_local952390180_0004.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:23:17,199 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-TestClusterDumper-7001024131365888000/hadoop0.32954947794806844/mapred/local/localRunner/jenkins/job_local952390180_0004/job_local952390180_0004.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:23:17,200 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.submit(Job.java:1299)] The url to track the job: http://localhost:8080/
+2014-05-16 15:23:17,201 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)] Running job: job_local952390180_0004
+2014-05-16 15:23:17,201 (Thread-142) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:471)] OutputCommitter set in config null
+2014-05-16 15:23:17,202 (Thread-142) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:489)] OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2014-05-16 15:23:17,205 (Thread-142) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for map tasks
+2014-05-16 15:23:17,205 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] Starting task: attempt_local952390180_0004_m_000000_0
+2014-05-16 15:23:17,207 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:23:17,208 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:733)] Processing split: file:/tmp/mahout-TestClusterDumper-4732785065364085760/testdata/file1:0+1398
+2014-05-16 15:23:17,209 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:388)] Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-05-16 15:23:17,268 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.setEquator(MapTask.java:1182)] (EQUATOR) 0 kvi 26214396(104857584)
+2014-05-16 15:23:17,268 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:975)] mapreduce.task.io.sort.mb: 100
+2014-05-16 15:23:17,269 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:976)] soft limit at 83886080
+2014-05-16 15:23:17,269 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:977)] bufstart = 0; bufvoid = 104857600
+2014-05-16 15:23:17,269 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:978)] kvstart = 26214396; length = 6553600
+2014-05-16 15:23:17,311 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:23:17,311 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1437)] Starting flush of map output
+2014-05-16 15:23:17,312 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1455)] Spilling map output
+2014-05-16 15:23:17,312 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1456)] bufstart = 0; bufend = 3090; bufvoid = 104857600
+2014-05-16 15:23:17,312 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1458)] kvstart = 26214396(104857584); kvend = 26214368(104857472); length = 29/6553600
+2014-05-16 15:23:17,315 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.sortAndSpill(MapTask.java:1641)] Finished spill 0
+2014-05-16 15:23:17,317 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local952390180_0004_m_000000_0 is done. And is in the process of committing
+2014-05-16 15:23:17,319 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] map
+2014-05-16 15:23:17,319 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local952390180_0004_m_000000_0' done.
+2014-05-16 15:23:17,319 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] Finishing task: attempt_local952390180_0004_m_000000_0
+2014-05-16 15:23:17,319 (Thread-142) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] map task executor complete.
+2014-05-16 15:23:17,320 (Thread-142) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for reduce tasks
+2014-05-16 15:23:17,320 (pool-11-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] Starting task: attempt_local952390180_0004_r_000000_0
+2014-05-16 15:23:17,322 (pool-11-thread-1) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:23:17,322 (pool-11-thread-1) [INFO - org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@3d7e545d
+2014-05-16 15:23:17,323 (pool-11-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:193)] MergerManager: memoryLimit=360395552, maxSingleShuffleLimit=90098888, mergeThreshold=237861072, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2014-05-16 15:23:17,324 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] attempt_local952390180_0004_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2014-05-16 15:23:17,326 (localfetcher#3) [INFO - org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:140)] localfetcher#3 about to shuffle output of map attempt_local952390180_0004_m_000000_0 decomp: 3124 len: 3128 to MEMORY
+2014-05-16 15:23:17,326 (localfetcher#3) [INFO - org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] Read 3124 bytes from map-output for attempt_local952390180_0004_m_000000_0
+2014-05-16 15:23:17,326 (localfetcher#3) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:307)] closeInMemoryFile -> map-output of size: 3124, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->3124
+2014-05-16 15:23:17,327 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] EventFetcher is interrupted.. Returning
+2014-05-16 15:23:17,328 (pool-11-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:23:17,328 (pool-11-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:667)] finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2014-05-16 15:23:17,329 (pool-11-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:23:17,330 (pool-11-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 3116 bytes
+2014-05-16 15:23:17,331 (pool-11-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:742)] Merged 1 segments, 3124 bytes to disk to satisfy reduce memory limit
+2014-05-16 15:23:17,331 (pool-11-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:772)] Merging 1 files, 3128 bytes from disk
+2014-05-16 15:23:17,331 (pool-11-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:787)] Merging 0 segments, 0 bytes from memory into reduce
+2014-05-16 15:23:17,332 (pool-11-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:23:17,332 (pool-11-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 3116 bytes
+2014-05-16 15:23:17,333 (pool-11-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:23:17,374 (pool-11-thread-1) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local952390180_0004_r_000000_0 is done. And is in the process of committing
+2014-05-16 15:23:17,375 (pool-11-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:23:17,376 (pool-11-thread-1) [INFO - org.apache.hadoop.mapred.Task.commit(Task.java:1156)] Task attempt_local952390180_0004_r_000000_0 is allowed to commit now
+2014-05-16 15:23:17,376 (pool-11-thread-1) [INFO - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitTask(FileOutputCommitter.java:439)] Saved output of task 'attempt_local952390180_0004_r_000000_0' to file:/tmp/mahout-TestClusterDumper-4732785065364085760/output/kmeans/clusters-1/_temporary/0/task_local952390180_0004_r_000000
+2014-05-16 15:23:17,378 (pool-11-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] reduce > reduce
+2014-05-16 15:23:17,378 (pool-11-thread-1) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local952390180_0004_r_000000_0' done.
+2014-05-16 15:23:17,378 (pool-11-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] Finishing task: attempt_local952390180_0004_r_000000_0
+2014-05-16 15:23:17,378 (Thread-142) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] reduce task executor complete.
+2014-05-16 15:23:18,202 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1365)] Job job_local952390180_0004 running in uber mode : false
+2014-05-16 15:23:18,202 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1372)]  map 100% reduce 100%
+2014-05-16 15:23:18,203 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1383)] Job job_local952390180_0004 completed successfully
+2014-05-16 15:23:18,214 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1390)] Counters: 33
+	File System Counters
+		FILE: Number of bytes read=11993366
+		FILE: Number of bytes written=13787739
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=15
+		Map output records=8
+		Map output bytes=3090
+		Map output materialized bytes=3128
+		Input split bytes=134
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=8
+		Reduce shuffle bytes=3128
+		Reduce input records=8
+		Reduce output records=8
+		Spilled Records=16
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=0
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=1029701632
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=1418
+	File Output Format Counters 
+		Bytes Written=2161
+2014-05-16 15:23:18,232 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:71)] Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-05-16 15:23:18,237 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:150)] Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-05-16 15:23:18,258 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.lib.input.FileInputFormat.listStatus(FileInputFormat.java:287)] Total input paths to process : 1
+2014-05-16 15:23:18,288 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:396)] number of splits:1
+2014-05-16 15:23:18,302 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.printTokens(JobSubmitter.java:479)] Submitting tokens for job: job_local99655637_0005
+2014-05-16 15:23:18,318 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-TestClusterDumper-7001024131365888000/hadoop0.32954947794806844/mapred/staging/jenkins99655637/.staging/job_local99655637_0005/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:23:18,319 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-TestClusterDumper-7001024131365888000/hadoop0.32954947794806844/mapred/staging/jenkins99655637/.staging/job_local99655637_0005/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:23:18,359 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-TestClusterDumper-7001024131365888000/hadoop0.32954947794806844/mapred/local/localRunner/jenkins/job_local99655637_0005/job_local99655637_0005.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:23:18,360 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-TestClusterDumper-7001024131365888000/hadoop0.32954947794806844/mapred/local/localRunner/jenkins/job_local99655637_0005/job_local99655637_0005.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:23:18,361 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.submit(Job.java:1299)] The url to track the job: http://localhost:8080/
+2014-05-16 15:23:18,361 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)] Running job: job_local99655637_0005
+2014-05-16 15:23:18,362 (Thread-164) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:471)] OutputCommitter set in config null
+2014-05-16 15:23:18,363 (Thread-164) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:489)] OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2014-05-16 15:23:18,365 (Thread-164) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for map tasks
+2014-05-16 15:23:18,365 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] Starting task: attempt_local99655637_0005_m_000000_0
+2014-05-16 15:23:18,367 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:23:18,369 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:733)] Processing split: file:/tmp/mahout-TestClusterDumper-4732785065364085760/testdata/file1:0+1398
+2014-05-16 15:23:18,369 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:388)] Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-05-16 15:23:18,394 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.setEquator(MapTask.java:1182)] (EQUATOR) 0 kvi 26214396(104857584)
+2014-05-16 15:23:18,394 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:975)] mapreduce.task.io.sort.mb: 100
+2014-05-16 15:23:18,394 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:976)] soft limit at 83886080
+2014-05-16 15:23:18,394 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:977)] bufstart = 0; bufvoid = 104857600
+2014-05-16 15:23:18,394 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:978)] kvstart = 26214396; length = 6553600
+2014-05-16 15:23:18,585 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:23:18,586 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1437)] Starting flush of map output
+2014-05-16 15:23:18,586 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1455)] Spilling map output
+2014-05-16 15:23:18,586 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1456)] bufstart = 0; bufend = 2946; bufvoid = 104857600
+2014-05-16 15:23:18,586 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1458)] kvstart = 26214396(104857584); kvend = 26214368(104857472); length = 29/6553600
+2014-05-16 15:23:18,591 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.sortAndSpill(MapTask.java:1641)] Finished spill 0
+2014-05-16 15:23:18,594 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local99655637_0005_m_000000_0 is done. And is in the process of committing
+2014-05-16 15:23:18,597 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] map
+2014-05-16 15:23:18,597 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local99655637_0005_m_000000_0' done.
+2014-05-16 15:23:18,597 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] Finishing task: attempt_local99655637_0005_m_000000_0
+2014-05-16 15:23:18,597 (Thread-164) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] map task executor complete.
+2014-05-16 15:23:18,598 (Thread-164) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for reduce tasks
+2014-05-16 15:23:18,598 (pool-14-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] Starting task: attempt_local99655637_0005_r_000000_0
+2014-05-16 15:23:18,600 (pool-14-thread-1) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:23:18,601 (pool-14-thread-1) [INFO - org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@67634991
+2014-05-16 15:23:18,601 (pool-14-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:193)] MergerManager: memoryLimit=333971456, maxSingleShuffleLimit=83492864, mergeThreshold=220421168, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2014-05-16 15:23:18,602 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] attempt_local99655637_0005_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2014-05-16 15:23:18,604 (localfetcher#4) [INFO - org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:140)] localfetcher#4 about to shuffle output of map attempt_local99655637_0005_m_000000_0 decomp: 2980 len: 2984 to MEMORY
+2014-05-16 15:23:18,605 (localfetcher#4) [INFO - org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] Read 2980 bytes from map-output for attempt_local99655637_0005_m_000000_0
+2014-05-16 15:23:18,605 (localfetcher#4) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:307)] closeInMemoryFile -> map-output of size: 2980, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->2980
+2014-05-16 15:23:18,606 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] EventFetcher is interrupted.. Returning
+2014-05-16 15:23:18,607 (pool-14-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:23:18,607 (pool-14-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:667)] finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2014-05-16 15:23:18,609 (pool-14-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:23:18,610 (pool-14-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 2972 bytes
+2014-05-16 15:23:18,611 (pool-14-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:742)] Merged 1 segments, 2980 bytes to disk to satisfy reduce memory limit
+2014-05-16 15:23:18,611 (pool-14-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:772)] Merging 1 files, 2984 bytes from disk
+2014-05-16 15:23:18,612 (pool-14-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:787)] Merging 0 segments, 0 bytes from memory into reduce
+2014-05-16 15:23:18,612 (pool-14-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:23:18,612 (pool-14-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 2972 bytes
+2014-05-16 15:23:18,613 (pool-14-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:23:18,646 (pool-14-thread-1) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local99655637_0005_r_000000_0 is done. And is in the process of committing
+2014-05-16 15:23:18,648 (pool-14-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:23:18,648 (pool-14-thread-1) [INFO - org.apache.hadoop.mapred.Task.commit(Task.java:1156)] Task attempt_local99655637_0005_r_000000_0 is allowed to commit now
+2014-05-16 15:23:18,649 (pool-14-thread-1) [INFO - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitTask(FileOutputCommitter.java:439)] Saved output of task 'attempt_local99655637_0005_r_000000_0' to file:/tmp/mahout-TestClusterDumper-4732785065364085760/output/kmeans/clusters-2/_temporary/0/task_local99655637_0005_r_000000
+2014-05-16 15:23:18,650 (pool-14-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] reduce > reduce
+2014-05-16 15:23:18,650 (pool-14-thread-1) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local99655637_0005_r_000000_0' done.
+2014-05-16 15:23:18,650 (pool-14-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] Finishing task: attempt_local99655637_0005_r_000000_0
+2014-05-16 15:23:18,651 (Thread-164) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] reduce task executor complete.
+2014-05-16 15:23:19,362 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1365)] Job job_local99655637_0005 running in uber mode : false
+2014-05-16 15:23:19,363 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1372)]  map 100% reduce 100%
+2014-05-16 15:23:19,364 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1383)] Job job_local99655637_0005 completed successfully
+2014-05-16 15:23:19,372 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1390)] Counters: 33
+	File System Counters
+		FILE: Number of bytes read=14967321
+		FILE: Number of bytes written=17209287
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=15
+		Map output records=8
+		Map output bytes=2946
+		Map output materialized bytes=2984
+		Input split bytes=134
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=8
+		Reduce shuffle bytes=2984
+		Reduce input records=8
+		Reduce output records=8
+		Spilled Records=16
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=145
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=879755264
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=1418
+	File Output Format Counters 
+		Bytes Written=2161
+2014-05-16 15:23:19,393 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:263)] Clustering data
+2014-05-16 15:23:19,393 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:263)] Running Clustering
+2014-05-16 15:23:19,394 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:326)] Input: file:/tmp/mahout-TestClusterDumper-4732785065364085760/testdata Clusters In: file:/tmp/mahout-TestClusterDumper-4732785065364085760/output/kmeans Out: file:/tmp/mahout-TestClusterDumper-4732785065364085760/output/kmeans
+2014-05-16 15:23:19,409 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:71)] Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-05-16 15:23:19,413 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:150)] Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-05-16 15:23:19,434 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.lib.input.FileInputFormat.listStatus(FileInputFormat.java:287)] Total input paths to process : 1
+2014-05-16 15:23:19,444 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:396)] number of splits:1
+2014-05-16 15:23:19,456 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.printTokens(JobSubmitter.java:479)] Submitting tokens for job: job_local678303567_0006
+2014-05-16 15:23:19,470 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-TestClusterDumper-7001024131365888000/hadoop0.32954947794806844/mapred/staging/jenkins678303567/.staging/job_local678303567_0006/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:23:19,471 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-TestClusterDumper-7001024131365888000/hadoop0.32954947794806844/mapred/staging/jenkins678303567/.staging/job_local678303567_0006/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:23:19,513 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-TestClusterDumper-7001024131365888000/hadoop0.32954947794806844/mapred/local/localRunner/jenkins/job_local678303567_0006/job_local678303567_0006.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:23:19,513 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-TestClusterDumper-7001024131365888000/hadoop0.32954947794806844/mapred/local/localRunner/jenkins/job_local678303567_0006/job_local678303567_0006.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:23:19,514 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.submit(Job.java:1299)] The url to track the job: http://localhost:8080/
+2014-05-16 15:23:19,515 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)] Running job: job_local678303567_0006
+2014-05-16 15:23:19,515 (Thread-187) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:471)] OutputCommitter set in config null
+2014-05-16 15:23:19,517 (Thread-187) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:489)] OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2014-05-16 15:23:19,519 (Thread-187) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for map tasks
+2014-05-16 15:23:19,519 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] Starting task: attempt_local678303567_0006_m_000000_0
+2014-05-16 15:23:19,521 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:23:19,522 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:733)] Processing split: file:/tmp/mahout-TestClusterDumper-4732785065364085760/testdata/file1:0+1398
+2014-05-16 15:23:19,570 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:23:19,570 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local678303567_0006_m_000000_0 is done. And is in the process of committing
+2014-05-16 15:23:19,572 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:23:19,572 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.commit(Task.java:1156)] Task attempt_local678303567_0006_m_000000_0 is allowed to commit now
+2014-05-16 15:23:19,573 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitTask(FileOutputCommitter.java:439)] Saved output of task 'attempt_local678303567_0006_m_000000_0' to file:/tmp/mahout-TestClusterDumper-4732785065364085760/output/kmeans/clusteredPoints/_temporary/0/task_local678303567_0006_m_000000
+2014-05-16 15:23:19,574 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] map
+2014-05-16 15:23:19,574 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local678303567_0006_m_000000_0' done.
+2014-05-16 15:23:19,574 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] Finishing task: attempt_local678303567_0006_m_000000_0
+2014-05-16 15:23:19,575 (Thread-187) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] map task executor complete.
+2014-05-16 15:23:20,516 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1365)] Job job_local678303567_0006 running in uber mode : false
+2014-05-16 15:23:20,516 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1372)]  map 100% reduce 0%
+2014-05-16 15:23:20,517 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1383)] Job job_local678303567_0006 completed successfully
+2014-05-16 15:23:20,520 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1390)] Counters: 18
+	File System Counters
+		FILE: Number of bytes read=8965809
+		FILE: Number of bytes written=10312188
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=15
+		Map output records=15
+		Input split bytes=134
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=0
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=439877632
+	File Input Format Counters 
+		Bytes Read=1418
+	File Output Format Counters 
+		Bytes Written=2035
+{"top_terms":[{"weight":1.9162907600402832,"term":"red"},{"weight":1.678889846801758,"term":"over"},{"weight":1.678889846801758,"term":"lazy"},{"weight":1.678889846801758,"term":"brown"},{"weight":1.678889846801758,"term":"quick"},{"weight":1.678889846801758,"term":"jumped"},{"weight":1.5330326080322265,"term":"dogs"},{"weight":1.0437751770019532,"term":"cat"},{"weight":1.0437751770019532,"term":"fox"},{"weight":0.46435117721557617,"term":"cap"}],"cluster_id":0,"cluster":"C-0{n=5 c=[baseball:0.464, brown:1.679, cap:0.464, cat:1.044, dogs:1.533, fleece:0.326, fox:1.044, jacket:0.464, jumped:1.679, lazy:1.679, over:1.679, quick:1.679, red:1.916, robber:0.464, wore:0.464] r=[baseball:0.929, brown:0.839, cap:0.929, cat:1.278, dogs:0.767, fleece:0.651, fox:1.278, jacket:0.929, jumped:0.839, lazy:0.839, over:0.839, quick:0.839, robber:0.929, wore:0.929]}","points":[{"point":"P(0) = [brown:2.099, dogs:1.916, fox:2.609, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]","vector_name":"P(0)","weight":"1.0"},{"point":"P(1) = [brown:2.099, dogs:1.916, fox:2.609, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]","vector_name":"P(1)","weight":"1.0"},{"point":"P(2) = [brown:2.099, cat:2.609, dogs:1.916, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]","vector_name":"P(2)","weight":"1.0"},{"point":"P(3) = [brown:2.099, cat:2.609, dogs:1.916, jumped:2.099, lazy:2.099, over:2.099, quick:2.099, red:1.916]","vector_name":"P(3)","weight":"1.0"}]}
+{"top_terms":[{"weight":1.678889846801758,"term":"had"},{"weight":1.678889846801758,"term":"little"},{"weight":1.678889846801758,"term":"whose"},{"weight":1.678889846801758,"term":"white"},{"weight":1.6286087036132812,"term":"fleece"},{"weight":1.3930535316467285,"term":"mary"},{"weight":1.3930535316467285,"term":"snow"},{"weight":1.0437751770019532,"term":"lamb"},{"weight":1.0437751770019532,"term":"goat"},{"weight":0.6029806137084961,"term":"tar"}],"cluster_id":1,"cluster":"C-1{n=5 c=[baseball:0.464, black:0.522, cap:0.464, dick:0.464, fleece:1.629, goat:1.044, had:1.679, jacket:0.464, lamb:1.044, little:1.679, mary:1.393, robber:0.464, snow:1.393, tar:0.603, white:1.679, whose:1.679, wore:0.464] r=[baseball:0.929, black:1.044, cap:0.929, dick:0.929, goat:1.278, had:0.839, jacket:0.929, lamb:1.278, little:0.839, mary:1.137, robber:0.929, snow:1.137, tar:1.206, white:0.839, whose:0.839, wore:0.929]}","points":[{"point":"P(4) = [fleece:1.629, had:2.099, lamb:2.609, little:2.099, mary:2.322, snow:2.322, white:2.099, whose:2.099]","vector_name":"P(4)","weight":"1.0"},{"point":"P(5) = [fleece:1.629, goat:2.609, had:2.099, little:2.099, mary:2.322, snow:2.322, white:2.099, whose:2.099]","vector_name":"P(5)","weight":"1.0"},{"point":"P(7) = [dick:2.322, fleece:1.629, goat:2.609, had:2.099, little:2.099, snow:2.322, white:2.099, whose:2.099]","vector_name":"P(7)","weight":"1.0"}]}
+{"top_terms":[{"weight":1.7396252950032551,"term":"black"},{"weight":1.6286087036132812,"term":"fleece"},{"weight":1.399074872334798,"term":"had"},{"weight":1.399074872334798,"term":"little"},{"weight":1.399074872334798,"term":"whose"},{"weight":1.0049676895141602,"term":"tar"},{"weight":0.8698126475016276,"term":"lamb"},{"weight":0.8698126475016276,"term":"goat"},{"weight":0.773918628692627,"term":"cap"},{"weight":0.773918628692627,"term":"dick"}],"cluster_id":2,"cluster":"C-2{n=3 c=[baseball:0.774, black:1.740, cap:0.774, dick:0.774, fleece:1.629, goat:0.870, had:1.399, jacket:0.774, lamb:0.870, little:1.399, mary:0.774, robber:0.774, snow:0.774, tar:1.005, white:0.700, whose:1.399, wore:0.774] r=[baseball:1.094, black:1.230, cap:1.094, dick:1.094, goat:1.230, had:0.989, jacket:1.094, lamb:1.230, little:0.989, mary:1.094, robber:1.094, snow:1.094, tar:1.421, white:0.989, whose:0.989, wore:1.094]}","points":[{"point":"P(6) = [black:2.609, fleece:1.629, had:2.099, lamb:2.609, little:2.099, mary:2.322, tar:3.015, whose:2.099]","vector_name":"P(6)","weight":"1.0"}]}
+{"top_terms":[{"weight":1.547837257385254,"term":"dick"},{"weight":1.399074872334798,"term":"white"},{"weight":1.0857391357421875,"term":"fleece"},{"weight":0.8698126475016276,"term":"goat"},{"weight":0.8698126475016276,"term":"whale"},{"weight":0.8698126475016276,"term":"obsessed"},{"weight":0.773918628692627,"term":"snow"},{"weight":0.773918628692627,"term":"story"},{"weight":0.773918628692627,"term":"cap"},{"weight":0.773918628692627,"term":"wore"}],"cluster_id":3,"cluster":"C-3{n=3 c=[baseball:0.774, cap:0.774, dick:1.548, fleece:1.086, goat:0.870, had:0.700, jacket:0.774, little:0.700, man:0.774, moby:0.774, obsessed:0.870, robber:0.774, snow:0.774, story:0.774, whale:0.870, white:1.399, whose:0.700, wore:0.774] r=[baseball:1.094, cap:1.094, dick:1.094, fleece:0.768, goat:1.230, had:0.989, jacket:1.094, little:0.989, man:1.094, moby:1.094, obsessed:1.230, robber:1.094, snow:1.094, story:1.094, whale:1.230, white:0.989, whose:0.989, wore:1.094]}","points":[]}
+{"top_terms":[{"weight":2.321755886077881,"term":"man"},{"weight":2.321755886077881,"term":"story"},{"weight":2.321755886077881,"term":"moby"},{"weight":1.7396252950032551,"term":"whale"},{"weight":1.7396252950032551,"term":"obsessed"},{"weight":1.547837257385254,"term":"dick"},{"weight":1.0049676895141602,"term":"crazy"},{"weight":1.0049676895141602,"term":"bob"},{"weight":1.0049676895141602,"term":"walrus"}],"cluster_id":4,"cluster":"C-4{n=3 c=[bob:1.005, crazy:1.005, dick:1.548, man:2.322, moby:2.322, obsessed:1.740, story:2.322, walrus:1.005, whale:1.740] r=[bob:1.421, crazy:1.421, dick:1.094, obsessed:1.230, walrus:1.421, whale:1.230]}","points":[{"point":"P(8) = [dick:2.322, man:2.322, moby:2.322, obsessed:2.609, story:2.322, whale:2.609]","vector_name":"P(8)","weight":"1.0"},{"point":"P(10) = [crazy:3.015, dick:2.322, man:2.322, moby:2.322, story:2.322, whale:2.609]","vector_name":"P(10)","weight":"1.0"}]}
+{"top_terms":[{"weight":2.321755886077881,"term":"man"},{"weight":2.321755886077881,"term":"story"},{"weight":2.321755886077881,"term":"moby"},{"weight":1.5074515342712402,"term":"crazy"},{"weight":1.5074515342712402,"term":"bob"},{"weight":1.5074515342712402,"term":"walrus"},{"weight":1.3047189712524414,"term":"whale"},{"weight":1.3047189712524414,"term":"obsessed"},{"weight":1.1608779430389404,"term":"dick"}],"cluster_id":5,"cluster":"C-5{n=2 c=[bob:1.507, crazy:1.507, dick:1.161, man:2.322, moby:2.322, obsessed:1.305, story:2.322, walrus:1.507, whale:1.305] r=[bob:1.507, crazy:1.507, dick:1.161, obsessed:1.305, walrus:1.507, whale:1.305]}","points":[{"point":"P(9) = [bob:3.015, man:2.322, moby:2.322, obsessed:2.609, story:2.322, walrus:3.015]","vector_name":"P(9)","weight":"1.0"}]}
+{"top_terms":[{"weight":2.321755886077881,"term":"baseball"},{"weight":2.321755886077881,"term":"jacket"},{"weight":2.321755886077881,"term":"wore"},{"weight":2.321755886077881,"term":"robber"},{"weight":2.321755886077881,"term":"cap"},{"weight":1.6286087036132812,"term":"fleece"},{"weight":0.8698126475016276,"term":"black"},{"weight":0.699537436167399,"term":"white"},{"weight":0.6387635866800944,"term":"red"}],"cluster_id":6,"cluster":"C-6{n=3 c=[baseball:2.322, black:0.870, cap:2.322, fleece:1.629, jacket:2.322, red:0.639, robber:2.322, white:0.700, wore:2.322] r=[black:1.230, red:0.903, white:0.989]}","points":[{"point":"P(11) = [baseball:2.322, black:2.609, cap:2.322, fleece:1.629, jacket:2.322, robber:2.322, wore:2.322]","vector_name":"P(11)","weight":"1.0"},{"point":"P(12) = [baseball:2.322, cap:2.322, fleece:1.629, jacket:2.322, red:1.916, robber:2.322, wore:2.322]","vector_name":"P(12)","weight":"1.0"},{"point":"P(13) = [baseball:2.322, cap:2.322, fleece:1.629, jacket:2.322, robber:2.322, white:2.099, wore:2.322]","vector_name":"P(13)","weight":"1.0"}]}
+{"top_terms":[{"weight":3.0149030685424805,"term":"all"},{"weight":3.0149030685424805,"term":"english"},{"weight":3.0149030685424805,"term":"best"},{"weight":3.0149030685424805,"term":"spaniel"},{"weight":3.0149030685424805,"term":"springer"},{"weight":1.9162907600402832,"term":"dogs"}],"cluster_id":7,"cluster":"C-7{n=1 c=[all:3.015, best:3.015, dogs:1.916, english:3.015, spaniel:3.015, springer:3.015] r=P(14) =]}","points":[{"point":"P(14) = [all:3.015, best:3.015, dogs:1.916, english:3.015, spaniel:3.015, springer:3.015]","vector_name":"P(14)","weight":"1.0"}]}
+2014-05-16 15:23:20,803 (TEST-TestClusterDumper.testJsonClusterDumper-seed#[6E7612D223EB509A]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Wrote 8 clusters

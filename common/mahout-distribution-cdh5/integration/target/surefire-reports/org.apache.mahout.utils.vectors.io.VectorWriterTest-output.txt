@@ -1,0 +1,1 @@
+2014-05-16 15:23:05,139 (TEST-VectorWriterTest.testSFVW-seed#[CD7EA67B42065AB0]) [WARN - org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62)] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable

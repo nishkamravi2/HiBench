@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.mahout.fpm.pfpgrowth.FPGrowthTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.112 sec - in org.apache.mahout.fpm.pfpgrowth.FPGrowthTest

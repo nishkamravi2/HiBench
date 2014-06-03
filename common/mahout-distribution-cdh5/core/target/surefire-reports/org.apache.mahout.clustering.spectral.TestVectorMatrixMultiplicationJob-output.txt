@@ -1,0 +1,1 @@
+2014-05-16 15:19:09,259 (TEST-TestVectorMatrixMultiplicationJob.testVectorMatrixMultiplicationMapper-seed#[414C6A18B4731EE7]) [WARN - org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62)] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable

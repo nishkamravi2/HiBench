@@ -1,0 +1,99 @@
+2014-05-16 15:23:05,070 (TEST-SequenceFilesFromLuceneStorageDriverTest.testNewLucene2SeqConfiguration-seed#[EC82D878FB0AF3BC]) [WARN - org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62)] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-05-16 15:23:08,254 (TEST-SequenceFilesFromLuceneStorageDriverTest.testNewLucene2SeqConfiguration-seed#[EC82D878FB0AF3BC]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageDriverTest-1425900647632681984/index1
+2014-05-16 15:23:09,335 (TEST-SequenceFilesFromLuceneStorageDriverTest.testRun-seed#[EC82D878FB0AF3BC]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Command line arguments: {--endPhase=[2147483647], --fields=[field1,field2], --idField=[idField], --input=[/tmp/mahout-SequenceFilesFromLuceneStorageDriverTest-3679121490070524928/index1], --maxHits=[500], --method=[sequential], --output=[file:/tmp/mahout-SequenceFilesFromLuceneStorageDriverTest-3679121490070524928/seqfiles], --query=[queryfield:queryterm], --startPhase=[0], --tempDir=[temp]}
+2014-05-16 15:23:09,671 (TEST-SequenceFilesFromLuceneStorageDriverTest.testRun-seed#[EC82D878FB0AF3BC]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:263)] Wrote 0 documents in file:/tmp/mahout-SequenceFilesFromLuceneStorageDriverTest-3679121490070524928/seqfiles/index1
+2014-05-16 15:23:09,751 (TEST-SequenceFilesFromLuceneStorageDriverTest.testRun-seed#[EC82D878FB0AF3BC]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageDriverTest-3679121490070524928/seqfiles
+2014-05-16 15:23:09,753 (TEST-SequenceFilesFromLuceneStorageDriverTest.testRun-seed#[EC82D878FB0AF3BC]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageDriverTest-3679121490070524928/index1
+2014-05-16 15:23:10,274 (TEST-SequenceFilesFromLuceneStorageDriverTest.testRunOptionalArguments-seed#[EC82D878FB0AF3BC]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Command line arguments: {--endPhase=[2147483647], --fields=[field], --idField=[idField], --input=[/tmp/mahout-SequenceFilesFromLuceneStorageDriverTest-4675136993706722304/index1], --method=[mapreduce], --output=[file:/tmp/mahout-SequenceFilesFromLuceneStorageDriverTest-4675136993706722304/seqfiles], --startPhase=[0], --tempDir=[temp]}
+2014-05-16 15:23:10,434 (TEST-SequenceFilesFromLuceneStorageDriverTest.testRunOptionalArguments-seed#[EC82D878FB0AF3BC]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:76)] Initializing JVM Metrics with processName=JobTracker, sessionId=
+2014-05-16 15:23:10,991 (TEST-SequenceFilesFromLuceneStorageDriverTest.testRunOptionalArguments-seed#[EC82D878FB0AF3BC]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:150)] Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-05-16 15:23:11,033 (TEST-SequenceFilesFromLuceneStorageDriverTest.testRunOptionalArguments-seed#[EC82D878FB0AF3BC]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:259)] No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2014-05-16 15:23:11,063 (TEST-SequenceFilesFromLuceneStorageDriverTest.testRunOptionalArguments-seed#[EC82D878FB0AF3BC]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:326)] Created 1285 byte input split for index '/tmp/mahout-SequenceFilesFromLuceneStorageDriverTest-4675136993706722304/index1' segment _0
+2014-05-16 15:23:11,064 (TEST-SequenceFilesFromLuceneStorageDriverTest.testRunOptionalArguments-seed#[EC82D878FB0AF3BC]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:326)] Created 1285 byte input split for index '/tmp/mahout-SequenceFilesFromLuceneStorageDriverTest-4675136993706722304/index1' segment _1
+2014-05-16 15:23:11,135 (TEST-SequenceFilesFromLuceneStorageDriverTest.testRunOptionalArguments-seed#[EC82D878FB0AF3BC]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:396)] number of splits:2
+2014-05-16 15:23:11,694 (TEST-SequenceFilesFromLuceneStorageDriverTest.testRunOptionalArguments-seed#[EC82D878FB0AF3BC]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.printTokens(JobSubmitter.java:479)] Submitting tokens for job: job_local1540647060_0001
+2014-05-16 15:23:11,793 (TEST-SequenceFilesFromLuceneStorageDriverTest.testRunOptionalArguments-seed#[EC82D878FB0AF3BC]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-SequenceFilesFromLuceneStorageDriverTest-509018304850322432/hadoop0.3712131695439592/mapred/staging/jenkins1540647060/.staging/job_local1540647060_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:23:11,793 (TEST-SequenceFilesFromLuceneStorageDriverTest.testRunOptionalArguments-seed#[EC82D878FB0AF3BC]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-SequenceFilesFromLuceneStorageDriverTest-509018304850322432/hadoop0.3712131695439592/mapred/staging/jenkins1540647060/.staging/job_local1540647060_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:23:12,326 (TEST-SequenceFilesFromLuceneStorageDriverTest.testRunOptionalArguments-seed#[EC82D878FB0AF3BC]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-SequenceFilesFromLuceneStorageDriverTest-509018304850322432/hadoop0.3712131695439592/mapred/local/localRunner/jenkins/job_local1540647060_0001/job_local1540647060_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:23:12,327 (TEST-SequenceFilesFromLuceneStorageDriverTest.testRunOptionalArguments-seed#[EC82D878FB0AF3BC]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/integration/target/mahout-SequenceFilesFromLuceneStorageDriverTest-509018304850322432/hadoop0.3712131695439592/mapred/local/localRunner/jenkins/job_local1540647060_0001/job_local1540647060_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:23:12,340 (TEST-SequenceFilesFromLuceneStorageDriverTest.testRunOptionalArguments-seed#[EC82D878FB0AF3BC]) [INFO - org.apache.hadoop.mapreduce.Job.submit(Job.java:1299)] The url to track the job: http://localhost:8080/
+2014-05-16 15:23:12,342 (TEST-SequenceFilesFromLuceneStorageDriverTest.testRunOptionalArguments-seed#[EC82D878FB0AF3BC]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)] Running job: job_local1540647060_0001
+2014-05-16 15:23:12,369 (Thread-12) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:471)] OutputCommitter set in config null
+2014-05-16 15:23:12,392 (Thread-12) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:489)] OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2014-05-16 15:23:12,582 (Thread-12) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for map tasks
+2014-05-16 15:23:12,583 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] Starting task: attempt_local1540647060_0001_m_000000_0
+2014-05-16 15:23:12,745 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:23:12,751 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:733)] Processing split: org.apache.mahout.text.LuceneSegmentInputSplit@6f66c1b3
+2014-05-16 15:23:12,852 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:23:12,853 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local1540647060_0001_m_000000_0 is done. And is in the process of committing
+2014-05-16 15:23:12,867 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:23:12,868 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.commit(Task.java:1156)] Task attempt_local1540647060_0001_m_000000_0 is allowed to commit now
+2014-05-16 15:23:12,869 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitTask(FileOutputCommitter.java:439)] Saved output of task 'attempt_local1540647060_0001_m_000000_0' to file:/tmp/mahout-SequenceFilesFromLuceneStorageDriverTest-4675136993706722304/seqfiles/_temporary/0/task_local1540647060_0001_m_000000
+2014-05-16 15:23:12,871 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] map
+2014-05-16 15:23:12,872 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local1540647060_0001_m_000000_0' done.
+2014-05-16 15:23:12,872 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] Finishing task: attempt_local1540647060_0001_m_000000_0
+2014-05-16 15:23:12,873 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] Starting task: attempt_local1540647060_0001_m_000001_0
+2014-05-16 15:23:12,881 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:23:12,884 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:733)] Processing split: org.apache.mahout.text.LuceneSegmentInputSplit@702708a3
+2014-05-16 15:23:12,927 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:23:12,927 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local1540647060_0001_m_000001_0 is done. And is in the process of committing
+2014-05-16 15:23:12,931 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:23:12,931 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.commit(Task.java:1156)] Task attempt_local1540647060_0001_m_000001_0 is allowed to commit now
+2014-05-16 15:23:12,933 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitTask(FileOutputCommitter.java:439)] Saved output of task 'attempt_local1540647060_0001_m_000001_0' to file:/tmp/mahout-SequenceFilesFromLuceneStorageDriverTest-4675136993706722304/seqfiles/_temporary/0/task_local1540647060_0001_m_000001
+2014-05-16 15:23:12,935 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] map
+2014-05-16 15:23:12,936 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local1540647060_0001_m_000001_0' done.
+2014-05-16 15:23:12,936 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] Finishing task: attempt_local1540647060_0001_m_000001_0
+2014-05-16 15:23:12,936 (Thread-12) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] map task executor complete.
+2014-05-16 15:23:13,345 (TEST-SequenceFilesFromLuceneStorageDriverTest.testRunOptionalArguments-seed#[EC82D878FB0AF3BC]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1365)] Job job_local1540647060_0001 running in uber mode : false
+2014-05-16 15:23:13,348 (TEST-SequenceFilesFromLuceneStorageDriverTest.testRunOptionalArguments-seed#[EC82D878FB0AF3BC]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1372)]  map 100% reduce 0%
+2014-05-16 15:23:13,352 (TEST-SequenceFilesFromLuceneStorageDriverTest.testRunOptionalArguments-seed#[EC82D878FB0AF3BC]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1383)] Job job_local1540647060_0001 completed successfully
+2014-05-16 15:23:13,390 (TEST-SequenceFilesFromLuceneStorageDriverTest.testRunOptionalArguments-seed#[EC82D878FB0AF3BC]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1390)] Counters: 18
+	File System Counters
+		FILE: Number of bytes read=45368
+		FILE: Number of bytes written=455253
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=2
+		Map output records=2
+		Input split bytes=280
+		Spilled Records=0
+		Failed Shuffles=0
+		Merged Map outputs=0
+		GC time elapsed (ms)=0
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=1029701632
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=230
+2014-05-16 15:23:13,391 (TEST-SequenceFilesFromLuceneStorageDriverTest.testRunOptionalArguments-seed#[EC82D878FB0AF3BC]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageDriverTest-4675136993706722304/seqfiles
+2014-05-16 15:23:13,402 (TEST-SequenceFilesFromLuceneStorageDriverTest.testRunOptionalArguments-seed#[EC82D878FB0AF3BC]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageDriverTest-4675136993706722304/index1
+Usage:                                                                          
+ [--output <output> --input <input> --idField <idField> --fields <fields>       
+--query <query> --maxHits <maxHits> --method <method> --help --tempDir          
+<tempDir> --startPhase <startPhase> --endPhase <endPhase>]                      
+Job-Specific Options:                                                           
+  --output (-o) output       The directory pathname for output.                 
+  --input (-i) input         Path to job input directory.                       
+  --idField (-id) idField    The field in the index containing the id           
+  --fields (-f) fields       The stored field(s) in the index containing text   
+  --query (-q) query         (Optional) Lucene query. Defaults to               
+                             MatchAllDocsQuery                                  
+  --maxHits (-n) maxHits     (Optional) Max hits. Defaults to 2147483647        
+  --method (-xm) method      The execution method to use: sequential or         
+                             mapreduce. Default is mapreduce                    
+  --help (-h)                Print out help                                     
+  --tempDir tempDir          Intermediate output directory                      
+  --startPhase startPhase    First phase to run                                 
+  --endPhase endPhase        Last phase to run                                  
+Specify HDFS directories while running on hadoop; else specify local file       
+system directories                                                              
+2014-05-16 15:23:13,849 (TEST-SequenceFilesFromLuceneStorageDriverTest.testHelp-seed#[EC82D878FB0AF3BC]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageDriverTest-8300076124484436992/index1
+2014-05-16 15:23:14,191 (TEST-SequenceFilesFromLuceneStorageDriverTest.testRunInvalidQuery-seed#[EC82D878FB0AF3BC]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Command line arguments: {--endPhase=[2147483647], --fields=[field], --idField=[idField], --input=[/tmp/mahout-SequenceFilesFromLuceneStorageDriverTest-6778040773535885312/index1], --method=[sequential], --output=[file:/tmp/mahout-SequenceFilesFromLuceneStorageDriverTest-6778040773535885312/seqfiles], --query=[invalid:query], --startPhase=[0], --tempDir=[temp]}
+2014-05-16 15:23:14,207 (TEST-SequenceFilesFromLuceneStorageDriverTest.testRunInvalidQuery-seed#[EC82D878FB0AF3BC]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:263)] Wrote 0 documents in file:/tmp/mahout-SequenceFilesFromLuceneStorageDriverTest-6778040773535885312/seqfiles/index1
+2014-05-16 15:23:14,226 (TEST-SequenceFilesFromLuceneStorageDriverTest.testRunInvalidQuery-seed#[EC82D878FB0AF3BC]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageDriverTest-6778040773535885312/seqfiles
+2014-05-16 15:23:14,229 (TEST-SequenceFilesFromLuceneStorageDriverTest.testRunInvalidQuery-seed#[EC82D878FB0AF3BC]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Deleting file:/tmp/mahout-SequenceFilesFromLuceneStorageDriverTest-6778040773535885312/index1

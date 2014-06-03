@@ -1,0 +1,5 @@
+2014-05-16 15:18:28,041 (TEST-LogLikelihoodSimilarityTest.testCorrelation-seed#[5D90B161714E4331]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 5 users
+2014-05-16 15:18:28,150 (TEST-LogLikelihoodSimilarityTest.testRefresh-seed#[5D90B161714E4331]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 4 users
+2014-05-16 15:18:28,190 (TEST-LogLikelihoodSimilarityTest.testRefresh-seed#[5D90B161714E4331]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Added refreshable: GenericDataModel[users:1,2,3...]
+2014-05-16 15:18:28,190 (TEST-LogLikelihoodSimilarityTest.testRefresh-seed#[5D90B161714E4331]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Refreshed: [GenericDataModel[users:1,2,3...]]
+2014-05-16 15:18:28,213 (TEST-LogLikelihoodSimilarityTest.testNoSimilarity-seed#[5D90B161714E4331]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 4 users

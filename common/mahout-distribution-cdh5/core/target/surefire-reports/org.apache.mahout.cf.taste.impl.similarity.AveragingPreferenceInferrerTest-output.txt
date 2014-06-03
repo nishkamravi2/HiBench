@@ -1,0 +1,1 @@
+2014-05-16 15:18:29,960 (TEST-AveragingPreferenceInferrerTest.testInferrer-seed#[43203876EFD562AF]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 1 users

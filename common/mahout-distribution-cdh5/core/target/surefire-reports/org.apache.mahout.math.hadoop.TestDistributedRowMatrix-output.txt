@@ -1,0 +1,1193 @@
+2014-05-16 15:18:10,238 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62)] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2014-05-16 15:18:14,102 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:76)] Initializing JVM Metrics with processName=JobTracker, sessionId=
+2014-05-16 15:18:14,240 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:71)] Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-05-16 15:18:15,331 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:150)] Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-05-16 15:18:15,372 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:259)] No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2014-05-16 15:18:15,582 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapred.FileInputFormat.listStatus(FileInputFormat.java:253)] Total input paths to process : 1
+2014-05-16 15:18:15,760 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:396)] number of splits:1
+2014-05-16 15:18:17,305 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.printTokens(JobSubmitter.java:479)] Submitting tokens for job: job_local2057084258_0001
+2014-05-16 15:18:17,510 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-6548451585569107968/hadoop0.37357403553026125/mapred/staging/jenkins2057084258/.staging/job_local2057084258_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:17,514 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-6548451585569107968/hadoop0.37357403553026125/mapred/staging/jenkins2057084258/.staging/job_local2057084258_0001/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:19,514 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapred.LocalDistributedCacheManager.symlink(LocalDistributedCacheManager.java:207)] Creating symlink: /var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-6548451585569107968/hadoop0.37357403553026125/mapred/local/1400278697988/3792550854213776 <- /var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/3792550854213776
+2014-05-16 15:18:19,541 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapred.LocalDistributedCacheManager.setup(LocalDistributedCacheManager.java:171)] Localized file:/tmp/mahout-TestDistributedRowMatrix-7661705425562251264/testdata/tmpOut/3792550822883655/DistributedMatrix.times.inputVector/3792550854213776 as file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-6548451585569107968/hadoop0.37357403553026125/mapred/local/1400278697988/3792550854213776
+2014-05-16 15:18:20,300 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-6548451585569107968/hadoop0.37357403553026125/mapred/local/localRunner/jenkins/job_local2057084258_0001/job_local2057084258_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:20,302 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-6548451585569107968/hadoop0.37357403553026125/mapred/local/localRunner/jenkins/job_local2057084258_0001/job_local2057084258_0001.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:20,379 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.submit(Job.java:1299)] The url to track the job: http://localhost:8080/
+2014-05-16 15:18:20,385 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)] Running job: job_local2057084258_0001
+2014-05-16 15:18:20,403 (Thread-22) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:471)] OutputCommitter set in config null
+2014-05-16 15:18:20,429 (Thread-22) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:489)] OutputCommitter is org.apache.hadoop.mapred.FileOutputCommitter
+2014-05-16 15:18:20,885 (Thread-22) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for map tasks
+2014-05-16 15:18:20,897 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] Starting task: attempt_local2057084258_0001_m_000000_0
+2014-05-16 15:18:21,072 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:18:21,079 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.updateJobWithSplit(MapTask.java:462)] Processing split: file:/tmp/mahout-TestDistributedRowMatrix-7661705425562251264/testdata/distMatrix/part-00000:0+7588
+2014-05-16 15:18:21,170 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.runOldMapper(MapTask.java:416)] numReduceTasks: 1
+2014-05-16 15:18:21,211 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:388)] Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-05-16 15:18:21,416 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1365)] Job job_local2057084258_0001 running in uber mode : false
+2014-05-16 15:18:21,419 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1372)]  map 0% reduce 0%
+2014-05-16 15:18:21,423 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.setEquator(MapTask.java:1182)] (EQUATOR) 0 kvi 26214396(104857584)
+2014-05-16 15:18:21,423 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:975)] mapreduce.task.io.sort.mb: 100
+2014-05-16 15:18:21,425 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:976)] soft limit at 83886080
+2014-05-16 15:18:21,426 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:977)] bufstart = 0; bufvoid = 104857600
+2014-05-16 15:18:21,426 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:978)] kvstart = 26214396; length = 6553600
+2014-05-16 15:18:21,597 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:18:21,602 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1437)] Starting flush of map output
+2014-05-16 15:18:21,602 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1455)] Spilling map output
+2014-05-16 15:18:21,602 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1456)] bufstart = 0; bufend = 453; bufvoid = 104857600
+2014-05-16 15:18:21,603 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1458)] kvstart = 26214396(104857584); kvend = 26214396(104857584); length = 1/6553600
+2014-05-16 15:18:21,639 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.sortAndSpill(MapTask.java:1641)] Finished spill 0
+2014-05-16 15:18:21,650 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local2057084258_0001_m_000000_0 is done. And is in the process of committing
+2014-05-16 15:18:21,691 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] file:/tmp/mahout-TestDistributedRowMatrix-7661705425562251264/testdata/distMatrix/part-00000:0+7588
+2014-05-16 15:18:21,692 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local2057084258_0001_m_000000_0' done.
+2014-05-16 15:18:21,694 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] Finishing task: attempt_local2057084258_0001_m_000000_0
+2014-05-16 15:18:21,695 (Thread-22) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] map task executor complete.
+2014-05-16 15:18:21,722 (Thread-22) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for reduce tasks
+2014-05-16 15:18:21,728 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] Starting task: attempt_local2057084258_0001_r_000000_0
+2014-05-16 15:18:21,768 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:18:21,775 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@5caff29e
+2014-05-16 15:18:21,828 (pool-3-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:193)] MergerManager: memoryLimit=360395552, maxSingleShuffleLimit=90098888, mergeThreshold=237861072, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2014-05-16 15:18:21,882 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] attempt_local2057084258_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2014-05-16 15:18:21,964 (localfetcher#1) [INFO - org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:140)] localfetcher#1 about to shuffle output of map attempt_local2057084258_0001_m_000000_0 decomp: 459 len: 463 to MEMORY
+2014-05-16 15:18:21,972 (localfetcher#1) [INFO - org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] Read 459 bytes from map-output for attempt_local2057084258_0001_m_000000_0
+2014-05-16 15:18:21,977 (localfetcher#1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:307)] closeInMemoryFile -> map-output of size: 459, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->459
+2014-05-16 15:18:21,979 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] EventFetcher is interrupted.. Returning
+2014-05-16 15:18:21,981 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:21,981 (pool-3-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:667)] finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2014-05-16 15:18:22,002 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:18:22,003 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 455 bytes
+2014-05-16 15:18:22,019 (pool-3-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:742)] Merged 1 segments, 459 bytes to disk to satisfy reduce memory limit
+2014-05-16 15:18:22,020 (pool-3-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:772)] Merging 1 files, 463 bytes from disk
+2014-05-16 15:18:22,021 (pool-3-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:787)] Merging 0 segments, 0 bytes from memory into reduce
+2014-05-16 15:18:22,022 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:18:22,023 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 455 bytes
+2014-05-16 15:18:22,026 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:22,127 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local2057084258_0001_r_000000_0 is done. And is in the process of committing
+2014-05-16 15:18:22,129 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:22,140 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.Task.commit(Task.java:1156)] Task attempt_local2057084258_0001_r_000000_0 is allowed to commit now
+2014-05-16 15:18:22,142 (pool-3-thread-1) [INFO - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitTask(FileOutputCommitter.java:439)] Saved output of task 'attempt_local2057084258_0001_r_000000_0' to file:/tmp/mahout-TestDistributedRowMatrix-7661705425562251264/testdata/tmpOut/3792550822883655/DistributedMatrix.times.outputVector/_temporary/0/task_local2057084258_0001_r_000000
+2014-05-16 15:18:22,148 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] reduce > reduce
+2014-05-16 15:18:22,150 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local2057084258_0001_r_000000_0' done.
+2014-05-16 15:18:22,152 (pool-3-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] Finishing task: attempt_local2057084258_0001_r_000000_0
+2014-05-16 15:18:22,152 (Thread-22) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] reduce task executor complete.
+2014-05-16 15:18:22,425 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1372)]  map 100% reduce 100%
+2014-05-16 15:18:22,426 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1383)] Job job_local2057084258_0001 completed successfully
+2014-05-16 15:18:22,514 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1390)] Counters: 33
+	File System Counters
+		FILE: Number of bytes read=18954
+		FILE: Number of bytes written=467906
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=100
+		Map output records=1
+		Map output bytes=453
+		Map output materialized bytes=463
+		Input split bytes=144
+		Combine input records=1
+		Combine output records=1
+		Reduce input groups=1
+		Reduce shuffle bytes=463
+		Reduce input records=1
+		Reduce output records=1
+		Spilled Records=2
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=0
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=1029701632
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=7656
+	File Output Format Counters 
+		Bytes Written=575
+2014-05-16 15:18:22,575 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:71)] Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-05-16 15:18:22,581 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:71)] Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-05-16 15:18:22,639 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:150)] Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-05-16 15:18:22,662 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:259)] No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2014-05-16 15:18:22,933 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapred.FileInputFormat.listStatus(FileInputFormat.java:253)] Total input paths to process : 1
+2014-05-16 15:18:23,087 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:396)] number of splits:1
+2014-05-16 15:18:23,245 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.printTokens(JobSubmitter.java:479)] Submitting tokens for job: job_local1422476508_0002
+2014-05-16 15:18:23,364 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-6548451585569107968/hadoop0.6893059837699324/mapred/staging/jenkins1422476508/.staging/job_local1422476508_0002/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:23,365 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-6548451585569107968/hadoop0.6893059837699324/mapred/staging/jenkins1422476508/.staging/job_local1422476508_0002/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:23,980 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapred.LocalDistributedCacheManager.symlink(LocalDistributedCacheManager.java:207)] Creating symlink: /var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-6548451585569107968/hadoop0.6893059837699324/mapred/local/1400278703415/3792559439596632 <- /var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/3792559439596632
+2014-05-16 15:18:24,013 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapred.LocalDistributedCacheManager.setup(LocalDistributedCacheManager.java:171)] Localized file:/tmp/mahout-TestDistributedRowMatrix-7661705425562251264/testdata/tmpOut/3792559437628558/DistributedMatrix.times.inputVector/3792559439596632 as file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-6548451585569107968/hadoop0.6893059837699324/mapred/local/1400278703415/3792559439596632
+2014-05-16 15:18:24,197 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-6548451585569107968/hadoop0.6893059837699324/mapred/local/localRunner/jenkins/job_local1422476508_0002/job_local1422476508_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:24,202 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-6548451585569107968/hadoop0.6893059837699324/mapred/local/localRunner/jenkins/job_local1422476508_0002/job_local1422476508_0002.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:24,222 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.submit(Job.java:1299)] The url to track the job: http://localhost:8080/
+2014-05-16 15:18:24,224 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)] Running job: job_local1422476508_0002
+2014-05-16 15:18:24,228 (Thread-71) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:471)] OutputCommitter set in config null
+2014-05-16 15:18:24,229 (Thread-71) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:489)] OutputCommitter is org.apache.hadoop.mapred.FileOutputCommitter
+2014-05-16 15:18:24,252 (Thread-71) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for map tasks
+2014-05-16 15:18:24,252 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] Starting task: attempt_local1422476508_0002_m_000000_0
+2014-05-16 15:18:24,269 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:18:24,271 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.updateJobWithSplit(MapTask.java:462)] Processing split: file:/tmp/mahout-TestDistributedRowMatrix-7661705425562251264/testdata/distMatrix/part-00000:0+7588
+2014-05-16 15:18:24,282 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.runOldMapper(MapTask.java:416)] numReduceTasks: 1
+2014-05-16 15:18:24,282 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:388)] Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-05-16 15:18:24,453 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.setEquator(MapTask.java:1182)] (EQUATOR) 0 kvi 26214396(104857584)
+2014-05-16 15:18:24,453 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:975)] mapreduce.task.io.sort.mb: 100
+2014-05-16 15:18:24,454 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:976)] soft limit at 83886080
+2014-05-16 15:18:24,454 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:977)] bufstart = 0; bufvoid = 104857600
+2014-05-16 15:18:24,454 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:978)] kvstart = 26214396; length = 6553600
+2014-05-16 15:18:24,532 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:18:24,532 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1437)] Starting flush of map output
+2014-05-16 15:18:24,533 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1455)] Spilling map output
+2014-05-16 15:18:24,533 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1456)] bufstart = 0; bufend = 453; bufvoid = 104857600
+2014-05-16 15:18:24,533 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1458)] kvstart = 26214396(104857584); kvend = 26214396(104857584); length = 1/6553600
+2014-05-16 15:18:24,545 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.sortAndSpill(MapTask.java:1641)] Finished spill 0
+2014-05-16 15:18:24,561 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local1422476508_0002_m_000000_0 is done. And is in the process of committing
+2014-05-16 15:18:24,564 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] file:/tmp/mahout-TestDistributedRowMatrix-7661705425562251264/testdata/distMatrix/part-00000:0+7588
+2014-05-16 15:18:24,572 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local1422476508_0002_m_000000_0' done.
+2014-05-16 15:18:24,572 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] Finishing task: attempt_local1422476508_0002_m_000000_0
+2014-05-16 15:18:24,573 (Thread-71) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] map task executor complete.
+2014-05-16 15:18:24,578 (Thread-71) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for reduce tasks
+2014-05-16 15:18:24,584 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] Starting task: attempt_local1422476508_0002_r_000000_0
+2014-05-16 15:18:24,602 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:18:24,603 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@a8f54cb
+2014-05-16 15:18:24,611 (pool-6-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:193)] MergerManager: memoryLimit=360395552, maxSingleShuffleLimit=90098888, mergeThreshold=237861072, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2014-05-16 15:18:24,642 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] attempt_local1422476508_0002_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2014-05-16 15:18:24,661 (localfetcher#2) [INFO - org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:140)] localfetcher#2 about to shuffle output of map attempt_local1422476508_0002_m_000000_0 decomp: 459 len: 463 to MEMORY
+2014-05-16 15:18:24,666 (localfetcher#2) [INFO - org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] Read 459 bytes from map-output for attempt_local1422476508_0002_m_000000_0
+2014-05-16 15:18:24,669 (localfetcher#2) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:307)] closeInMemoryFile -> map-output of size: 459, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->459
+2014-05-16 15:18:24,670 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] EventFetcher is interrupted.. Returning
+2014-05-16 15:18:24,671 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:24,672 (pool-6-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:667)] finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2014-05-16 15:18:24,677 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:18:24,678 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 455 bytes
+2014-05-16 15:18:24,681 (pool-6-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:742)] Merged 1 segments, 459 bytes to disk to satisfy reduce memory limit
+2014-05-16 15:18:24,682 (pool-6-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:772)] Merging 1 files, 463 bytes from disk
+2014-05-16 15:18:24,687 (pool-6-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:787)] Merging 0 segments, 0 bytes from memory into reduce
+2014-05-16 15:18:24,688 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:18:24,689 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 455 bytes
+2014-05-16 15:18:24,690 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:24,771 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local1422476508_0002_r_000000_0 is done. And is in the process of committing
+2014-05-16 15:18:24,774 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:24,774 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.Task.commit(Task.java:1156)] Task attempt_local1422476508_0002_r_000000_0 is allowed to commit now
+2014-05-16 15:18:24,776 (pool-6-thread-1) [INFO - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitTask(FileOutputCommitter.java:439)] Saved output of task 'attempt_local1422476508_0002_r_000000_0' to file:/tmp/mahout-TestDistributedRowMatrix-7661705425562251264/testdata/tmpOut/3792559437628558/DistributedMatrix.times.outputVector/_temporary/0/task_local1422476508_0002_r_000000
+2014-05-16 15:18:24,778 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] reduce > reduce
+2014-05-16 15:18:24,778 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local1422476508_0002_r_000000_0' done.
+2014-05-16 15:18:24,779 (pool-6-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] Finishing task: attempt_local1422476508_0002_r_000000_0
+2014-05-16 15:18:24,779 (Thread-71) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] reduce task executor complete.
+2014-05-16 15:18:25,227 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1365)] Job job_local1422476508_0002 running in uber mode : false
+2014-05-16 15:18:25,228 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1372)]  map 100% reduce 100%
+2014-05-16 15:18:25,229 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1383)] Job job_local1422476508_0002 completed successfully
+2014-05-16 15:18:25,252 (TEST-TestDistributedRowMatrix.testTimesSquaredVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1390)] Counters: 33
+	File System Counters
+		FILE: Number of bytes read=40016
+		FILE: Number of bytes written=921698
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=100
+		Map output records=1
+		Map output bytes=453
+		Map output materialized bytes=463
+		Input split bytes=144
+		Combine input records=1
+		Combine output records=1
+		Reduce input groups=1
+		Reduce shuffle bytes=463
+		Reduce input records=1
+		Reduce output records=1
+		Spilled Records=2
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=0
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=1029701632
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=7656
+	File Output Format Counters 
+		Bytes Written=575
+2014-05-16 15:18:25,754 (TEST-TestDistributedRowMatrix.testMatrixTimesVector-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:71)] Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-05-16 15:18:25,757 (TEST-TestDistributedRowMatrix.testMatrixTimesVector-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:71)] Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-05-16 15:18:25,823 (TEST-TestDistributedRowMatrix.testMatrixTimesVector-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:150)] Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-05-16 15:18:25,849 (TEST-TestDistributedRowMatrix.testMatrixTimesVector-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:259)] No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2014-05-16 15:18:26,014 (TEST-TestDistributedRowMatrix.testMatrixTimesVector-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapred.FileInputFormat.listStatus(FileInputFormat.java:253)] Total input paths to process : 1
+2014-05-16 15:18:26,142 (TEST-TestDistributedRowMatrix.testMatrixTimesVector-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:396)] number of splits:1
+2014-05-16 15:18:26,407 (TEST-TestDistributedRowMatrix.testMatrixTimesVector-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.printTokens(JobSubmitter.java:479)] Submitting tokens for job: job_local411236740_0003
+2014-05-16 15:18:26,535 (TEST-TestDistributedRowMatrix.testMatrixTimesVector-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-4546064563584315392/hadoop0.7487178377422088/mapred/staging/jenkins411236740/.staging/job_local411236740_0003/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:26,535 (TEST-TestDistributedRowMatrix.testMatrixTimesVector-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-4546064563584315392/hadoop0.7487178377422088/mapred/staging/jenkins411236740/.staging/job_local411236740_0003/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:27,120 (TEST-TestDistributedRowMatrix.testMatrixTimesVector-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapred.LocalDistributedCacheManager.symlink(LocalDistributedCacheManager.java:207)] Creating symlink: /var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-4546064563584315392/hadoop0.7487178377422088/mapred/local/1400278706556/3792562653562682 <- /var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/3792562653562682
+2014-05-16 15:18:27,142 (TEST-TestDistributedRowMatrix.testMatrixTimesVector-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapred.LocalDistributedCacheManager.setup(LocalDistributedCacheManager.java:171)] Localized file:/tmp/mahout-TestDistributedRowMatrix-3049067158357443584/testdata/tmpOut/3792562636233305/DistributedMatrix.times.inputVector/3792562653562682 as file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-4546064563584315392/hadoop0.7487178377422088/mapred/local/1400278706556/3792562653562682
+2014-05-16 15:18:27,306 (TEST-TestDistributedRowMatrix.testMatrixTimesVector-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-4546064563584315392/hadoop0.7487178377422088/mapred/local/localRunner/jenkins/job_local411236740_0003/job_local411236740_0003.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:27,312 (TEST-TestDistributedRowMatrix.testMatrixTimesVector-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-4546064563584315392/hadoop0.7487178377422088/mapred/local/localRunner/jenkins/job_local411236740_0003/job_local411236740_0003.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:27,329 (TEST-TestDistributedRowMatrix.testMatrixTimesVector-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.submit(Job.java:1299)] The url to track the job: http://localhost:8080/
+2014-05-16 15:18:27,330 (Thread-119) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:471)] OutputCommitter set in config null
+2014-05-16 15:18:27,330 (TEST-TestDistributedRowMatrix.testMatrixTimesVector-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)] Running job: job_local411236740_0003
+2014-05-16 15:18:27,330 (Thread-119) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:489)] OutputCommitter is org.apache.hadoop.mapred.FileOutputCommitter
+2014-05-16 15:18:27,361 (Thread-119) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for map tasks
+2014-05-16 15:18:27,362 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] Starting task: attempt_local411236740_0003_m_000000_0
+2014-05-16 15:18:27,371 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:18:27,391 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.updateJobWithSplit(MapTask.java:462)] Processing split: file:/tmp/mahout-TestDistributedRowMatrix-3049067158357443584/testdata/distMatrix/part-00000:0+7588
+2014-05-16 15:18:27,405 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.runOldMapper(MapTask.java:416)] numReduceTasks: 1
+2014-05-16 15:18:27,412 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:388)] Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-05-16 15:18:27,587 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.setEquator(MapTask.java:1182)] (EQUATOR) 0 kvi 26214396(104857584)
+2014-05-16 15:18:27,588 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:975)] mapreduce.task.io.sort.mb: 100
+2014-05-16 15:18:27,588 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:976)] soft limit at 83886080
+2014-05-16 15:18:27,588 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:977)] bufstart = 0; bufvoid = 104857600
+2014-05-16 15:18:27,588 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:978)] kvstart = 26214396; length = 6553600
+2014-05-16 15:18:27,614 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:18:27,615 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1437)] Starting flush of map output
+2014-05-16 15:18:27,615 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1455)] Spilling map output
+2014-05-16 15:18:27,615 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1456)] bufstart = 0; bufend = 363; bufvoid = 104857600
+2014-05-16 15:18:27,616 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1458)] kvstart = 26214396(104857584); kvend = 26214396(104857584); length = 1/6553600
+2014-05-16 15:18:27,624 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.sortAndSpill(MapTask.java:1641)] Finished spill 0
+2014-05-16 15:18:27,629 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local411236740_0003_m_000000_0 is done. And is in the process of committing
+2014-05-16 15:18:27,632 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] file:/tmp/mahout-TestDistributedRowMatrix-3049067158357443584/testdata/distMatrix/part-00000:0+7588
+2014-05-16 15:18:27,633 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local411236740_0003_m_000000_0' done.
+2014-05-16 15:18:27,633 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] Finishing task: attempt_local411236740_0003_m_000000_0
+2014-05-16 15:18:27,633 (Thread-119) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] map task executor complete.
+2014-05-16 15:18:27,642 (Thread-119) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for reduce tasks
+2014-05-16 15:18:27,644 (pool-9-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] Starting task: attempt_local411236740_0003_r_000000_0
+2014-05-16 15:18:27,663 (pool-9-thread-1) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:18:27,664 (pool-9-thread-1) [INFO - org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@2117293
+2014-05-16 15:18:27,666 (pool-9-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:193)] MergerManager: memoryLimit=360395552, maxSingleShuffleLimit=90098888, mergeThreshold=237861072, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2014-05-16 15:18:27,695 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] attempt_local411236740_0003_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2014-05-16 15:18:27,720 (localfetcher#3) [INFO - org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:140)] localfetcher#3 about to shuffle output of map attempt_local411236740_0003_m_000000_0 decomp: 369 len: 373 to MEMORY
+2014-05-16 15:18:27,721 (localfetcher#3) [INFO - org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] Read 369 bytes from map-output for attempt_local411236740_0003_m_000000_0
+2014-05-16 15:18:27,721 (localfetcher#3) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:307)] closeInMemoryFile -> map-output of size: 369, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->369
+2014-05-16 15:18:27,722 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] EventFetcher is interrupted.. Returning
+2014-05-16 15:18:27,723 (pool-9-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:27,723 (pool-9-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:667)] finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2014-05-16 15:18:27,727 (pool-9-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:18:27,728 (pool-9-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 365 bytes
+2014-05-16 15:18:27,730 (pool-9-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:742)] Merged 1 segments, 369 bytes to disk to satisfy reduce memory limit
+2014-05-16 15:18:27,731 (pool-9-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:772)] Merging 1 files, 373 bytes from disk
+2014-05-16 15:18:27,731 (pool-9-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:787)] Merging 0 segments, 0 bytes from memory into reduce
+2014-05-16 15:18:27,731 (pool-9-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:18:27,732 (pool-9-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 365 bytes
+2014-05-16 15:18:27,733 (pool-9-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:27,764 (pool-9-thread-1) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local411236740_0003_r_000000_0 is done. And is in the process of committing
+2014-05-16 15:18:27,766 (pool-9-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:27,766 (pool-9-thread-1) [INFO - org.apache.hadoop.mapred.Task.commit(Task.java:1156)] Task attempt_local411236740_0003_r_000000_0 is allowed to commit now
+2014-05-16 15:18:27,773 (pool-9-thread-1) [INFO - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitTask(FileOutputCommitter.java:439)] Saved output of task 'attempt_local411236740_0003_r_000000_0' to file:/tmp/mahout-TestDistributedRowMatrix-3049067158357443584/testdata/tmpOut/3792562636233305/DistributedMatrix.times.outputVector/_temporary/0/task_local411236740_0003_r_000000
+2014-05-16 15:18:27,778 (pool-9-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] reduce > reduce
+2014-05-16 15:18:27,779 (pool-9-thread-1) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local411236740_0003_r_000000_0' done.
+2014-05-16 15:18:27,779 (pool-9-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] Finishing task: attempt_local411236740_0003_r_000000_0
+2014-05-16 15:18:27,779 (Thread-119) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] reduce task executor complete.
+2014-05-16 15:18:28,331 (TEST-TestDistributedRowMatrix.testMatrixTimesVector-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1365)] Job job_local411236740_0003 running in uber mode : false
+2014-05-16 15:18:28,332 (TEST-TestDistributedRowMatrix.testMatrixTimesVector-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1372)]  map 100% reduce 100%
+2014-05-16 15:18:28,333 (TEST-TestDistributedRowMatrix.testMatrixTimesVector-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1383)] Job job_local411236740_0003 completed successfully
+2014-05-16 15:18:28,345 (TEST-TestDistributedRowMatrix.testMatrixTimesVector-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1390)] Counters: 33
+	File System Counters
+		FILE: Number of bytes read=60898
+		FILE: Number of bytes written=1387708
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=100
+		Map output records=1
+		Map output bytes=363
+		Map output materialized bytes=373
+		Input split bytes=144
+		Combine input records=1
+		Combine output records=1
+		Reduce input groups=1
+		Reduce shuffle bytes=373
+		Reduce input records=1
+		Reduce output records=1
+		Spilled Records=2
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=0
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=1029701632
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=7656
+	File Output Format Counters 
+		Bytes Written=481
+2014-05-16 15:18:28,893 (TEST-TestDistributedRowMatrix.testMatrixTimesSquaredVector-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:71)] Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-05-16 15:18:28,895 (TEST-TestDistributedRowMatrix.testMatrixTimesSquaredVector-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:71)] Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-05-16 15:18:28,923 (TEST-TestDistributedRowMatrix.testMatrixTimesSquaredVector-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:150)] Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-05-16 15:18:28,952 (TEST-TestDistributedRowMatrix.testMatrixTimesSquaredVector-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:259)] No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2014-05-16 15:18:29,180 (TEST-TestDistributedRowMatrix.testMatrixTimesSquaredVector-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapred.FileInputFormat.listStatus(FileInputFormat.java:253)] Total input paths to process : 1
+2014-05-16 15:18:29,272 (TEST-TestDistributedRowMatrix.testMatrixTimesSquaredVector-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:396)] number of splits:1
+2014-05-16 15:18:29,348 (TEST-TestDistributedRowMatrix.testMatrixTimesSquaredVector-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.printTokens(JobSubmitter.java:479)] Submitting tokens for job: job_local1548199454_0004
+2014-05-16 15:18:29,416 (TEST-TestDistributedRowMatrix.testMatrixTimesSquaredVector-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-4517696848282289152/hadoop0.07238728131579486/mapred/staging/jenkins1548199454/.staging/job_local1548199454_0004/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:29,422 (TEST-TestDistributedRowMatrix.testMatrixTimesSquaredVector-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-4517696848282289152/hadoop0.07238728131579486/mapred/staging/jenkins1548199454/.staging/job_local1548199454_0004/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:29,873 (TEST-TestDistributedRowMatrix.testMatrixTimesSquaredVector-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapred.LocalDistributedCacheManager.symlink(LocalDistributedCacheManager.java:207)] Creating symlink: /var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-4517696848282289152/hadoop0.07238728131579486/mapred/local/1400278709430/3792565776607086 <- /var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/3792565776607086
+2014-05-16 15:18:29,888 (TEST-TestDistributedRowMatrix.testMatrixTimesSquaredVector-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapred.LocalDistributedCacheManager.setup(LocalDistributedCacheManager.java:171)] Localized file:/tmp/mahout-TestDistributedRowMatrix-8934132062424760320/testdata/tmpOut/3792565775489985/DistributedMatrix.times.inputVector/3792565776607086 as file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-4517696848282289152/hadoop0.07238728131579486/mapred/local/1400278709430/3792565776607086
+2014-05-16 15:18:29,949 (TEST-TestDistributedRowMatrix.testMatrixTimesSquaredVector-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-4517696848282289152/hadoop0.07238728131579486/mapred/local/localRunner/jenkins/job_local1548199454_0004/job_local1548199454_0004.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:29,950 (TEST-TestDistributedRowMatrix.testMatrixTimesSquaredVector-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-4517696848282289152/hadoop0.07238728131579486/mapred/local/localRunner/jenkins/job_local1548199454_0004/job_local1548199454_0004.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:29,962 (TEST-TestDistributedRowMatrix.testMatrixTimesSquaredVector-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.submit(Job.java:1299)] The url to track the job: http://localhost:8080/
+2014-05-16 15:18:29,963 (TEST-TestDistributedRowMatrix.testMatrixTimesSquaredVector-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)] Running job: job_local1548199454_0004
+2014-05-16 15:18:29,964 (Thread-167) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:471)] OutputCommitter set in config null
+2014-05-16 15:18:29,965 (Thread-167) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:489)] OutputCommitter is org.apache.hadoop.mapred.FileOutputCommitter
+2014-05-16 15:18:29,984 (Thread-167) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for map tasks
+2014-05-16 15:18:29,985 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] Starting task: attempt_local1548199454_0004_m_000000_0
+2014-05-16 15:18:29,997 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:18:30,000 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.updateJobWithSplit(MapTask.java:462)] Processing split: file:/tmp/mahout-TestDistributedRowMatrix-8934132062424760320/testdata/distMatrix/part-00000:0+7588
+2014-05-16 15:18:30,004 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.runOldMapper(MapTask.java:416)] numReduceTasks: 1
+2014-05-16 15:18:30,008 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:388)] Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-05-16 15:18:30,115 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.setEquator(MapTask.java:1182)] (EQUATOR) 0 kvi 26214396(104857584)
+2014-05-16 15:18:30,116 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:975)] mapreduce.task.io.sort.mb: 100
+2014-05-16 15:18:30,116 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:976)] soft limit at 83886080
+2014-05-16 15:18:30,116 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:977)] bufstart = 0; bufvoid = 104857600
+2014-05-16 15:18:30,116 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:978)] kvstart = 26214396; length = 6553600
+2014-05-16 15:18:30,161 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:18:30,172 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1437)] Starting flush of map output
+2014-05-16 15:18:30,172 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1455)] Spilling map output
+2014-05-16 15:18:30,173 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1456)] bufstart = 0; bufend = 453; bufvoid = 104857600
+2014-05-16 15:18:30,173 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1458)] kvstart = 26214396(104857584); kvend = 26214396(104857584); length = 1/6553600
+2014-05-16 15:18:30,178 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.sortAndSpill(MapTask.java:1641)] Finished spill 0
+2014-05-16 15:18:30,189 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local1548199454_0004_m_000000_0 is done. And is in the process of committing
+2014-05-16 15:18:30,195 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] file:/tmp/mahout-TestDistributedRowMatrix-8934132062424760320/testdata/distMatrix/part-00000:0+7588
+2014-05-16 15:18:30,202 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local1548199454_0004_m_000000_0' done.
+2014-05-16 15:18:30,202 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] Finishing task: attempt_local1548199454_0004_m_000000_0
+2014-05-16 15:18:30,203 (Thread-167) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] map task executor complete.
+2014-05-16 15:18:30,211 (Thread-167) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for reduce tasks
+2014-05-16 15:18:30,212 (pool-12-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] Starting task: attempt_local1548199454_0004_r_000000_0
+2014-05-16 15:18:30,223 (pool-12-thread-1) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:18:30,223 (pool-12-thread-1) [INFO - org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@716e9097
+2014-05-16 15:18:30,232 (pool-12-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:193)] MergerManager: memoryLimit=360395552, maxSingleShuffleLimit=90098888, mergeThreshold=237861072, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2014-05-16 15:18:30,262 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] attempt_local1548199454_0004_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2014-05-16 15:18:30,273 (localfetcher#4) [INFO - org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:140)] localfetcher#4 about to shuffle output of map attempt_local1548199454_0004_m_000000_0 decomp: 459 len: 463 to MEMORY
+2014-05-16 15:18:30,274 (localfetcher#4) [INFO - org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] Read 459 bytes from map-output for attempt_local1548199454_0004_m_000000_0
+2014-05-16 15:18:30,275 (localfetcher#4) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:307)] closeInMemoryFile -> map-output of size: 459, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->459
+2014-05-16 15:18:30,275 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] EventFetcher is interrupted.. Returning
+2014-05-16 15:18:30,278 (pool-12-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:30,278 (pool-12-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:667)] finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2014-05-16 15:18:30,286 (pool-12-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:18:30,288 (pool-12-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 455 bytes
+2014-05-16 15:18:30,291 (pool-12-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:742)] Merged 1 segments, 459 bytes to disk to satisfy reduce memory limit
+2014-05-16 15:18:30,292 (pool-12-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:772)] Merging 1 files, 463 bytes from disk
+2014-05-16 15:18:30,292 (pool-12-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:787)] Merging 0 segments, 0 bytes from memory into reduce
+2014-05-16 15:18:30,293 (pool-12-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:18:30,293 (pool-12-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 455 bytes
+2014-05-16 15:18:30,294 (pool-12-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:30,326 (pool-12-thread-1) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local1548199454_0004_r_000000_0 is done. And is in the process of committing
+2014-05-16 15:18:30,328 (pool-12-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:30,328 (pool-12-thread-1) [INFO - org.apache.hadoop.mapred.Task.commit(Task.java:1156)] Task attempt_local1548199454_0004_r_000000_0 is allowed to commit now
+2014-05-16 15:18:30,335 (pool-12-thread-1) [INFO - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitTask(FileOutputCommitter.java:439)] Saved output of task 'attempt_local1548199454_0004_r_000000_0' to file:/tmp/mahout-TestDistributedRowMatrix-8934132062424760320/testdata/tmpOut/3792565775489985/DistributedMatrix.times.outputVector/_temporary/0/task_local1548199454_0004_r_000000
+2014-05-16 15:18:30,338 (pool-12-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] reduce > reduce
+2014-05-16 15:18:30,338 (pool-12-thread-1) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local1548199454_0004_r_000000_0' done.
+2014-05-16 15:18:30,339 (pool-12-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] Finishing task: attempt_local1548199454_0004_r_000000_0
+2014-05-16 15:18:30,339 (Thread-167) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] reduce task executor complete.
+2014-05-16 15:18:30,964 (TEST-TestDistributedRowMatrix.testMatrixTimesSquaredVector-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1365)] Job job_local1548199454_0004 running in uber mode : false
+2014-05-16 15:18:30,964 (TEST-TestDistributedRowMatrix.testMatrixTimesSquaredVector-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1372)]  map 100% reduce 100%
+2014-05-16 15:18:30,965 (TEST-TestDistributedRowMatrix.testMatrixTimesSquaredVector-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1383)] Job job_local1548199454_0004 completed successfully
+2014-05-16 15:18:30,978 (TEST-TestDistributedRowMatrix.testMatrixTimesSquaredVector-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1390)] Counters: 33
+	File System Counters
+		FILE: Number of bytes read=81592
+		FILE: Number of bytes written=1856484
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=100
+		Map output records=1
+		Map output bytes=453
+		Map output materialized bytes=463
+		Input split bytes=144
+		Combine input records=1
+		Combine output records=1
+		Reduce input groups=1
+		Reduce shuffle bytes=463
+		Reduce input records=1
+		Reduce output records=1
+		Spilled Records=2
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=32
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=1029701632
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=7656
+	File Output Format Counters 
+		Bytes Written=575
+2014-05-16 15:18:31,175 (TEST-TestDistributedRowMatrix.testNullMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:71)] Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-05-16 15:18:31,199 (TEST-TestDistributedRowMatrix.testNullMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:150)] Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-05-16 15:18:31,218 (TEST-TestDistributedRowMatrix.testNullMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:259)] No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2014-05-16 15:18:31,241 (TEST-TestDistributedRowMatrix.testNullMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.lib.input.FileInputFormat.listStatus(FileInputFormat.java:287)] Total input paths to process : 1
+2014-05-16 15:18:31,337 (TEST-TestDistributedRowMatrix.testNullMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:396)] number of splits:1
+2014-05-16 15:18:31,475 (TEST-TestDistributedRowMatrix.testNullMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.printTokens(JobSubmitter.java:479)] Submitting tokens for job: job_local1812323769_0005
+2014-05-16 15:18:31,542 (TEST-TestDistributedRowMatrix.testNullMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-2486414028009354240/hadoop0.26494000239697746/mapred/staging/jenkins1812323769/.staging/job_local1812323769_0005/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:31,544 (TEST-TestDistributedRowMatrix.testNullMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-2486414028009354240/hadoop0.26494000239697746/mapred/staging/jenkins1812323769/.staging/job_local1812323769_0005/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:31,669 (TEST-TestDistributedRowMatrix.testNullMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-2486414028009354240/hadoop0.26494000239697746/mapred/local/localRunner/jenkins/job_local1812323769_0005/job_local1812323769_0005.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:31,669 (TEST-TestDistributedRowMatrix.testNullMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-2486414028009354240/hadoop0.26494000239697746/mapred/local/localRunner/jenkins/job_local1812323769_0005/job_local1812323769_0005.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:31,678 (TEST-TestDistributedRowMatrix.testNullMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.submit(Job.java:1299)] The url to track the job: http://localhost:8080/
+2014-05-16 15:18:31,679 (TEST-TestDistributedRowMatrix.testNullMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)] Running job: job_local1812323769_0005
+2014-05-16 15:18:31,680 (Thread-206) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:471)] OutputCommitter set in config null
+2014-05-16 15:18:31,682 (Thread-206) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:489)] OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2014-05-16 15:18:31,685 (Thread-206) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for map tasks
+2014-05-16 15:18:31,685 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] Starting task: attempt_local1812323769_0005_m_000000_0
+2014-05-16 15:18:31,688 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:18:31,691 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:733)] Processing split: file:/tmp/mahout-TestDistributedRowMatrix-9030277032162504704/testdata/distMatrix/part-00000:0+1597
+2014-05-16 15:18:31,693 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:388)] Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-05-16 15:18:31,722 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.setEquator(MapTask.java:1182)] (EQUATOR) 0 kvi 26214396(104857584)
+2014-05-16 15:18:31,723 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:975)] mapreduce.task.io.sort.mb: 100
+2014-05-16 15:18:31,723 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:976)] soft limit at 83886080
+2014-05-16 15:18:31,724 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:977)] bufstart = 0; bufvoid = 104857600
+2014-05-16 15:18:31,724 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:978)] kvstart = 26214396; length = 6553600
+2014-05-16 15:18:31,750 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:18:31,750 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1437)] Starting flush of map output
+2014-05-16 15:18:31,751 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1455)] Spilling map output
+2014-05-16 15:18:31,751 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1456)] bufstart = 0; bufend = 12; bufvoid = 104857600
+2014-05-16 15:18:31,751 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1458)] kvstart = 26214396(104857584); kvend = 26214396(104857584); length = 1/6553600
+2014-05-16 15:18:31,756 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.sortAndSpill(MapTask.java:1641)] Finished spill 0
+2014-05-16 15:18:31,759 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local1812323769_0005_m_000000_0 is done. And is in the process of committing
+2014-05-16 15:18:31,763 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] map
+2014-05-16 15:18:31,764 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local1812323769_0005_m_000000_0' done.
+2014-05-16 15:18:31,764 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] Finishing task: attempt_local1812323769_0005_m_000000_0
+2014-05-16 15:18:31,764 (Thread-206) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] map task executor complete.
+2014-05-16 15:18:31,774 (Thread-206) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for reduce tasks
+2014-05-16 15:18:31,775 (pool-15-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] Starting task: attempt_local1812323769_0005_r_000000_0
+2014-05-16 15:18:31,787 (pool-15-thread-1) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:18:31,787 (pool-15-thread-1) [INFO - org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@71b58ad1
+2014-05-16 15:18:31,797 (pool-15-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:193)] MergerManager: memoryLimit=360395552, maxSingleShuffleLimit=90098888, mergeThreshold=237861072, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2014-05-16 15:18:31,801 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] attempt_local1812323769_0005_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2014-05-16 15:18:31,814 (localfetcher#5) [INFO - org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:140)] localfetcher#5 about to shuffle output of map attempt_local1812323769_0005_m_000000_0 decomp: 16 len: 20 to MEMORY
+2014-05-16 15:18:31,815 (localfetcher#5) [INFO - org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] Read 16 bytes from map-output for attempt_local1812323769_0005_m_000000_0
+2014-05-16 15:18:31,815 (localfetcher#5) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:307)] closeInMemoryFile -> map-output of size: 16, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->16
+2014-05-16 15:18:31,816 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] EventFetcher is interrupted.. Returning
+2014-05-16 15:18:31,820 (pool-15-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:31,820 (pool-15-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:667)] finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2014-05-16 15:18:31,824 (pool-15-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:18:31,825 (pool-15-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 14 bytes
+2014-05-16 15:18:31,840 (pool-15-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:742)] Merged 1 segments, 16 bytes to disk to satisfy reduce memory limit
+2014-05-16 15:18:31,841 (pool-15-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:772)] Merging 1 files, 20 bytes from disk
+2014-05-16 15:18:31,841 (pool-15-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:787)] Merging 0 segments, 0 bytes from memory into reduce
+2014-05-16 15:18:31,841 (pool-15-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:18:31,842 (pool-15-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 14 bytes
+2014-05-16 15:18:31,843 (pool-15-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:31,880 (pool-15-thread-1) [INFO - org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1009)] mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+2014-05-16 15:18:31,892 (pool-15-thread-1) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local1812323769_0005_r_000000_0 is done. And is in the process of committing
+2014-05-16 15:18:31,895 (pool-15-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:31,895 (pool-15-thread-1) [INFO - org.apache.hadoop.mapred.Task.commit(Task.java:1156)] Task attempt_local1812323769_0005_r_000000_0 is allowed to commit now
+2014-05-16 15:18:31,897 (pool-15-thread-1) [INFO - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitTask(FileOutputCommitter.java:439)] Saved output of task 'attempt_local1812323769_0005_r_000000_0' to file:/tmp/mahout-TestDistributedRowMatrix-9030277032162504704/testdata/tmpOut/3792568058646916/_temporary/0/task_local1812323769_0005_r_000000
+2014-05-16 15:18:31,903 (pool-15-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] reduce > reduce
+2014-05-16 15:18:31,904 (pool-15-thread-1) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local1812323769_0005_r_000000_0' done.
+2014-05-16 15:18:31,904 (pool-15-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] Finishing task: attempt_local1812323769_0005_r_000000_0
+2014-05-16 15:18:31,909 (Thread-206) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] reduce task executor complete.
+2014-05-16 15:18:32,680 (TEST-TestDistributedRowMatrix.testNullMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1365)] Job job_local1812323769_0005 running in uber mode : false
+2014-05-16 15:18:32,680 (TEST-TestDistributedRowMatrix.testNullMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1372)]  map 100% reduce 100%
+2014-05-16 15:18:32,681 (TEST-TestDistributedRowMatrix.testNullMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1383)] Job job_local1812323769_0005 completed successfully
+2014-05-16 15:18:32,692 (TEST-TestDistributedRowMatrix.testNullMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1390)] Counters: 33
+	File System Counters
+		FILE: Number of bytes read=87440
+		FILE: Number of bytes written=2300194
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=100
+		Map output records=1
+		Map output bytes=12
+		Map output materialized bytes=20
+		Input split bytes=157
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=1
+		Reduce shuffle bytes=20
+		Reduce input records=1
+		Reduce output records=1
+		Spilled Records=2
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=0
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=1029701632
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=1621
+	File Output Format Counters 
+		Bytes Written=124
+2014-05-16 15:18:33,124 (TEST-TestDistributedRowMatrix.testMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:71)] Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-05-16 15:18:33,152 (TEST-TestDistributedRowMatrix.testMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:150)] Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-05-16 15:18:33,162 (TEST-TestDistributedRowMatrix.testMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:259)] No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2014-05-16 15:18:33,179 (TEST-TestDistributedRowMatrix.testMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.lib.input.FileInputFormat.listStatus(FileInputFormat.java:287)] Total input paths to process : 1
+2014-05-16 15:18:33,275 (TEST-TestDistributedRowMatrix.testMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:396)] number of splits:1
+2014-05-16 15:18:33,327 (TEST-TestDistributedRowMatrix.testMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.printTokens(JobSubmitter.java:479)] Submitting tokens for job: job_local79175518_0006
+2014-05-16 15:18:33,394 (TEST-TestDistributedRowMatrix.testMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-2122493036006947840/hadoop0.02612239740192246/mapred/staging/jenkins79175518/.staging/job_local79175518_0006/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:33,395 (TEST-TestDistributedRowMatrix.testMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-2122493036006947840/hadoop0.02612239740192246/mapred/staging/jenkins79175518/.staging/job_local79175518_0006/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:33,528 (TEST-TestDistributedRowMatrix.testMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-2122493036006947840/hadoop0.02612239740192246/mapred/local/localRunner/jenkins/job_local79175518_0006/job_local79175518_0006.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:33,529 (TEST-TestDistributedRowMatrix.testMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-2122493036006947840/hadoop0.02612239740192246/mapred/local/localRunner/jenkins/job_local79175518_0006/job_local79175518_0006.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:33,542 (TEST-TestDistributedRowMatrix.testMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.submit(Job.java:1299)] The url to track the job: http://localhost:8080/
+2014-05-16 15:18:33,542 (TEST-TestDistributedRowMatrix.testMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)] Running job: job_local79175518_0006
+2014-05-16 15:18:33,547 (Thread-226) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:471)] OutputCommitter set in config null
+2014-05-16 15:18:33,548 (Thread-226) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:489)] OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2014-05-16 15:18:33,558 (Thread-226) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for map tasks
+2014-05-16 15:18:33,562 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] Starting task: attempt_local79175518_0006_m_000000_0
+2014-05-16 15:18:33,568 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:18:33,571 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:733)] Processing split: file:/tmp/mahout-TestDistributedRowMatrix-2173090215905100800/testdata/distMatrix/part-00000:0+7588
+2014-05-16 15:18:33,572 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:388)] Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-05-16 15:18:33,724 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.setEquator(MapTask.java:1182)] (EQUATOR) 0 kvi 26214396(104857584)
+2014-05-16 15:18:33,724 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:975)] mapreduce.task.io.sort.mb: 100
+2014-05-16 15:18:33,725 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:976)] soft limit at 83886080
+2014-05-16 15:18:33,725 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:977)] bufstart = 0; bufvoid = 104857600
+2014-05-16 15:18:33,725 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:978)] kvstart = 26214396; length = 6553600
+2014-05-16 15:18:33,767 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:18:33,771 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1437)] Starting flush of map output
+2014-05-16 15:18:33,771 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1455)] Spilling map output
+2014-05-16 15:18:33,771 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1456)] bufstart = 0; bufend = 410; bufvoid = 104857600
+2014-05-16 15:18:33,772 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1458)] kvstart = 26214396(104857584); kvend = 26214396(104857584); length = 1/6553600
+2014-05-16 15:18:33,780 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.sortAndSpill(MapTask.java:1641)] Finished spill 0
+2014-05-16 15:18:33,786 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local79175518_0006_m_000000_0 is done. And is in the process of committing
+2014-05-16 15:18:33,788 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] map
+2014-05-16 15:18:33,789 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local79175518_0006_m_000000_0' done.
+2014-05-16 15:18:33,789 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] Finishing task: attempt_local79175518_0006_m_000000_0
+2014-05-16 15:18:33,790 (Thread-226) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] map task executor complete.
+2014-05-16 15:18:33,799 (Thread-226) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for reduce tasks
+2014-05-16 15:18:33,808 (pool-18-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] Starting task: attempt_local79175518_0006_r_000000_0
+2014-05-16 15:18:33,818 (pool-18-thread-1) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:18:33,818 (pool-18-thread-1) [INFO - org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@167f3561
+2014-05-16 15:18:33,840 (pool-18-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:193)] MergerManager: memoryLimit=355624544, maxSingleShuffleLimit=88906136, mergeThreshold=234712208, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2014-05-16 15:18:33,872 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] attempt_local79175518_0006_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2014-05-16 15:18:33,879 (localfetcher#6) [INFO - org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:140)] localfetcher#6 about to shuffle output of map attempt_local79175518_0006_m_000000_0 decomp: 416 len: 420 to MEMORY
+2014-05-16 15:18:33,882 (localfetcher#6) [INFO - org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] Read 416 bytes from map-output for attempt_local79175518_0006_m_000000_0
+2014-05-16 15:18:33,896 (localfetcher#6) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:307)] closeInMemoryFile -> map-output of size: 416, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->416
+2014-05-16 15:18:33,898 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] EventFetcher is interrupted.. Returning
+2014-05-16 15:18:33,900 (pool-18-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:33,900 (pool-18-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:667)] finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2014-05-16 15:18:33,903 (pool-18-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:18:33,904 (pool-18-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 412 bytes
+2014-05-16 15:18:33,906 (pool-18-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:742)] Merged 1 segments, 416 bytes to disk to satisfy reduce memory limit
+2014-05-16 15:18:33,906 (pool-18-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:772)] Merging 1 files, 420 bytes from disk
+2014-05-16 15:18:33,907 (pool-18-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:787)] Merging 0 segments, 0 bytes from memory into reduce
+2014-05-16 15:18:33,907 (pool-18-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:18:33,908 (pool-18-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 412 bytes
+2014-05-16 15:18:33,909 (pool-18-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:33,950 (pool-18-thread-1) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local79175518_0006_r_000000_0 is done. And is in the process of committing
+2014-05-16 15:18:33,953 (pool-18-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:33,953 (pool-18-thread-1) [INFO - org.apache.hadoop.mapred.Task.commit(Task.java:1156)] Task attempt_local79175518_0006_r_000000_0 is allowed to commit now
+2014-05-16 15:18:33,954 (pool-18-thread-1) [INFO - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitTask(FileOutputCommitter.java:439)] Saved output of task 'attempt_local79175518_0006_r_000000_0' to file:/tmp/mahout-TestDistributedRowMatrix-2173090215905100800/testdata/tmpOut/3792570022819655/_temporary/0/task_local79175518_0006_r_000000
+2014-05-16 15:18:33,956 (pool-18-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] reduce > reduce
+2014-05-16 15:18:33,956 (pool-18-thread-1) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local79175518_0006_r_000000_0' done.
+2014-05-16 15:18:33,957 (pool-18-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] Finishing task: attempt_local79175518_0006_r_000000_0
+2014-05-16 15:18:33,957 (Thread-226) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] reduce task executor complete.
+2014-05-16 15:18:34,543 (TEST-TestDistributedRowMatrix.testMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1365)] Job job_local79175518_0006 running in uber mode : false
+2014-05-16 15:18:34,544 (TEST-TestDistributedRowMatrix.testMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1372)]  map 100% reduce 100%
+2014-05-16 15:18:34,545 (TEST-TestDistributedRowMatrix.testMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1383)] Job job_local79175518_0006 completed successfully
+2014-05-16 15:18:34,556 (TEST-TestDistributedRowMatrix.testMatrixColumnMeansJob-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1390)] Counters: 33
+	File System Counters
+		FILE: Number of bytes read=104370
+		FILE: Number of bytes written=2753267
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=100
+		Map output records=1
+		Map output bytes=410
+		Map output materialized bytes=420
+		Input split bytes=157
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=1
+		Reduce shuffle bytes=420
+		Reduce input records=1
+		Reduce output records=1
+		Spilled Records=2
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=92
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=1016070144
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=7656
+	File Output Format Counters 
+		Bytes Written=523
+2014-05-16 15:18:34,754 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:71)] Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-05-16 15:18:34,756 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:71)] Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-05-16 15:18:34,773 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:150)] Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-05-16 15:18:34,790 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:259)] No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2014-05-16 15:18:34,943 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapred.FileInputFormat.listStatus(FileInputFormat.java:253)] Total input paths to process : 1
+2014-05-16 15:18:35,022 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:396)] number of splits:1
+2014-05-16 15:18:35,100 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.printTokens(JobSubmitter.java:479)] Submitting tokens for job: job_local864142841_0007
+2014-05-16 15:18:35,162 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-6688097790913466368/hadoop0.11774757363996258/mapred/staging/jenkins864142841/.staging/job_local864142841_0007/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:35,163 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-6688097790913466368/hadoop0.11774757363996258/mapred/staging/jenkins864142841/.staging/job_local864142841_0007/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:35,595 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapred.LocalDistributedCacheManager.symlink(LocalDistributedCacheManager.java:207)] Creating symlink: /var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-6688097790913466368/hadoop0.11774757363996258/mapred/local/1400278715169/3792571655504340 <- /var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/3792571655504340
+2014-05-16 15:18:35,622 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapred.LocalDistributedCacheManager.setup(LocalDistributedCacheManager.java:171)] Localized file:/tmp/mahout-TestDistributedRowMatrix-7440120016225248256/testdata/tmpOut/3792571648118228/DistributedMatrix.times.inputVector/3792571655504340 as file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-6688097790913466368/hadoop0.11774757363996258/mapred/local/1400278715169/3792571655504340
+2014-05-16 15:18:35,731 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-6688097790913466368/hadoop0.11774757363996258/mapred/local/localRunner/jenkins/job_local864142841_0007/job_local864142841_0007.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:35,732 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-6688097790913466368/hadoop0.11774757363996258/mapred/local/localRunner/jenkins/job_local864142841_0007/job_local864142841_0007.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:35,746 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.submit(Job.java:1299)] The url to track the job: http://localhost:8080/
+2014-05-16 15:18:35,747 (Thread-255) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:471)] OutputCommitter set in config null
+2014-05-16 15:18:35,747 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)] Running job: job_local864142841_0007
+2014-05-16 15:18:35,750 (Thread-255) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:489)] OutputCommitter is org.apache.hadoop.mapred.FileOutputCommitter
+2014-05-16 15:18:35,767 (Thread-255) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for map tasks
+2014-05-16 15:18:35,768 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] Starting task: attempt_local864142841_0007_m_000000_0
+2014-05-16 15:18:35,772 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:18:35,775 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.updateJobWithSplit(MapTask.java:462)] Processing split: file:/tmp/mahout-TestDistributedRowMatrix-7440120016225248256/testdata/distMatrix/part-00000:0+7588
+2014-05-16 15:18:35,785 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.runOldMapper(MapTask.java:416)] numReduceTasks: 1
+2014-05-16 15:18:35,785 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:388)] Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-05-16 15:18:35,855 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.setEquator(MapTask.java:1182)] (EQUATOR) 0 kvi 26214396(104857584)
+2014-05-16 15:18:35,855 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:975)] mapreduce.task.io.sort.mb: 100
+2014-05-16 15:18:35,855 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:976)] soft limit at 83886080
+2014-05-16 15:18:35,855 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:977)] bufstart = 0; bufvoid = 104857600
+2014-05-16 15:18:35,856 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:978)] kvstart = 26214396; length = 6553600
+2014-05-16 15:18:35,881 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:18:35,882 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1437)] Starting flush of map output
+2014-05-16 15:18:35,883 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1455)] Spilling map output
+2014-05-16 15:18:35,883 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1456)] bufstart = 0; bufend = 363; bufvoid = 104857600
+2014-05-16 15:18:35,883 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1458)] kvstart = 26214396(104857584); kvend = 26214396(104857584); length = 1/6553600
+2014-05-16 15:18:35,888 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.sortAndSpill(MapTask.java:1641)] Finished spill 0
+2014-05-16 15:18:35,899 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local864142841_0007_m_000000_0 is done. And is in the process of committing
+2014-05-16 15:18:35,903 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] file:/tmp/mahout-TestDistributedRowMatrix-7440120016225248256/testdata/distMatrix/part-00000:0+7588
+2014-05-16 15:18:35,903 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local864142841_0007_m_000000_0' done.
+2014-05-16 15:18:35,903 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] Finishing task: attempt_local864142841_0007_m_000000_0
+2014-05-16 15:18:35,904 (Thread-255) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] map task executor complete.
+2014-05-16 15:18:35,912 (Thread-255) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for reduce tasks
+2014-05-16 15:18:35,916 (pool-21-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] Starting task: attempt_local864142841_0007_r_000000_0
+2014-05-16 15:18:35,930 (pool-21-thread-1) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:18:35,938 (pool-21-thread-1) [INFO - org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@1eb23fce
+2014-05-16 15:18:35,946 (pool-21-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:193)] MergerManager: memoryLimit=365166592, maxSingleShuffleLimit=91291648, mergeThreshold=241009968, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2014-05-16 15:18:35,982 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] attempt_local864142841_0007_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2014-05-16 15:18:36,004 (localfetcher#7) [INFO - org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:140)] localfetcher#7 about to shuffle output of map attempt_local864142841_0007_m_000000_0 decomp: 369 len: 373 to MEMORY
+2014-05-16 15:18:36,005 (localfetcher#7) [INFO - org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] Read 369 bytes from map-output for attempt_local864142841_0007_m_000000_0
+2014-05-16 15:18:36,006 (localfetcher#7) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:307)] closeInMemoryFile -> map-output of size: 369, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->369
+2014-05-16 15:18:36,006 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] EventFetcher is interrupted.. Returning
+2014-05-16 15:18:36,008 (pool-21-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:36,009 (pool-21-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:667)] finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2014-05-16 15:18:36,013 (pool-21-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:18:36,013 (pool-21-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 365 bytes
+2014-05-16 15:18:36,015 (pool-21-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:742)] Merged 1 segments, 369 bytes to disk to satisfy reduce memory limit
+2014-05-16 15:18:36,016 (pool-21-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:772)] Merging 1 files, 373 bytes from disk
+2014-05-16 15:18:36,016 (pool-21-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:787)] Merging 0 segments, 0 bytes from memory into reduce
+2014-05-16 15:18:36,016 (pool-21-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:18:36,017 (pool-21-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 365 bytes
+2014-05-16 15:18:36,018 (pool-21-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:36,056 (pool-21-thread-1) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local864142841_0007_r_000000_0 is done. And is in the process of committing
+2014-05-16 15:18:36,059 (pool-21-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:36,059 (pool-21-thread-1) [INFO - org.apache.hadoop.mapred.Task.commit(Task.java:1156)] Task attempt_local864142841_0007_r_000000_0 is allowed to commit now
+2014-05-16 15:18:36,060 (pool-21-thread-1) [INFO - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitTask(FileOutputCommitter.java:439)] Saved output of task 'attempt_local864142841_0007_r_000000_0' to file:/tmp/mahout-TestDistributedRowMatrix-7440120016225248256/testdata/tmpOut/3792571648118228/DistributedMatrix.times.outputVector/_temporary/0/task_local864142841_0007_r_000000
+2014-05-16 15:18:36,063 (pool-21-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] reduce > reduce
+2014-05-16 15:18:36,063 (pool-21-thread-1) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local864142841_0007_r_000000_0' done.
+2014-05-16 15:18:36,063 (pool-21-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] Finishing task: attempt_local864142841_0007_r_000000_0
+2014-05-16 15:18:36,064 (Thread-255) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] reduce task executor complete.
+2014-05-16 15:18:36,751 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1365)] Job job_local864142841_0007 running in uber mode : false
+2014-05-16 15:18:36,752 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1372)]  map 100% reduce 100%
+2014-05-16 15:18:36,752 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1383)] Job job_local864142841_0007 completed successfully
+2014-05-16 15:18:36,763 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1390)] Counters: 33
+	File System Counters
+		FILE: Number of bytes read=125062
+		FILE: Number of bytes written=3220040
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=100
+		Map output records=1
+		Map output bytes=363
+		Map output materialized bytes=373
+		Input split bytes=144
+		Combine input records=1
+		Combine output records=1
+		Reduce input groups=1
+		Reduce shuffle bytes=373
+		Reduce input records=1
+		Reduce output records=1
+		Spilled Records=2
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=13
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=1043333120
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=7656
+	File Output Format Counters 
+		Bytes Written=481
+2014-05-16 15:18:36,807 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:71)] Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-05-16 15:18:36,809 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:71)] Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-05-16 15:18:36,880 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:150)] Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-05-16 15:18:36,906 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:259)] No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2014-05-16 15:18:37,100 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapred.FileInputFormat.listStatus(FileInputFormat.java:253)] Total input paths to process : 1
+2014-05-16 15:18:37,250 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:396)] number of splits:1
+2014-05-16 15:18:37,309 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.printTokens(JobSubmitter.java:479)] Submitting tokens for job: job_local1954861182_0008
+2014-05-16 15:18:37,361 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-6688097790913466368/hadoop0.11774757363996258/mapred/staging/jenkins1954861182/.staging/job_local1954861182_0008/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:37,361 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-6688097790913466368/hadoop0.11774757363996258/mapred/staging/jenkins1954861182/.staging/job_local1954861182_0008/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:37,891 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapred.LocalDistributedCacheManager.symlink(LocalDistributedCacheManager.java:207)] Creating symlink: /var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-6688097790913466368/hadoop0.11774757363996258/mapred/local/1400278717370/3792573694967209 <- /var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/3792573694967209
+2014-05-16 15:18:37,921 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapred.LocalDistributedCacheManager.setup(LocalDistributedCacheManager.java:171)] Localized file:/tmp/mahout-TestDistributedRowMatrix-7440120016225248256/testdata/tmpOut/3792573688139981/DistributedMatrix.times.inputVector/3792573694967209 as file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-6688097790913466368/hadoop0.11774757363996258/mapred/local/1400278717370/3792573694967209
+2014-05-16 15:18:38,029 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-6688097790913466368/hadoop0.11774757363996258/mapred/local/localRunner/jenkins/job_local1954861182_0008/job_local1954861182_0008.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:38,041 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-6688097790913466368/hadoop0.11774757363996258/mapred/local/localRunner/jenkins/job_local1954861182_0008/job_local1954861182_0008.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:38,062 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.submit(Job.java:1299)] The url to track the job: http://localhost:8080/
+2014-05-16 15:18:38,062 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)] Running job: job_local1954861182_0008
+2014-05-16 15:18:38,063 (Thread-302) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:471)] OutputCommitter set in config null
+2014-05-16 15:18:38,065 (Thread-302) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:489)] OutputCommitter is org.apache.hadoop.mapred.FileOutputCommitter
+2014-05-16 15:18:38,081 (Thread-302) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for map tasks
+2014-05-16 15:18:38,081 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] Starting task: attempt_local1954861182_0008_m_000000_0
+2014-05-16 15:18:38,092 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:18:38,100 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.updateJobWithSplit(MapTask.java:462)] Processing split: file:/tmp/mahout-TestDistributedRowMatrix-7440120016225248256/testdata/distMatrix/part-00000:0+7588
+2014-05-16 15:18:38,108 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.runOldMapper(MapTask.java:416)] numReduceTasks: 1
+2014-05-16 15:18:38,108 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:388)] Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-05-16 15:18:38,192 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.setEquator(MapTask.java:1182)] (EQUATOR) 0 kvi 26214396(104857584)
+2014-05-16 15:18:38,192 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:975)] mapreduce.task.io.sort.mb: 100
+2014-05-16 15:18:38,192 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:976)] soft limit at 83886080
+2014-05-16 15:18:38,192 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:977)] bufstart = 0; bufvoid = 104857600
+2014-05-16 15:18:38,192 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:978)] kvstart = 26214396; length = 6553600
+2014-05-16 15:18:38,237 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:18:38,242 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1437)] Starting flush of map output
+2014-05-16 15:18:38,243 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1455)] Spilling map output
+2014-05-16 15:18:38,243 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1456)] bufstart = 0; bufend = 363; bufvoid = 104857600
+2014-05-16 15:18:38,243 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1458)] kvstart = 26214396(104857584); kvend = 26214396(104857584); length = 1/6553600
+2014-05-16 15:18:38,248 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.sortAndSpill(MapTask.java:1641)] Finished spill 0
+2014-05-16 15:18:38,257 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local1954861182_0008_m_000000_0 is done. And is in the process of committing
+2014-05-16 15:18:38,266 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] file:/tmp/mahout-TestDistributedRowMatrix-7440120016225248256/testdata/distMatrix/part-00000:0+7588
+2014-05-16 15:18:38,267 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local1954861182_0008_m_000000_0' done.
+2014-05-16 15:18:38,267 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] Finishing task: attempt_local1954861182_0008_m_000000_0
+2014-05-16 15:18:38,267 (Thread-302) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] map task executor complete.
+2014-05-16 15:18:38,273 (Thread-302) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for reduce tasks
+2014-05-16 15:18:38,279 (pool-24-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] Starting task: attempt_local1954861182_0008_r_000000_0
+2014-05-16 15:18:38,293 (pool-24-thread-1) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:18:38,293 (pool-24-thread-1) [INFO - org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@4d338bcf
+2014-05-16 15:18:38,301 (pool-24-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:193)] MergerManager: memoryLimit=365533600, maxSingleShuffleLimit=91383400, mergeThreshold=241252192, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2014-05-16 15:18:38,332 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] attempt_local1954861182_0008_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2014-05-16 15:18:38,333 (localfetcher#8) [INFO - org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:140)] localfetcher#8 about to shuffle output of map attempt_local1954861182_0008_m_000000_0 decomp: 369 len: 373 to MEMORY
+2014-05-16 15:18:38,334 (localfetcher#8) [INFO - org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] Read 369 bytes from map-output for attempt_local1954861182_0008_m_000000_0
+2014-05-16 15:18:38,334 (localfetcher#8) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:307)] closeInMemoryFile -> map-output of size: 369, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->369
+2014-05-16 15:18:38,339 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] EventFetcher is interrupted.. Returning
+2014-05-16 15:18:38,343 (pool-24-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:38,343 (pool-24-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:667)] finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2014-05-16 15:18:38,347 (pool-24-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:18:38,347 (pool-24-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 365 bytes
+2014-05-16 15:18:38,352 (pool-24-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:742)] Merged 1 segments, 369 bytes to disk to satisfy reduce memory limit
+2014-05-16 15:18:38,352 (pool-24-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:772)] Merging 1 files, 373 bytes from disk
+2014-05-16 15:18:38,353 (pool-24-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:787)] Merging 0 segments, 0 bytes from memory into reduce
+2014-05-16 15:18:38,353 (pool-24-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:18:38,353 (pool-24-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 365 bytes
+2014-05-16 15:18:38,354 (pool-24-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:38,387 (pool-24-thread-1) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local1954861182_0008_r_000000_0 is done. And is in the process of committing
+2014-05-16 15:18:38,389 (pool-24-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:38,390 (pool-24-thread-1) [INFO - org.apache.hadoop.mapred.Task.commit(Task.java:1156)] Task attempt_local1954861182_0008_r_000000_0 is allowed to commit now
+2014-05-16 15:18:38,391 (pool-24-thread-1) [INFO - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitTask(FileOutputCommitter.java:439)] Saved output of task 'attempt_local1954861182_0008_r_000000_0' to file:/tmp/mahout-TestDistributedRowMatrix-7440120016225248256/testdata/tmpOut/3792573688139981/DistributedMatrix.times.outputVector/_temporary/0/task_local1954861182_0008_r_000000
+2014-05-16 15:18:38,394 (pool-24-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] reduce > reduce
+2014-05-16 15:18:38,397 (pool-24-thread-1) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local1954861182_0008_r_000000_0' done.
+2014-05-16 15:18:38,402 (pool-24-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] Finishing task: attempt_local1954861182_0008_r_000000_0
+2014-05-16 15:18:38,403 (Thread-302) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] reduce task executor complete.
+2014-05-16 15:18:39,065 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1365)] Job job_local1954861182_0008 running in uber mode : false
+2014-05-16 15:18:39,066 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1372)]  map 100% reduce 100%
+2014-05-16 15:18:39,067 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1383)] Job job_local1954861182_0008 completed successfully
+2014-05-16 15:18:39,079 (TEST-TestDistributedRowMatrix.testTimesVectorTempDirDeletion-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1390)] Counters: 33
+	File System Counters
+		FILE: Number of bytes read=145576
+		FILE: Number of bytes written=3674120
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=100
+		Map output records=1
+		Map output bytes=363
+		Map output materialized bytes=373
+		Input split bytes=144
+		Combine input records=1
+		Combine output records=1
+		Reduce input groups=1
+		Reduce shuffle bytes=373
+		Reduce input records=1
+		Reduce output records=1
+		Spilled Records=2
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=0
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=1044381696
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=7656
+	File Output Format Counters 
+		Bytes Written=481
+2014-05-16 15:18:40,164 (TEST-TestDistributedRowMatrix.testMatrixTimesMatrix-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1009)] mapred.join.expr is deprecated. Instead, use mapreduce.join.expr
+2014-05-16 15:18:40,174 (TEST-TestDistributedRowMatrix.testMatrixTimesMatrix-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:71)] Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-05-16 15:18:40,180 (TEST-TestDistributedRowMatrix.testMatrixTimesMatrix-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:71)] Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-05-16 15:18:40,211 (TEST-TestDistributedRowMatrix.testMatrixTimesMatrix-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:150)] Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-05-16 15:18:40,230 (TEST-TestDistributedRowMatrix.testMatrixTimesMatrix-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:259)] No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2014-05-16 15:18:40,267 (TEST-TestDistributedRowMatrix.testMatrixTimesMatrix-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1009)] mapred.join.keycomparator is deprecated. Instead, use mapreduce.join.keycomparator
+2014-05-16 15:18:40,286 (TEST-TestDistributedRowMatrix.testMatrixTimesMatrix-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1009)] mapred.min.split.size is deprecated. Instead, use mapreduce.input.fileinputformat.split.minsize
+2014-05-16 15:18:40,309 (TEST-TestDistributedRowMatrix.testMatrixTimesMatrix-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapred.FileInputFormat.listStatus(FileInputFormat.java:253)] Total input paths to process : 1
+2014-05-16 15:18:40,331 (TEST-TestDistributedRowMatrix.testMatrixTimesMatrix-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapred.FileInputFormat.listStatus(FileInputFormat.java:253)] Total input paths to process : 1
+2014-05-16 15:18:40,482 (TEST-TestDistributedRowMatrix.testMatrixTimesMatrix-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:396)] number of splits:1
+2014-05-16 15:18:40,558 (TEST-TestDistributedRowMatrix.testMatrixTimesMatrix-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.printTokens(JobSubmitter.java:479)] Submitting tokens for job: job_local388947425_0009
+2014-05-16 15:18:40,623 (TEST-TestDistributedRowMatrix.testMatrixTimesMatrix-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-2831762229775005696/hadoop0.7263672874192/mapred/staging/jenkins388947425/.staging/job_local388947425_0009/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:40,624 (TEST-TestDistributedRowMatrix.testMatrixTimesMatrix-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-2831762229775005696/hadoop0.7263672874192/mapred/staging/jenkins388947425/.staging/job_local388947425_0009/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:40,818 (TEST-TestDistributedRowMatrix.testMatrixTimesMatrix-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-2831762229775005696/hadoop0.7263672874192/mapred/local/localRunner/jenkins/job_local388947425_0009/job_local388947425_0009.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:40,819 (TEST-TestDistributedRowMatrix.testMatrixTimesMatrix-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-2831762229775005696/hadoop0.7263672874192/mapred/local/localRunner/jenkins/job_local388947425_0009/job_local388947425_0009.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:40,832 (TEST-TestDistributedRowMatrix.testMatrixTimesMatrix-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.submit(Job.java:1299)] The url to track the job: http://localhost:8080/
+2014-05-16 15:18:40,832 (TEST-TestDistributedRowMatrix.testMatrixTimesMatrix-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)] Running job: job_local388947425_0009
+2014-05-16 15:18:40,835 (Thread-351) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:471)] OutputCommitter set in config null
+2014-05-16 15:18:40,836 (Thread-351) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:489)] OutputCommitter is org.apache.hadoop.mapred.FileOutputCommitter
+2014-05-16 15:18:40,852 (Thread-351) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for map tasks
+2014-05-16 15:18:40,853 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] Starting task: attempt_local388947425_0009_m_000000_0
+2014-05-16 15:18:40,862 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:18:40,865 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.updateJobWithSplit(MapTask.java:462)] Processing split: org.apache.hadoop.mapred.join.CompositeInputSplit@6ce0ee5e
+2014-05-16 15:18:40,867 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.conf.Configuration.warnOnceIfDeprecated(Configuration.java:1009)] mapred.join.expr is deprecated. Instead, use mapreduce.join.expr
+2014-05-16 15:18:40,894 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.runOldMapper(MapTask.java:416)] numReduceTasks: 1
+2014-05-16 15:18:40,894 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:388)] Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-05-16 15:18:40,943 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.setEquator(MapTask.java:1182)] (EQUATOR) 0 kvi 26214396(104857584)
+2014-05-16 15:18:40,943 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:975)] mapreduce.task.io.sort.mb: 100
+2014-05-16 15:18:40,944 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:976)] soft limit at 83886080
+2014-05-16 15:18:40,944 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:977)] bufstart = 0; bufvoid = 104857600
+2014-05-16 15:18:40,944 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:978)] kvstart = 26214396; length = 6553600
+2014-05-16 15:18:40,976 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:18:40,982 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1437)] Starting flush of map output
+2014-05-16 15:18:40,982 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1455)] Spilling map output
+2014-05-16 15:18:40,982 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1456)] bufstart = 0; bufend = 985; bufvoid = 104857600
+2014-05-16 15:18:40,982 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1458)] kvstart = 26214396(104857584); kvend = 26214264(104857056); length = 133/6553600
+2014-05-16 15:18:41,005 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.sortAndSpill(MapTask.java:1641)] Finished spill 0
+2014-05-16 15:18:41,014 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local388947425_0009_m_000000_0 is done. And is in the process of committing
+2014-05-16 15:18:41,040 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] file:/tmp/mahout-TestDistributedRowMatrix-3331290246504327168/distB/distMatrix/part-00000:0+847
+2014-05-16 15:18:41,041 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local388947425_0009_m_000000_0' done.
+2014-05-16 15:18:41,041 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] Finishing task: attempt_local388947425_0009_m_000000_0
+2014-05-16 15:18:41,041 (Thread-351) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] map task executor complete.
+2014-05-16 15:18:41,050 (Thread-351) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for reduce tasks
+2014-05-16 15:18:41,053 (pool-27-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] Starting task: attempt_local388947425_0009_r_000000_0
+2014-05-16 15:18:41,061 (pool-27-thread-1) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:18:41,070 (pool-27-thread-1) [INFO - org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@3449be22
+2014-05-16 15:18:41,082 (pool-27-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:193)] MergerManager: memoryLimit=365166592, maxSingleShuffleLimit=91291648, mergeThreshold=241009968, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2014-05-16 15:18:41,112 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] attempt_local388947425_0009_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2014-05-16 15:18:41,125 (localfetcher#9) [INFO - org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:140)] localfetcher#9 about to shuffle output of map attempt_local388947425_0009_m_000000_0 decomp: 787 len: 791 to MEMORY
+2014-05-16 15:18:41,158 (localfetcher#9) [INFO - org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] Read 787 bytes from map-output for attempt_local388947425_0009_m_000000_0
+2014-05-16 15:18:41,159 (localfetcher#9) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:307)] closeInMemoryFile -> map-output of size: 787, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->787
+2014-05-16 15:18:41,160 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] EventFetcher is interrupted.. Returning
+2014-05-16 15:18:41,162 (pool-27-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:41,163 (pool-27-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:667)] finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2014-05-16 15:18:41,165 (pool-27-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:18:41,166 (pool-27-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 781 bytes
+2014-05-16 15:18:41,172 (pool-27-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:742)] Merged 1 segments, 787 bytes to disk to satisfy reduce memory limit
+2014-05-16 15:18:41,172 (pool-27-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:772)] Merging 1 files, 791 bytes from disk
+2014-05-16 15:18:41,173 (pool-27-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:787)] Merging 0 segments, 0 bytes from memory into reduce
+2014-05-16 15:18:41,173 (pool-27-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:18:41,173 (pool-27-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 781 bytes
+2014-05-16 15:18:41,175 (pool-27-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:41,226 (pool-27-thread-1) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local388947425_0009_r_000000_0 is done. And is in the process of committing
+2014-05-16 15:18:41,229 (pool-27-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:41,230 (pool-27-thread-1) [INFO - org.apache.hadoop.mapred.Task.commit(Task.java:1156)] Task attempt_local388947425_0009_r_000000_0 is allowed to commit now
+2014-05-16 15:18:41,231 (pool-27-thread-1) [INFO - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitTask(FileOutputCommitter.java:439)] Saved output of task 'attempt_local388947425_0009_r_000000_0' to file:/tmp/mahout-TestDistributedRowMatrix-3331290246504327168/distA/productWith-34/_temporary/0/task_local388947425_0009_r_000000
+2014-05-16 15:18:41,243 (pool-27-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] reduce > reduce
+2014-05-16 15:18:41,243 (pool-27-thread-1) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local388947425_0009_r_000000_0' done.
+2014-05-16 15:18:41,244 (pool-27-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] Finishing task: attempt_local388947425_0009_r_000000_0
+2014-05-16 15:18:41,244 (Thread-351) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] reduce task executor complete.
+2014-05-16 15:18:41,833 (TEST-TestDistributedRowMatrix.testMatrixTimesMatrix-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1365)] Job job_local388947425_0009 running in uber mode : false
+2014-05-16 15:18:41,834 (TEST-TestDistributedRowMatrix.testMatrixTimesMatrix-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1372)]  map 100% reduce 100%
+2014-05-16 15:18:41,835 (TEST-TestDistributedRowMatrix.testMatrixTimesMatrix-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1383)] Job job_local388947425_0009 completed successfully
+2014-05-16 15:18:41,846 (TEST-TestDistributedRowMatrix.testMatrixTimesMatrix-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1390)] Counters: 33
+	File System Counters
+		FILE: Number of bytes read=152872
+		FILE: Number of bytes written=4125599
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=20
+		Map output records=34
+		Map output bytes=985
+		Map output materialized bytes=791
+		Input split bytes=333
+		Combine input records=34
+		Combine output records=12
+		Reduce input groups=12
+		Reduce shuffle bytes=791
+		Reduce input records=12
+		Reduce output records=12
+		Spilled Records=24
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=13
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=1043333120
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=968
+2014-05-16 15:18:42,439 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:71)] Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-05-16 15:18:42,441 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:71)] Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-05-16 15:18:42,458 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:150)] Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-05-16 15:18:42,477 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:259)] No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2014-05-16 15:18:42,498 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapred.FileInputFormat.listStatus(FileInputFormat.java:253)] Total input paths to process : 1
+2014-05-16 15:18:42,610 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:396)] number of splits:1
+2014-05-16 15:18:42,686 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.printTokens(JobSubmitter.java:479)] Submitting tokens for job: job_local2072484435_0010
+2014-05-16 15:18:42,748 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-783480397150406656/hadoop0.7200460888311276/mapred/staging/jenkins2072484435/.staging/job_local2072484435_0010/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:42,762 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-783480397150406656/hadoop0.7200460888311276/mapred/staging/jenkins2072484435/.staging/job_local2072484435_0010/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:42,959 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-783480397150406656/hadoop0.7200460888311276/mapred/local/localRunner/jenkins/job_local2072484435_0010/job_local2072484435_0010.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:42,961 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-783480397150406656/hadoop0.7200460888311276/mapred/local/localRunner/jenkins/job_local2072484435_0010/job_local2072484435_0010.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:42,970 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.submit(Job.java:1299)] The url to track the job: http://localhost:8080/
+2014-05-16 15:18:42,971 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)] Running job: job_local2072484435_0010
+2014-05-16 15:18:42,972 (Thread-371) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:471)] OutputCommitter set in config null
+2014-05-16 15:18:42,972 (Thread-371) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:489)] OutputCommitter is org.apache.hadoop.mapred.FileOutputCommitter
+2014-05-16 15:18:42,976 (Thread-371) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for map tasks
+2014-05-16 15:18:42,977 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] Starting task: attempt_local2072484435_0010_m_000000_0
+2014-05-16 15:18:42,993 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:18:42,995 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.updateJobWithSplit(MapTask.java:462)] Processing split: file:/tmp/mahout-TestDistributedRowMatrix-419794228846422016/testdata/distMatrix/part-00000:0+310
+2014-05-16 15:18:42,998 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.runOldMapper(MapTask.java:416)] numReduceTasks: 1
+2014-05-16 15:18:42,998 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:388)] Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-05-16 15:18:43,049 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.setEquator(MapTask.java:1182)] (EQUATOR) 0 kvi 26214396(104857584)
+2014-05-16 15:18:43,062 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:975)] mapreduce.task.io.sort.mb: 100
+2014-05-16 15:18:43,062 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:976)] soft limit at 83886080
+2014-05-16 15:18:43,062 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:977)] bufstart = 0; bufvoid = 104857600
+2014-05-16 15:18:43,063 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:978)] kvstart = 26214396; length = 6553600
+2014-05-16 15:18:43,076 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:18:43,076 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1437)] Starting flush of map output
+2014-05-16 15:18:43,077 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1455)] Spilling map output
+2014-05-16 15:18:43,077 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1456)] bufstart = 0; bufend = 112; bufvoid = 104857600
+2014-05-16 15:18:43,077 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1458)] kvstart = 26214396(104857584); kvend = 26214372(104857488); length = 25/6553600
+2014-05-16 15:18:43,131 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.sortAndSpill(MapTask.java:1641)] Finished spill 0
+2014-05-16 15:18:43,135 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local2072484435_0010_m_000000_0 is done. And is in the process of committing
+2014-05-16 15:18:43,140 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] file:/tmp/mahout-TestDistributedRowMatrix-419794228846422016/testdata/distMatrix/part-00000:0+310
+2014-05-16 15:18:43,141 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local2072484435_0010_m_000000_0' done.
+2014-05-16 15:18:43,141 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] Finishing task: attempt_local2072484435_0010_m_000000_0
+2014-05-16 15:18:43,142 (Thread-371) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] map task executor complete.
+2014-05-16 15:18:43,148 (Thread-371) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for reduce tasks
+2014-05-16 15:18:43,152 (pool-30-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] Starting task: attempt_local2072484435_0010_r_000000_0
+2014-05-16 15:18:43,163 (pool-30-thread-1) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:18:43,164 (pool-30-thread-1) [INFO - org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@23f73a89
+2014-05-16 15:18:43,172 (pool-30-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:193)] MergerManager: memoryLimit=365166592, maxSingleShuffleLimit=91291648, mergeThreshold=241009968, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2014-05-16 15:18:43,222 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] attempt_local2072484435_0010_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2014-05-16 15:18:43,231 (localfetcher#10) [INFO - org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:140)] localfetcher#10 about to shuffle output of map attempt_local2072484435_0010_m_000000_0 decomp: 101 len: 105 to MEMORY
+2014-05-16 15:18:43,232 (localfetcher#10) [INFO - org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] Read 101 bytes from map-output for attempt_local2072484435_0010_m_000000_0
+2014-05-16 15:18:43,232 (localfetcher#10) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:307)] closeInMemoryFile -> map-output of size: 101, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->101
+2014-05-16 15:18:43,234 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] EventFetcher is interrupted.. Returning
+2014-05-16 15:18:43,235 (pool-30-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:43,236 (pool-30-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:667)] finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2014-05-16 15:18:43,239 (pool-30-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:18:43,239 (pool-30-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 95 bytes
+2014-05-16 15:18:43,241 (pool-30-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:742)] Merged 1 segments, 101 bytes to disk to satisfy reduce memory limit
+2014-05-16 15:18:43,242 (pool-30-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:772)] Merging 1 files, 105 bytes from disk
+2014-05-16 15:18:43,242 (pool-30-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:787)] Merging 0 segments, 0 bytes from memory into reduce
+2014-05-16 15:18:43,242 (pool-30-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:18:43,243 (pool-30-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 95 bytes
+2014-05-16 15:18:43,244 (pool-30-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:43,274 (pool-30-thread-1) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local2072484435_0010_r_000000_0 is done. And is in the process of committing
+2014-05-16 15:18:43,276 (pool-30-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:43,276 (pool-30-thread-1) [INFO - org.apache.hadoop.mapred.Task.commit(Task.java:1156)] Task attempt_local2072484435_0010_r_000000_0 is allowed to commit now
+2014-05-16 15:18:43,280 (pool-30-thread-1) [INFO - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitTask(FileOutputCommitter.java:439)] Saved output of task 'attempt_local2072484435_0010_r_000000_0' to file:/tmp/mahout-TestDistributedRowMatrix-419794228846422016/testdata/transpose-9/_temporary/0/task_local2072484435_0010_r_000000
+2014-05-16 15:18:43,282 (pool-30-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] reduce > reduce
+2014-05-16 15:18:43,283 (pool-30-thread-1) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local2072484435_0010_r_000000_0' done.
+2014-05-16 15:18:43,283 (pool-30-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] Finishing task: attempt_local2072484435_0010_r_000000_0
+2014-05-16 15:18:43,283 (Thread-371) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] reduce task executor complete.
+2014-05-16 15:18:43,972 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1365)] Job job_local2072484435_0010 running in uber mode : false
+2014-05-16 15:18:43,972 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1372)]  map 100% reduce 100%
+2014-05-16 15:18:43,973 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1383)] Job job_local2072484435_0010 completed successfully
+2014-05-16 15:18:43,983 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1390)] Counters: 33
+	File System Counters
+		FILE: Number of bytes read=157706
+		FILE: Number of bytes written=4567331
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=10
+		Map output records=7
+		Map output bytes=112
+		Map output materialized bytes=105
+		Input split bytes=143
+		Combine input records=7
+		Combine output records=4
+		Reduce input groups=4
+		Reduce shuffle bytes=105
+		Reduce input records=4
+		Reduce output records=4
+		Spilled Records=8
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=0
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=1043333120
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=322
+	File Output Format Counters 
+		Bytes Written=232
+2014-05-16 15:18:44,145 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:71)] Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-05-16 15:18:44,197 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.metrics.jvm.JvmMetrics.init(JvmMetrics.java:71)] Cannot initialize JVM Metrics with processName=JobTracker, sessionId= - already initialized
+2014-05-16 15:18:44,219 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:150)] Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2014-05-16 15:18:44,279 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.mapreduce.JobSubmitter.copyAndConfigureFiles(JobSubmitter.java:259)] No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+2014-05-16 15:18:44,311 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapred.FileInputFormat.listStatus(FileInputFormat.java:253)] Total input paths to process : 1
+2014-05-16 15:18:44,440 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.submitJobInternal(JobSubmitter.java:396)] number of splits:1
+2014-05-16 15:18:44,497 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.JobSubmitter.printTokens(JobSubmitter.java:479)] Submitting tokens for job: job_local1397835608_0011
+2014-05-16 15:18:44,549 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-783480397150406656/hadoop0.7334208826099389/mapred/staging/jenkins1397835608/.staging/job_local1397835608_0011/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:44,549 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-783480397150406656/hadoop0.7334208826099389/mapred/staging/jenkins1397835608/.staging/job_local1397835608_0011/job.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:44,781 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-783480397150406656/hadoop0.7334208826099389/mapred/local/localRunner/jenkins/job_local1397835608_0011/job_local1397835608_0011.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignoring.
+2014-05-16 15:18:44,787 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [WARN - org.apache.hadoop.conf.Configuration.loadProperty(Configuration.java:2358)] file:/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT/core/target/mahout-TestDistributedRowMatrix-783480397150406656/hadoop0.7334208826099389/mapred/local/localRunner/jenkins/job_local1397835608_0011/job_local1397835608_0011.xml:an attempt to override final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+2014-05-16 15:18:44,808 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.submit(Job.java:1299)] The url to track the job: http://localhost:8080/
+2014-05-16 15:18:44,809 (Thread-391) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:471)] OutputCommitter set in config null
+2014-05-16 15:18:44,809 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)] Running job: job_local1397835608_0011
+2014-05-16 15:18:44,810 (Thread-391) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.createOutputCommitter(LocalJobRunner.java:489)] OutputCommitter is org.apache.hadoop.mapred.FileOutputCommitter
+2014-05-16 15:18:44,836 (Thread-391) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for map tasks
+2014-05-16 15:18:44,836 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:224)] Starting task: attempt_local1397835608_0011_m_000000_0
+2014-05-16 15:18:44,853 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:18:44,855 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.updateJobWithSplit(MapTask.java:462)] Processing split: file:/tmp/mahout-TestDistributedRowMatrix-419794228846422016/testdata/transpose-9/part-00000:0+220
+2014-05-16 15:18:44,873 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.runOldMapper(MapTask.java:416)] numReduceTasks: 1
+2014-05-16 15:18:44,873 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:388)] Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2014-05-16 15:18:44,937 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.setEquator(MapTask.java:1182)] (EQUATOR) 0 kvi 26214396(104857584)
+2014-05-16 15:18:44,937 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:975)] mapreduce.task.io.sort.mb: 100
+2014-05-16 15:18:44,937 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:976)] soft limit at 83886080
+2014-05-16 15:18:44,937 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:977)] bufstart = 0; bufvoid = 104857600
+2014-05-16 15:18:44,938 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:978)] kvstart = 26214396; length = 6553600
+2014-05-16 15:18:44,967 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 
+2014-05-16 15:18:44,967 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1437)] Starting flush of map output
+2014-05-16 15:18:44,967 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1455)] Spilling map output
+2014-05-16 15:18:44,967 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1456)] bufstart = 0; bufend = 112; bufvoid = 104857600
+2014-05-16 15:18:44,968 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1458)] kvstart = 26214396(104857584); kvend = 26214372(104857488); length = 25/6553600
+2014-05-16 15:18:44,974 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.MapTask$MapOutputBuffer.sortAndSpill(MapTask.java:1641)] Finished spill 0
+2014-05-16 15:18:44,992 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local1397835608_0011_m_000000_0 is done. And is in the process of committing
+2014-05-16 15:18:45,030 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] file:/tmp/mahout-TestDistributedRowMatrix-419794228846422016/testdata/transpose-9/part-00000:0+220
+2014-05-16 15:18:45,031 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local1397835608_0011_m_000000_0' done.
+2014-05-16 15:18:45,031 (LocalJobRunner Map Task Executor #0) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:249)] Finishing task: attempt_local1397835608_0011_m_000000_0
+2014-05-16 15:18:45,031 (Thread-391) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] map task executor complete.
+2014-05-16 15:18:45,035 (Thread-391) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:448)] Waiting for reduce tasks
+2014-05-16 15:18:45,035 (pool-33-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:302)] Starting task: attempt_local1397835608_0011_r_000000_0
+2014-05-16 15:18:45,050 (pool-33-thread-1) [INFO - org.apache.hadoop.mapred.Task.initialize(Task.java:581)]  Using ResourceCalculatorProcessTree : [ ]
+2014-05-16 15:18:45,050 (pool-33-thread-1) [INFO - org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:362)] Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@6bb33971
+2014-05-16 15:18:45,058 (pool-33-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.<init>(MergeManagerImpl.java:193)] MergerManager: memoryLimit=365533600, maxSingleShuffleLimit=91383400, mergeThreshold=241252192, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+2014-05-16 15:18:45,080 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:61)] attempt_local1397835608_0011_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+2014-05-16 15:18:45,089 (localfetcher#11) [INFO - org.apache.hadoop.mapreduce.task.reduce.LocalFetcher.copyMapOutput(LocalFetcher.java:140)] localfetcher#11 about to shuffle output of map attempt_local1397835608_0011_m_000000_0 decomp: 92 len: 96 to MEMORY
+2014-05-16 15:18:45,091 (localfetcher#11) [INFO - org.apache.hadoop.mapreduce.task.reduce.InMemoryMapOutput.shuffle(InMemoryMapOutput.java:100)] Read 92 bytes from map-output for attempt_local1397835608_0011_m_000000_0
+2014-05-16 15:18:45,092 (localfetcher#11) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.closeInMemoryFile(MergeManagerImpl.java:307)] closeInMemoryFile -> map-output of size: 92, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->92
+2014-05-16 15:18:45,100 (EventFetcher for fetching Map Completion Events) [INFO - org.apache.hadoop.mapreduce.task.reduce.EventFetcher.run(EventFetcher.java:76)] EventFetcher is interrupted.. Returning
+2014-05-16 15:18:45,101 (pool-33-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:45,102 (pool-33-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:667)] finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+2014-05-16 15:18:45,105 (pool-33-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:18:45,105 (pool-33-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 86 bytes
+2014-05-16 15:18:45,122 (pool-33-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:742)] Merged 1 segments, 92 bytes to disk to satisfy reduce memory limit
+2014-05-16 15:18:45,122 (pool-33-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:772)] Merging 1 files, 96 bytes from disk
+2014-05-16 15:18:45,123 (pool-33-thread-1) [INFO - org.apache.hadoop.mapreduce.task.reduce.MergeManagerImpl.finalMerge(MergeManagerImpl.java:787)] Merging 0 segments, 0 bytes from memory into reduce
+2014-05-16 15:18:45,123 (pool-33-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:589)] Merging 1 sorted segments
+2014-05-16 15:18:45,124 (pool-33-thread-1) [INFO - org.apache.hadoop.mapred.Merger$MergeQueue.merge(Merger.java:688)] Down to the last merge-pass, with 1 segments left of total size: 86 bytes
+2014-05-16 15:18:45,125 (pool-33-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:45,154 (pool-33-thread-1) [INFO - org.apache.hadoop.mapred.Task.done(Task.java:995)] Task:attempt_local1397835608_0011_r_000000_0 is done. And is in the process of committing
+2014-05-16 15:18:45,157 (pool-33-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] 1 / 1 copied.
+2014-05-16 15:18:45,157 (pool-33-thread-1) [INFO - org.apache.hadoop.mapred.Task.commit(Task.java:1156)] Task attempt_local1397835608_0011_r_000000_0 is allowed to commit now
+2014-05-16 15:18:45,158 (pool-33-thread-1) [INFO - org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter.commitTask(FileOutputCommitter.java:439)] Saved output of task 'attempt_local1397835608_0011_r_000000_0' to file:/tmp/mahout-TestDistributedRowMatrix-419794228846422016/testdata/transpose-154/_temporary/0/task_local1397835608_0011_r_000000
+2014-05-16 15:18:45,163 (pool-33-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.statusUpdate(LocalJobRunner.java:591)] reduce > reduce
+2014-05-16 15:18:45,165 (pool-33-thread-1) [INFO - org.apache.hadoop.mapred.Task.sendDone(Task.java:1115)] Task 'attempt_local1397835608_0011_r_000000_0' done.
+2014-05-16 15:18:45,165 (pool-33-thread-1) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:325)] Finishing task: attempt_local1397835608_0011_r_000000_0
+2014-05-16 15:18:45,165 (Thread-391) [INFO - org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:456)] reduce task executor complete.
+2014-05-16 15:18:45,810 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1365)] Job job_local1397835608_0011 running in uber mode : false
+2014-05-16 15:18:45,811 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1372)]  map 100% reduce 100%
+2014-05-16 15:18:45,812 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1383)] Job job_local1397835608_0011 completed successfully
+2014-05-16 15:18:45,827 (TEST-TestDistributedRowMatrix.testTranspose-seed#[1CF565D9D9422CA5]) [INFO - org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1390)] Counters: 33
+	File System Counters
+		FILE: Number of bytes read=159034
+		FILE: Number of bytes written=5006975
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=4
+		Map output records=7
+		Map output bytes=112
+		Map output materialized bytes=96
+		Input split bytes=144
+		Combine input records=7
+		Combine output records=3
+		Reduce input groups=3
+		Reduce shuffle bytes=96
+		Reduce input records=3
+		Reduce output records=3
+		Spilled Records=6
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=0
+		CPU time spent (ms)=0
+		Physical memory (bytes) snapshot=0
+		Virtual memory (bytes) snapshot=0
+		Total committed heap usage (bytes)=1044381696
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=232
+	File Output Format Counters 
+		Bytes Written=217

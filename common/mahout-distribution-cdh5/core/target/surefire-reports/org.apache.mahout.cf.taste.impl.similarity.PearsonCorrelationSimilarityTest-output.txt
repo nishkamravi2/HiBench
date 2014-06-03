@@ -1,0 +1,20 @@
+2014-05-16 15:18:27,772 (TEST-PearsonCorrelationSimilarityTest.testInferrer-seed#[E1B03043752F4D61]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:27,817 (TEST-PearsonCorrelationSimilarityTest.testNoCorrelation3-seed#[E1B03043752F4D61]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:27,851 (TEST-PearsonCorrelationSimilarityTest.testSimpleWeighted-seed#[E1B03043752F4D61]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:27,890 (TEST-PearsonCorrelationSimilarityTest.testRefresh-seed#[E1B03043752F4D61]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 4 users
+2014-05-16 15:18:27,931 (TEST-PearsonCorrelationSimilarityTest.testRefresh-seed#[E1B03043752F4D61]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Added refreshable: GenericDataModel[users:1,2,3...]
+2014-05-16 15:18:27,932 (TEST-PearsonCorrelationSimilarityTest.testRefresh-seed#[E1B03043752F4D61]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Refreshed: [GenericDataModel[users:1,2,3...]]
+2014-05-16 15:18:27,990 (TEST-PearsonCorrelationSimilarityTest.testFullCorrelation1Weighted-seed#[E1B03043752F4D61]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:28,050 (TEST-PearsonCorrelationSimilarityTest.testNoItemCorrelation2-seed#[E1B03043752F4D61]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:28,106 (TEST-PearsonCorrelationSimilarityTest.testNoCorrelation1-seed#[E1B03043752F4D61]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:28,152 (TEST-PearsonCorrelationSimilarityTest.testFullItemCorrelation1-seed#[E1B03043752F4D61]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:28,207 (TEST-PearsonCorrelationSimilarityTest.testFullCorrelation2-seed#[E1B03043752F4D61]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:28,252 (TEST-PearsonCorrelationSimilarityTest.testSimpleItemWeighted-seed#[E1B03043752F4D61]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 3 users
+2014-05-16 15:18:28,299 (TEST-PearsonCorrelationSimilarityTest.testFullItemCorrelation2-seed#[E1B03043752F4D61]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:28,356 (TEST-PearsonCorrelationSimilarityTest.testNoItemCorrelation3-seed#[E1B03043752F4D61]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 3 users
+2014-05-16 15:18:28,394 (TEST-PearsonCorrelationSimilarityTest.testNoCorrelation2-seed#[E1B03043752F4D61]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:28,413 (TEST-PearsonCorrelationSimilarityTest.testNoItemCorrelation1-seed#[E1B03043752F4D61]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:28,443 (TEST-PearsonCorrelationSimilarityTest.testFullCorrelation1-seed#[E1B03043752F4D61]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:28,466 (TEST-PearsonCorrelationSimilarityTest.testSimpleItem-seed#[E1B03043752F4D61]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 3 users
+2014-05-16 15:18:28,485 (TEST-PearsonCorrelationSimilarityTest.testNoCorrelation1Weighted-seed#[E1B03043752F4D61]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:28,503 (TEST-PearsonCorrelationSimilarityTest.testSimple-seed#[E1B03043752F4D61]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users

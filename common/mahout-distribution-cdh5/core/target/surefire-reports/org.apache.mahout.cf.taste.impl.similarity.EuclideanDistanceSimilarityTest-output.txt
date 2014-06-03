@@ -1,0 +1,19 @@
+2014-05-16 15:18:28,460 (TEST-EuclideanDistanceSimilarityTest.testFullCorrelation1-seed#[69C22C113C9A34F7]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:28,544 (TEST-EuclideanDistanceSimilarityTest.testSimpleWeighted-seed#[69C22C113C9A34F7]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:28,625 (TEST-EuclideanDistanceSimilarityTest.testNoItemCorrelation1-seed#[69C22C113C9A34F7]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:28,660 (TEST-EuclideanDistanceSimilarityTest.testNoCorrelation3-seed#[69C22C113C9A34F7]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:28,681 (TEST-EuclideanDistanceSimilarityTest.testNoCorrelation1Weighted-seed#[69C22C113C9A34F7]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:28,772 (TEST-EuclideanDistanceSimilarityTest.testNoCorrelation1-seed#[69C22C113C9A34F7]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:28,829 (TEST-EuclideanDistanceSimilarityTest.testFullItemCorrelation2-seed#[69C22C113C9A34F7]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:28,868 (TEST-EuclideanDistanceSimilarityTest.testNoItemCorrelation2-seed#[69C22C113C9A34F7]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:28,919 (TEST-EuclideanDistanceSimilarityTest.testSimpleItemWeighted-seed#[69C22C113C9A34F7]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 3 users
+2014-05-16 15:18:28,963 (TEST-EuclideanDistanceSimilarityTest.testNoCorrelation2-seed#[69C22C113C9A34F7]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:29,006 (TEST-EuclideanDistanceSimilarityTest.testFullCorrelation1Weighted-seed#[69C22C113C9A34F7]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:29,068 (TEST-EuclideanDistanceSimilarityTest.testFullItemCorrelation1-seed#[69C22C113C9A34F7]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:29,111 (TEST-EuclideanDistanceSimilarityTest.testRefresh-seed#[69C22C113C9A34F7]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 4 users
+2014-05-16 15:18:29,150 (TEST-EuclideanDistanceSimilarityTest.testRefresh-seed#[69C22C113C9A34F7]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Added refreshable: GenericDataModel[users:1,2,3...]
+2014-05-16 15:18:29,160 (TEST-EuclideanDistanceSimilarityTest.testRefresh-seed#[69C22C113C9A34F7]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Refreshed: [GenericDataModel[users:1,2,3...]]
+2014-05-16 15:18:29,202 (TEST-EuclideanDistanceSimilarityTest.testNoItemCorrelation3-seed#[69C22C113C9A34F7]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 3 users
+2014-05-16 15:18:29,257 (TEST-EuclideanDistanceSimilarityTest.testSimple-seed#[69C22C113C9A34F7]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:29,305 (TEST-EuclideanDistanceSimilarityTest.testFullCorrelation2-seed#[69C22C113C9A34F7]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:29,327 (TEST-EuclideanDistanceSimilarityTest.testSimpleItem-seed#[69C22C113C9A34F7]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 3 users

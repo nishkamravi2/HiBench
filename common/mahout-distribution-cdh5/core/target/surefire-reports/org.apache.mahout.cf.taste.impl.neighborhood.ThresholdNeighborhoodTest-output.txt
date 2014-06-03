@@ -1,0 +1,1 @@
+2014-05-16 15:18:34,265 (TEST-ThresholdNeighborhoodTest.testNeighborhood-seed#[E482CC70E9E2A66C]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 4 users

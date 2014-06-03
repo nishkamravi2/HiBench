@@ -1,0 +1,3 @@
+2014-05-16 15:18:23,220 (TEST-ItemAverageRecommenderTest.testRecommender-seed#[33495DD54F1FD78A]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 4 users
+2014-05-16 15:18:23,355 (TEST-ItemAverageRecommenderTest.testRecommender-seed#[33495DD54F1FD78A]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Added refreshable: GenericDataModel[users:1,2,3...]
+2014-05-16 15:18:23,357 (TEST-ItemAverageRecommenderTest.testRecommender-seed#[33495DD54F1FD78A]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Refreshed: [GenericDataModel[users:1,2,3...]]

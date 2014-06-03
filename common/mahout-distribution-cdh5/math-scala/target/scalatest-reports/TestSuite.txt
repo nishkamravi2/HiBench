@@ -1,0 +1,31 @@
+Run starting. Expected test count is: 18
+DiscoverySuite:
+VectorOpsSuite:
+- inline create (48 milliseconds)
+- plus minus (66 milliseconds)
+- dot (1 millisecond)
+RLikeMatrixOpsSuite:
+- multiplication (10 milliseconds)
+- Hadamard (5 milliseconds)
+MatlabLikeMatrixOpsSuite:
+- multiplication (0 milliseconds)
+- Hadamard (1 millisecond)
+RLikeVectorOpsSuite:
+- Hadamard (0 milliseconds)
+MathSuite:
+- chol (15 milliseconds)
+- chol2 (6 milliseconds)
+- qr (9 milliseconds)
+- svd (5 milliseconds)
+- ssvd (23 milliseconds)
+MatrixOpsSuite:
+- equivalence (1 millisecond)
+- elementwise plus, minus (1 millisecond)
+- matrix, vector slicing (4 milliseconds)
+- assignments (2 milliseconds)
+- sparse (4 milliseconds)
+Run completed in 504 milliseconds.
+Total number of tests run: 18
+Suites: completed 7, aborted 0
+Tests: succeeded 18, failed 0, ignored 0, pending 0
+All tests passed.

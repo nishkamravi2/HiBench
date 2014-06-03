@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.mahout.math.VectorWritableTest" time="3.092" tests="100" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/java/jdk1.7.0_45-cloudera/jre/lib/amd64"/>
+    <property name="java.vm.version" value="24.45-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/var/lib/jenkins/HiBench/common/mahout-distribution-0.9-cdh5.1.0-SNAPSHOT"/>
+    <property name="java.runtime.version" value="1.7.0_45-b18"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/java/jdk1.7.0_45-cloudera/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/local/apache-maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.test.failure.ignore" value="true"/>
+    <property name="os.version" value="2.6.32-358.23.2.el6.x86_64"/>
+    <property name="user.home" value="/var/lib/jenkins"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="user.name" value="jenkins"/>
+    <property name="java.class.path" value="/usr/local/apache-maven/boot/plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/java/jdk1.7.0_45-cloudera/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -Dhadoop.profile=23 -Dmaven.test.failure.ignore=true -e"/>
+    <property name="hadoop.profile" value="23"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_45"/>
+    <property name="java.ext.dirs" value="/usr/java/jdk1.7.0_45-cloudera/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/java/jdk1.7.0_45-cloudera/jre/lib/resources.jar:/usr/java/jdk1.7.0_45-cloudera/jre/lib/rt.jar:/usr/java/jdk1.7.0_45-cloudera/jre/lib/sunrsasign.jar:/usr/java/jdk1.7.0_45-cloudera/jre/lib/jsse.jar:/usr/java/jdk1.7.0_45-cloudera/jre/lib/jce.jar:/usr/java/jdk1.7.0_45-cloudera/jre/lib/charsets.jar:/usr/java/jdk1.7.0_45-cloudera/jre/lib/jfr.jar:/usr/java/jdk1.7.0_45-cloudera/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/apache-maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testNamedVectorWritable {#0 seed=[7384F8474029E614:79E14374ECFCDA94]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.37"/>
+  <testcase name="testNamedVectorWritable {#1 seed=[7384F8474029E614:CDB7FF88D83E11B8]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.021"/>
+  <testcase name="testNamedVectorWritable {#2 seed=[7384F8474029E614:435E695489FA5973]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.062"/>
+  <testcase name="testNamedVectorWritable {#3 seed=[7384F8474029E614:72B0C2B1E504025A]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.049"/>
+  <testcase name="testNamedVectorWritable {#4 seed=[7384F8474029E614:3E71471C440CC2E1]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.032"/>
+  <testcase name="testNamedVectorWritable {#5 seed=[7384F8474029E614:AF8B944339B08FE1]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.057"/>
+  <testcase name="testNamedVectorWritable {#6 seed=[7384F8474029E614:9155F0C52B809FE7]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.047"/>
+  <testcase name="testNamedVectorWritable {#7 seed=[7384F8474029E614:DE66ABF08940B49]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.059"/>
+  <testcase name="testNamedVectorWritable {#8 seed=[7384F8474029E614:3F4A8FD17F5F1C13]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.041"/>
+  <testcase name="testNamedVectorWritable {#9 seed=[7384F8474029E614:E8C1D96B1B082B41]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.043"/>
+  <testcase name="testNamedVectorWritable {#10 seed=[7384F8474029E614:1D803130C9B40999]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.026"/>
+  <testcase name="testNamedVectorWritable {#11 seed=[7384F8474029E614:9627FDF54D29A850]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.034"/>
+  <testcase name="testNamedVectorWritable {#12 seed=[7384F8474029E614:F114684CA8546AA1]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.032"/>
+  <testcase name="testNamedVectorWritable {#13 seed=[7384F8474029E614:9E5F4F5334C1EBD1]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.039"/>
+  <testcase name="testNamedVectorWritable {#14 seed=[7384F8474029E614:C3C140CBE6B0AD88]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.039"/>
+  <testcase name="testNamedVectorWritable {#15 seed=[7384F8474029E614:A073ADCFF43238B9]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.038"/>
+  <testcase name="testNamedVectorWritable {#16 seed=[7384F8474029E614:26880A063F3A53D0]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.02"/>
+  <testcase name="testNamedVectorWritable {#17 seed=[7384F8474029E614:92C7D81DF30F21A2]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.013"/>
+  <testcase name="testNamedVectorWritable {#18 seed=[7384F8474029E614:8DB3A7138F9ACEA0]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.019"/>
+  <testcase name="testNamedVectorWritable {#19 seed=[7384F8474029E614:8723D4FF2572880D]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.012"/>
+  <testcase name="testDenseVectorWritable {#0 seed=[7384F8474029E614:A41046EB697CB877]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.013"/>
+  <testcase name="testDenseVectorWritable {#1 seed=[7384F8474029E614:1046FA175DBE735B]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.013"/>
+  <testcase name="testDenseVectorWritable {#2 seed=[7384F8474029E614:9EAF6CCB0C7A3B90]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.036"/>
+  <testcase name="testDenseVectorWritable {#3 seed=[7384F8474029E614:AF41C72E608460B9]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.027"/>
+  <testcase name="testDenseVectorWritable {#4 seed=[7384F8474029E614:E3804283C18CA002]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.011"/>
+  <testcase name="testDenseVectorWritable {#5 seed=[7384F8474029E614:727A91DCBC30ED02]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.023"/>
+  <testcase name="testDenseVectorWritable {#6 seed=[7384F8474029E614:4CA4F55AAE00FD04]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.021"/>
+  <testcase name="testDenseVectorWritable {#7 seed=[7384F8474029E614:D0176F208D1469AA]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.02"/>
+  <testcase name="testDenseVectorWritable {#8 seed=[7384F8474029E614:E2BB8A4EFADF7EF0]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.012"/>
+  <testcase name="testDenseVectorWritable {#9 seed=[7384F8474029E614:3530DCF49E8849A2]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.074"/>
+  <testcase name="testDenseVectorWritable {#10 seed=[7384F8474029E614:C07134AF4C346B7A]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.034"/>
+  <testcase name="testDenseVectorWritable {#11 seed=[7384F8474029E614:4BD6F86AC8A9CAB3]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.067"/>
+  <testcase name="testDenseVectorWritable {#12 seed=[7384F8474029E614:2CE56DD32DD40842]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.053"/>
+  <testcase name="testDenseVectorWritable {#13 seed=[7384F8474029E614:43AE4ACCB1418932]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.02"/>
+  <testcase name="testDenseVectorWritable {#14 seed=[7384F8474029E614:1E3045546330CF6B]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.016"/>
+  <testcase name="testDenseVectorWritable {#15 seed=[7384F8474029E614:7D82A85071B25A5A]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.023"/>
+  <testcase name="testDenseVectorWritable {#16 seed=[7384F8474029E614:FB790F99BABA3133]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.009"/>
+  <testcase name="testDenseVectorWritable {#17 seed=[7384F8474029E614:4F36DD82768F4341]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.013"/>
+  <testcase name="testDenseVectorWritable {#18 seed=[7384F8474029E614:5042A28C0A1AAC43]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.023"/>
+  <testcase name="testDenseVectorWritable {#19 seed=[7384F8474029E614:5AD2D160A0F2EAEE]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.033"/>
+  <testcase name="testRandomAccessSparseVectorWritable {#0 seed=[7384F8474029E614:EA5FC382CEE26026]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.104"/>
+  <testcase name="testRandomAccessSparseVectorWritable {#1 seed=[7384F8474029E614:5E097F7EFA20AB0A]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.012"/>
+  <testcase name="testRandomAccessSparseVectorWritable {#2 seed=[7384F8474029E614:D0E0E9A2ABE4E3C1]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.025"/>
+  <testcase name="testRandomAccessSparseVectorWritable {#3 seed=[7384F8474029E614:E10E4247C71AB8E8]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.028"/>
+  <testcase name="testRandomAccessSparseVectorWritable {#4 seed=[7384F8474029E614:ADCFC7EA66127853]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.01"/>
+  <testcase name="testRandomAccessSparseVectorWritable {#5 seed=[7384F8474029E614:3C3514B51BAE3553]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.027"/>
+  <testcase name="testRandomAccessSparseVectorWritable {#6 seed=[7384F8474029E614:2EB7033099E2555]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.032"/>
+  <testcase name="testRandomAccessSparseVectorWritable {#7 seed=[7384F8474029E614:9E58EA492A8AB1FB]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.091"/>
+  <testcase name="testRandomAccessSparseVectorWritable {#8 seed=[7384F8474029E614:ACF40F275D41A6A1]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.021"/>
+  <testcase name="testRandomAccessSparseVectorWritable {#9 seed=[7384F8474029E614:7B7F599D391691F3]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.033"/>
+  <testcase name="testRandomAccessSparseVectorWritable {#10 seed=[7384F8474029E614:8E3EB1C6EBAAB32B]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.036"/>
+  <testcase name="testRandomAccessSparseVectorWritable {#11 seed=[7384F8474029E614:5997D036F3712E2]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.016"/>
+  <testcase name="testRandomAccessSparseVectorWritable {#12 seed=[7384F8474029E614:62AAE8BA8A4AD013]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.011"/>
+  <testcase name="testRandomAccessSparseVectorWritable {#13 seed=[7384F8474029E614:DE1CFA516DF5163]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.008"/>
+  <testcase name="testRandomAccessSparseVectorWritable {#14 seed=[7384F8474029E614:507FC03DC4AE173A]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.01"/>
+  <testcase name="testRandomAccessSparseVectorWritable {#15 seed=[7384F8474029E614:33CD2D39D62C820B]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.013"/>
+  <testcase name="testRandomAccessSparseVectorWritable {#16 seed=[7384F8474029E614:B5368AF01D24E962]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.01"/>
+  <testcase name="testRandomAccessSparseVectorWritable {#17 seed=[7384F8474029E614:17958EBD1119B10]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.042"/>
+  <testcase name="testRandomAccessSparseVectorWritable {#18 seed=[7384F8474029E614:1E0D27E5AD847412]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.027"/>
+  <testcase name="testRandomAccessSparseVectorWritable {#19 seed=[7384F8474029E614:149D5409076C32BF]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.023"/>
+  <testcase name="testSequentialAccessSparseVectorWritable {#0 seed=[7384F8474029E614:9F028FE1BD6CBF]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.02"/>
+  <testcase name="testSequentialAccessSparseVectorWritable {#1 seed=[7384F8474029E614:B4C9BE73D57FA793]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.008"/>
+  <testcase name="testSequentialAccessSparseVectorWritable {#2 seed=[7384F8474029E614:3A2028AF84BBEF58]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.013"/>
+  <testcase name="testSequentialAccessSparseVectorWritable {#3 seed=[7384F8474029E614:BCE834AE845B471]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.012"/>
+  <testcase name="testSequentialAccessSparseVectorWritable {#4 seed=[7384F8474029E614:470F06E7494D74CA]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.026"/>
+  <testcase name="testSequentialAccessSparseVectorWritable {#5 seed=[7384F8474029E614:D6F5D5B834F139CA]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.025"/>
+  <testcase name="testSequentialAccessSparseVectorWritable {#6 seed=[7384F8474029E614:E82BB13E26C129CC]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.017"/>
+  <testcase name="testSequentialAccessSparseVectorWritable {#7 seed=[7384F8474029E614:74982B4405D5BD62]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.013"/>
+  <testcase name="testSequentialAccessSparseVectorWritable {#8 seed=[7384F8474029E614:4634CE2A721EAA38]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.021"/>
+  <testcase name="testSequentialAccessSparseVectorWritable {#9 seed=[7384F8474029E614:91BF989016499D6A]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.007"/>
+  <testcase name="testSequentialAccessSparseVectorWritable {#10 seed=[7384F8474029E614:64FE70CBC4F5BFB2]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.015"/>
+  <testcase name="testSequentialAccessSparseVectorWritable {#11 seed=[7384F8474029E614:EF59BC0E40681E7B]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.014"/>
+  <testcase name="testSequentialAccessSparseVectorWritable {#12 seed=[7384F8474029E614:886A29B7A515DC8A]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.037"/>
+  <testcase name="testSequentialAccessSparseVectorWritable {#13 seed=[7384F8474029E614:E7210EA839805DFA]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.032"/>
+  <testcase name="testSequentialAccessSparseVectorWritable {#14 seed=[7384F8474029E614:BABF0130EBF11BA3]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.045"/>
+  <testcase name="testSequentialAccessSparseVectorWritable {#15 seed=[7384F8474029E614:D90DEC34F9738E92]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.032"/>
+  <testcase name="testSequentialAccessSparseVectorWritable {#16 seed=[7384F8474029E614:5FF64BFD327BE5FB]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.019"/>
+  <testcase name="testSequentialAccessSparseVectorWritable {#17 seed=[7384F8474029E614:EBB999E6FE4E9789]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.008"/>
+  <testcase name="testSequentialAccessSparseVectorWritable {#18 seed=[7384F8474029E614:F4CDE6E882DB788B]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.021"/>
+  <testcase name="testSequentialAccessSparseVectorWritable {#19 seed=[7384F8474029E614:FE5D950428333E26]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.022"/>
+  <testcase name="testViewSequentialAccessSparseVectorWritable {#0 seed=[7384F8474029E614:CEDCBD6CCDAF0DEE]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.038"/>
+  <testcase name="testViewSequentialAccessSparseVectorWritable {#1 seed=[7384F8474029E614:7A8A0190F96DC6C2]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.018"/>
+  <testcase name="testViewSequentialAccessSparseVectorWritable {#2 seed=[7384F8474029E614:F463974CA8A98E09]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.018"/>
+  <testcase name="testViewSequentialAccessSparseVectorWritable {#3 seed=[7384F8474029E614:C58D3CA9C457D520]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.036"/>
+  <testcase name="testViewSequentialAccessSparseVectorWritable {#4 seed=[7384F8474029E614:894CB904655F159B]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.054"/>
+  <testcase name="testViewSequentialAccessSparseVectorWritable {#5 seed=[7384F8474029E614:18B66A5B18E3589B]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.022"/>
+  <testcase name="testViewSequentialAccessSparseVectorWritable {#6 seed=[7384F8474029E614:26680EDD0AD3489D]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.023"/>
+  <testcase name="testViewSequentialAccessSparseVectorWritable {#7 seed=[7384F8474029E614:BADB94A729C7DC33]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.018"/>
+  <testcase name="testViewSequentialAccessSparseVectorWritable {#8 seed=[7384F8474029E614:887771C95E0CCB69]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.019"/>
+  <testcase name="testViewSequentialAccessSparseVectorWritable {#9 seed=[7384F8474029E614:5FFC27733A5BFC3B]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.051"/>
+  <testcase name="testViewSequentialAccessSparseVectorWritable {#10 seed=[7384F8474029E614:AABDCF28E8E7DEE3]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.008"/>
+  <testcase name="testViewSequentialAccessSparseVectorWritable {#11 seed=[7384F8474029E614:211A03ED6C7A7F2A]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.042"/>
+  <testcase name="testViewSequentialAccessSparseVectorWritable {#12 seed=[7384F8474029E614:462996548907BDDB]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.03"/>
+  <testcase name="testViewSequentialAccessSparseVectorWritable {#13 seed=[7384F8474029E614:2962B14B15923CAB]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.024"/>
+  <testcase name="testViewSequentialAccessSparseVectorWritable {#14 seed=[7384F8474029E614:74FCBED3C7E37AF2]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.028"/>
+  <testcase name="testViewSequentialAccessSparseVectorWritable {#15 seed=[7384F8474029E614:174E53D7D561EFC3]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.027"/>
+  <testcase name="testViewSequentialAccessSparseVectorWritable {#16 seed=[7384F8474029E614:91B5F41E1E6984AA]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.014"/>
+  <testcase name="testViewSequentialAccessSparseVectorWritable {#17 seed=[7384F8474029E614:25FA2605D25CF6D8]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.012"/>
+  <testcase name="testViewSequentialAccessSparseVectorWritable {#18 seed=[7384F8474029E614:3A8E590BAEC919DA]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.016"/>
+  <testcase name="testViewSequentialAccessSparseVectorWritable {#19 seed=[7384F8474029E614:301E2AE704215F77]}" classname="org.apache.mahout.math.VectorWritableTest" time="0.014"/>
+</testsuite>

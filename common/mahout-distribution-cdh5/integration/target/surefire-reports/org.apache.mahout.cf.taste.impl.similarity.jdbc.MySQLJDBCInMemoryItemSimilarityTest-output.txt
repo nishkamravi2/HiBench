@@ -1,0 +1,1 @@
+2014-05-16 15:23:03,578 (TEST-MySQLJDBCInMemoryItemSimilarityTest.testMemoryLoad-seed#[421366D7E9591511]) [WARN - org.slf4j.impl.JCLLoggerAdapter.warn(JCLLoggerAdapter.java:359)] You are not using ConnectionPoolDataSource. Make sure your DataSource pools connections to the database itself, or database performance will be severely reduced.

@@ -1,0 +1,4 @@
+2014-05-16 15:18:44,238 (TEST-CollocMapperTest.testCollectNgrams-seed#[A1143D87F424B5DC]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Max Ngram size is 2
+2014-05-16 15:18:44,246 (TEST-CollocMapperTest.testCollectNgrams-seed#[A1143D87F424B5DC]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Emit Unitgrams is false
+2014-05-16 15:18:44,609 (TEST-CollocMapperTest.testCollectNgramsWithUnigrams-seed#[A1143D87F424B5DC]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Max Ngram size is 2
+2014-05-16 15:18:44,612 (TEST-CollocMapperTest.testCollectNgramsWithUnigrams-seed#[A1143D87F424B5DC]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Emit Unitgrams is true

@@ -1,0 +1,89 @@
+2014-05-16 15:17:59,847 (TEST-AbstractJobTest.testFlag-seed#[6E3E7858BF2C4767]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Command line arguments: {--endPhase=[2147483647], --startPhase=[0], --tempDir=[temp]}
+2014-05-16 15:17:59,990 (TEST-AbstractJobTest.testFlag-seed#[6E3E7858BF2C4767]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Command line arguments: {--endPhase=[2147483647], --startPhase=[0], --tempDir=[temp], --testFlag=null}
+2014-05-16 15:18:00,182 (TEST-AbstractJobTest.testOptions-seed#[6E3E7858BF2C4767]) [ERROR - org.slf4j.impl.JCLLoggerAdapter.error(JCLLoggerAdapter.java:456)] Missing required option --required
+Missing required option --required                                              
+Usage:                                                                          
+ [--overwrite --option <option> --required <required> --notRequired             
+<notRequired> --hasDefault <hasDefault> --help --tempDir <tempDir> --startPhase 
+<startPhase> --endPhase <endPhase>]                                             
+--required (-r) required    required                                            
+2014-05-16 15:18:00,489 (TEST-AbstractJobTest.testOptions-seed#[6E3E7858BF2C4767]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Command line arguments: {--endPhase=[2147483647], --hasDefault=[defaultValue], --required=[requiredArg], --startPhase=[0], --tempDir=[temp]}
+2014-05-16 15:18:00,682 (TEST-AbstractJobTest.testOptions-seed#[6E3E7858BF2C4767]) [ERROR - org.slf4j.impl.JCLLoggerAdapter.error(JCLLoggerAdapter.java:456)] Unexpected --unknownArg while processing Job-Specific Options:
+Unexpected --unknownArg while processing Job-Specific Options:                  
+Usage:                                                                          
+ [--overwrite --option <option> --required <required> --notRequired             
+<notRequired> --hasDefault <hasDefault> --help --tempDir <tempDir> --startPhase 
+<startPhase> --endPhase <endPhase>]                                             
+Job-Specific Options:                                                           
+  --overwrite (-ow)                  If present, overwrite the output directory 
+                                     before running job                         
+  --option (-o) option               option                                     
+  --required (-r) required           required                                   
+  --notRequired (-nr) notRequired    not required                               
+  --hasDefault (-hd) hasDefault      option w/ default                          
+  --help (-h)                        Print out help                             
+  --tempDir tempDir                  Intermediate output directory              
+  --startPhase startPhase            First phase to run                         
+  --endPhase endPhase                Last phase to run                          
+2014-05-16 15:18:00,980 (TEST-AbstractJobTest.testOptions-seed#[6E3E7858BF2C4767]) [ERROR - org.slf4j.impl.JCLLoggerAdapter.error(JCLLoggerAdapter.java:456)] Unexpected requiredArg2 while processing Job-Specific Options:
+Unexpected requiredArg2 while processing Job-Specific Options:                  
+Usage:                                                                          
+ [--overwrite --option <option> --required <required> --notRequired             
+<notRequired> --hasDefault <hasDefault> --help --tempDir <tempDir> --startPhase 
+<startPhase> --endPhase <endPhase>]                                             
+Job-Specific Options:                                                           
+  --overwrite (-ow)                  If present, overwrite the output directory 
+                                     before running job                         
+  --option (-o) option               option                                     
+  --required (-r) required           required                                   
+  --notRequired (-nr) notRequired    not required                               
+  --hasDefault (-hd) hasDefault      option w/ default                          
+  --help (-h)                        Print out help                             
+  --tempDir tempDir                  Intermediate output directory              
+  --startPhase startPhase            First phase to run                         
+  --endPhase endPhase                Last phase to run                          
+2014-05-16 15:18:01,304 (TEST-AbstractJobTest.testOptions-seed#[6E3E7858BF2C4767]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Command line arguments: {--endPhase=[2147483647], --hasDefault=[nonDefault], --notRequired=[notRequired], --option=[optionValue], --overwrite=null, --required=[requiredArg], --startPhase=[0], --tempDir=[temp]}
+2014-05-16 15:18:01,384 (TEST-AbstractJobTest.testOptions-seed#[6E3E7858BF2C4767]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Command line arguments: {--endPhase=[2147483647], --hasDefault=[nonDefault], --notRequired=[notRequired], --option=[optionValue], --overwrite=null, --required=[requiredArg], --startPhase=[0], --tempDir=[temp]}
+2014-05-16 15:18:01,499 (TEST-AbstractJobTest.testInputOutputPaths-seed#[6E3E7858BF2C4767]) [ERROR - org.slf4j.impl.JCLLoggerAdapter.error(JCLLoggerAdapter.java:456)] No input specified or -Dmapred.input.dir must be provided to specify input directory
+Usage:                                                                          
+ [--input <input> --output <output> --help --tempDir <tempDir> --startPhase     
+<startPhase> --endPhase <endPhase>]                                             
+Job-Specific Options:                                                           
+  --input (-i) input         Path to job input directory.                       
+  --output (-o) output       The directory pathname for output.                 
+  --help (-h)                Print out help                                     
+  --tempDir tempDir          Intermediate output directory                      
+  --startPhase startPhase    First phase to run                                 
+  --endPhase endPhase        Last phase to run                                  
+Specify HDFS directories while running on hadoop; else specify local file       
+system directories                                                              
+2014-05-16 15:18:01,656 (TEST-AbstractJobTest.testInputOutputPaths-seed#[6E3E7858BF2C4767]) [ERROR - org.slf4j.impl.JCLLoggerAdapter.error(JCLLoggerAdapter.java:456)] No output specified:  or -Dmapred.output.dir must be provided to specify output directory
+Usage:                                                                          
+ [--input <input> --output <output> --help --tempDir <tempDir> --startPhase     
+<startPhase> --endPhase <endPhase>]                                             
+Job-Specific Options:                                                           
+  --input (-i) input         Path to job input directory.                       
+  --output (-o) output       The directory pathname for output.                 
+  --help (-h)                Print out help                                     
+  --tempDir tempDir          Intermediate output directory                      
+  --startPhase startPhase    First phase to run                                 
+  --endPhase endPhase        Last phase to run                                  
+Specify HDFS directories while running on hadoop; else specify local file       
+system directories                                                              
+2014-05-16 15:18:01,793 (TEST-AbstractJobTest.testInputOutputPaths-seed#[6E3E7858BF2C4767]) [ERROR - org.slf4j.impl.JCLLoggerAdapter.error(JCLLoggerAdapter.java:456)] No input specified or -Dmapred.input.dir must be provided to specify input directory
+Usage:                                                                          
+ [--input <input> --output <output> --help --tempDir <tempDir> --startPhase     
+<startPhase> --endPhase <endPhase>]                                             
+Job-Specific Options:                                                           
+  --input (-i) input         Path to job input directory.                       
+  --output (-o) output       The directory pathname for output.                 
+  --help (-h)                Print out help                                     
+  --tempDir tempDir          Intermediate output directory                      
+  --startPhase startPhase    First phase to run                                 
+  --endPhase endPhase        Last phase to run                                  
+Specify HDFS directories while running on hadoop; else specify local file       
+system directories                                                              
+2014-05-16 15:18:01,983 (TEST-AbstractJobTest.testInputOutputPaths-seed#[6E3E7858BF2C4767]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Command line arguments: {--endPhase=[2147483647], --input=[testInputPath], --output=[testOutputPath], --startPhase=[0], --tempDir=[temp]}
+2014-05-16 15:18:02,095 (TEST-AbstractJobTest.testInputOutputPaths-seed#[6E3E7858BF2C4767]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Command line arguments: {--endPhase=[2147483647], --input=[testInputPath], --output=[testOutputPath], --startPhase=[0], --tempDir=[temp]}
+2014-05-16 15:18:02,166 (TEST-AbstractJobTest.testInputOutputPaths-seed#[6E3E7858BF2C4767]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Command line arguments: {--endPhase=[2147483647], --startPhase=[0], --tempDir=[temp]}
+2014-05-16 15:18:02,280 (TEST-AbstractJobTest.testInputOutputPaths-seed#[6E3E7858BF2C4767]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Command line arguments: {--endPhase=[2147483647], --input=[testInputPath], --output=[testOutputPath], --startPhase=[0], --tempDir=[temp]}

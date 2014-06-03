@@ -1,0 +1,7 @@
+2014-05-16 15:18:29,449 (TEST-SpearmanCorrelationSimilarityTest.testSimple-seed#[894B469BEFA66DD7]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:29,542 (TEST-SpearmanCorrelationSimilarityTest.testAnticorrelation-seed#[894B469BEFA66DD7]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:29,593 (TEST-SpearmanCorrelationSimilarityTest.testFullCorrelation2-seed#[894B469BEFA66DD7]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:29,636 (TEST-SpearmanCorrelationSimilarityTest.testFullCorrelation1-seed#[894B469BEFA66DD7]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 2 users
+2014-05-16 15:18:29,670 (TEST-SpearmanCorrelationSimilarityTest.testRefresh-seed#[894B469BEFA66DD7]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Processed 4 users
+2014-05-16 15:18:29,727 (TEST-SpearmanCorrelationSimilarityTest.testRefresh-seed#[894B469BEFA66DD7]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Added refreshable: GenericDataModel[users:1,2,3...]
+2014-05-16 15:18:29,728 (TEST-SpearmanCorrelationSimilarityTest.testRefresh-seed#[894B469BEFA66DD7]) [INFO - org.slf4j.impl.JCLLoggerAdapter.info(JCLLoggerAdapter.java:284)] Refreshed: [GenericDataModel[users:1,2,3...]]

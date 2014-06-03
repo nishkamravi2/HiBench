@@ -1,0 +1,3 @@
+Iris DataSet. Classification precision: 29/30 = 96.666667%
+2014-05-16 15:18:24,193 (TEST-TestNeuralNetwork.testNeuralNetwork-seed#[71829996DB608494]) [WARN - org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62)] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Cancer DataSet. Classification precision: 126/137 = 91.970803%
